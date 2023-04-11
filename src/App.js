@@ -1,11 +1,13 @@
 import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
+import ImageSection from "./components/ImageSection";
+import ResepTrending from "./components/ResepTrending";
 function App() {
   return (
     <div className="App">
       <Navbar />
       <div className="container main">
-        <HeroSection />
+        <ImageSection />
+        <ResepTrending />
       </div>
     </div>
   );

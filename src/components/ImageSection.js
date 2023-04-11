@@ -1,6 +1,6 @@
 import CustomImage from"./CustomImage"
 
-export default function HeroSection(){
+export default function ImageSection(){
     const images = [
         "/gallery/cakwe.jpeg",
         "/gallery/gudeg.jpg",
@@ -13,10 +13,15 @@ export default function HeroSection(){
         "/gallery/mie_ayam.jpeg",
     ]
     return(
-        <div className="section hero">
+        <div className="image section">
             <div className="col typography">
                 <h1 className="title">Resep<span>Nusan</span>tara</h1>
-                <p className="info">ResepNusantara adalah website yang dapat anda gunakan untuk mencari berbagai resep yang ada di nusantara</p>
+                <p className="info">
+                    Hidangan Indonesia adalah salah satu tradisi kuliner yang paling kaya di dunia, 
+                dan penuh dengan cita rasa yang kuat. 
+                Kekayaan jenis masakannya merupakan cermin keberagaman budaya dan tradisi 
+                Nusantara yang terdiri dari sekitar 6.000 pulau berpenghuni, 
+                dan menempati peran penting dalam budaya nasional Indonesia secara umum.</p>
                 <button className="btn">Temukan Cita Rasa</button>
             </div>
             <div className="col gallery">
