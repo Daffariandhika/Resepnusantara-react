@@ -11,7 +11,7 @@
             overflow: hidden;
             transform: scale(0);
             opacity: 0;
-            animation: getAnimationDuration(.3s) popOut forwards;
+            animation: getAnimationDuration(.5s) popOut forwards;
             &:nth-child(2){
                 animation-delay: .1s;
             }
@@ -36,7 +36,6 @@
             &:nth-child(5){
                 animation-delay: .8s;
             }
-
         }
     }
 }

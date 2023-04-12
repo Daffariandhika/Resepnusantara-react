@@ -11,7 +11,7 @@ export default function ResepTrending(){
     return(
         <div className="section resep-trending">
             <div className="col img">
-                <img src="/gallery/sate_ayam.jpg"/>
+                <img src="/gallery/nasi_goreng.jpg"/>
             </div>
             <div className="col typography">
                 <h1 className="title">Resep Trending</h1>

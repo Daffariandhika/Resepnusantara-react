@@ -1,16 +1,18 @@
 .section.resep-trending{
     .col.img{
+        border-radius: 3px;
         overflow: hidden;
         transform: scale(0);
         opacity: 0;
         animation: getAnimationDuration(.3s) popOut forwards;
         img{
-            padding-right: 2em;
-            width: 100%;
+            padding-top: .5em;
+            max-width: 100%;
+            height: auto;
         }
     }
     .col.typography{
-        padding-left: 1em;
+        padding-left: 3em;
         .skill-item{
             border-left: .2em solid var(--primary-color);
             margin-bottom: .5em;
