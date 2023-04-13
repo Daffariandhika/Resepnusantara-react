@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faFacebook, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons"
+
 export default function Footer(){
     return (
         <div className="footer container">
@@ -14,9 +17,14 @@ export default function Footer(){
             </div>
             <div className="footer-section">
                 <p className="title">Socials</p>
-                <p>Facebook</p>
-                <p>Twitter</p>
-                <p>Instagram</p>
+                <div className="social">
+                    <FontAwesomeIcon icon={faFacebook} />
+                    <p>Facebook</p>
+                    <FontAwesomeIcon icon={faTwitter} />
+                    <p>Twitter</p>
+                    <FontAwesomeIcon icon={faInstagram} />
+                    <p>Instagram</p>
+                </div>
             </div>
         </div>
     )

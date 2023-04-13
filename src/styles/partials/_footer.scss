@@ -19,5 +19,20 @@
                 color: var(--primary-color);
             }
         }
+        .social{
+            svg{
+                float: left;
+                padding-right: .2em;
+                &:nth-child(1){
+                    color: #0063f7;
+                }
+                &:nth-child(3){
+                    color: #13b4ff;
+                }
+                &:nth-child(5){
+                    color: #ff1c68;
+                }
+            }
+        }
     }
 }
