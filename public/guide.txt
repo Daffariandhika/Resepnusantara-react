@@ -1,4 +1,4 @@
-**after forking this repo you might need to install those indepency below**
+**after forking this repo you might need to install those independency below on your powershell**
 
 npm i react-router-dom
 
@@ -11,3 +11,5 @@ npm install --save @fortawesome/free-solid-svg-icons
 npm install --save @fortawesome/react-fontawesome
 
 npm install --save @fortawesome/free-brands-svg-icons
+
+**please install those command above one by one**
