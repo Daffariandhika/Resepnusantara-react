@@ -1,4 +1,4 @@
-npx create-react-app appname
+**after forking this repo you might need to install those indepency below**
 
 npm i react-router-dom
 
