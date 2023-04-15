@@ -1,24 +1,30 @@
-import Navbar from "./components/Navbar";
-import ImageSection from "./components/ImageSection";
-import ResepTrending from "./components/ResepTrending";
-import QouteSection from "./components/FunFact";
-import Daerah from "./components/Daerah";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom"
 
+import Navbar from "./components/Navbar"
 import Footer from "./components/Footer";
+
+import Home from "./pages/Home";
+import Recipes from "./pages/Recipes";
+import Settings from "./pages/Settings";
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Navbar />
       <div className="container main">
-        <ImageSection />
-        <ResepTrending />
-        <QouteSection />
-        <Daerah />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/recipes" element={<Recipes />} />
+          <Route path="/settings" element={<Settings />} />
+        </Routes>
       </div>
       <Footer />
-    </div>
-  );
+    </Router>
+  )
 }
 
 export default App;

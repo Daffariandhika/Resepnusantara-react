@@ -1,10 +1,13 @@
+import { Link, useLocation } from "react-router-dom"
+
 import { useState } from "react"
 import Sidebar from "./Sidebar"
 
-import { faHome, faCog, faCutlery, faTrademark } from "@fortawesome/free-solid-svg-icons"
+import { faHome, faList, faCog } from "@fortawesome/free-solid-svg-icons"
 
 export default function Navbar(){
     const [showSidebar, setShowSidebar] = useState(false)
+    const location = useLocation()
     const links = [
         {
             name: "Home",
@@ -12,14 +15,9 @@ export default function Navbar(){
             icon: faHome
         },
         {
-            name: "About",
-            path: "/about",
-            icon: faTrademark
-        },
-        {
             name: "Recipes",
-            path: "/Recipes",
-            icon: faCutlery
+            path: "/recipes",
+            icon: faList
         },
         {
             name: "Settings",
@@ -31,21 +29,16 @@ export default function Navbar(){
     function closeSidebar(){
         setShowSidebar(false)
     }
-
     return (
         <>
             <div className="navbar container">
-                <a href="#!"className="logo">Resep<span>Nusan</span>tara</a>
+                <Link to="/" className="logo">Resep<span>Nusan</span>tara</Link>
                 <div className="nav-links">
-                    {links.map(link => (
-                        <a href="#!" key={link.name}>{link.name}</a>
-                    ))}
-                    {/* <a href="#!">Home</a>
-                    <a href="#!">About</a>
-                    <a href="#!">Recipes</a>
-                    <a href="#!">Settings</a> */}
+                    { links.map(link => (
+                        <Link className={location.pathname === link.path ? "active" : ""} to={link.path} key={link.name}>{link.name}</Link>
+                    )) }
                 </div>
-                <div onClick={() => setShowSidebar(true)} className={showSidebar ? "sidebar-btn active" :  "sidebar-btn"}>
+                <div onClick={() => setShowSidebar(true)} className={showSidebar ? "sidebar-btn active" : "sidebar-btn"}>
                     <div className="bar"></div>
                     <div className="bar"></div>
                     <div className="bar"></div>
