@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebook, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons"
+import { faEnvelope, faFlag, faPhone } from "@fortawesome/free-solid-svg-icons"
 
 export default function Footer(){
     return (
@@ -11,19 +12,28 @@ export default function Footer(){
             </div>
             <div className="footer-section">
                 <p className="title">Contact Us</p>
-                <p>resepnusantara@gmail.com</p>
-                <p>0000 0000 0000 </p>
-                <p>Jakarta, Indonesia</p>
+                <div className="contact">
+                    <a href="" ><FontAwesomeIcon icon={faEnvelope} />
+                    <p>resepnusantara@gmail.com</p></a>
+
+                    <a href="" ><FontAwesomeIcon icon={faPhone} />
+                    <p>0000 0000 0000</p></a>
+                    
+                    <FontAwesomeIcon icon={faFlag} />
+                    <p>Jakarta, Indonesia</p>
+                </div>
             </div>
             <div className="footer-section">
                 <p className="title">Socials</p>
                 <div className="social">
-                    <FontAwesomeIcon icon={faFacebook} />
-                    <p>Facebook</p>
-                    <FontAwesomeIcon icon={faTwitter} />
-                    <p>Twitter</p>
-                    <FontAwesomeIcon icon={faInstagram} />
-                    <p>Instagram</p>
+                    <a href=""><FontAwesomeIcon icon={faFacebook} bounce/>
+                    <p>Facebook</p></a>
+
+                    <a href=""><FontAwesomeIcon icon={faTwitter} bounce/>
+                    <p>Twitter</p></a>
+
+                    <a href=""><FontAwesomeIcon icon={faInstagram} bounce/>
+                    <p>Instagram</p></a>
                 </div>
             </div>
         </div>

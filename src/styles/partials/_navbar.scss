@@ -1,18 +1,22 @@
 .navbar{
-    height: 75px;
+    height: 55px;
     box-shadow: 0 3px 6px var(--shadow-color);
     background-color: var(--background-color);
     color: var(--text-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 998;
     .logo{
         font-size: 1.5em;
         font-weight: bolder;
-        color: var(--primary-color);
-        text-shadow: 0 ipx 3px var(--shadow-color);
+        color: var(--text-color);
+        text-shadow: 0 1px 3px var(--shadow-color);
         span{
-            color: var(--text-color);
+            color: var(--primary-color);
         }
     }
     .nav-links{
@@ -24,7 +28,7 @@
             position: relative;
             font-size: .9em;
             &::before{
-                content:  '';
+                content: '';
                 display: inline-block;
                 height: 3px;
                 width: 100%;
@@ -43,7 +47,7 @@
             &.active{
                 color: var(--primary-color);
                 font-weight: bold;
-            }                        
+            }
         }
     }
     .sidebar-btn{
@@ -65,6 +69,7 @@
                 top: 50%;
                 transform-origin: right;
                 transform: scaleX(.8) translateY(-50%);
+
             }
             &:nth-child(3){
                 top: 100%;
@@ -94,7 +99,8 @@
     top: 0;
     left: 0;
     height: 100vh;
-    width: 200px;
+    width: 260px;
+    z-index: 999;
     background-color: var(--background-color);
     box-shadow: 0 0 0 1000px rgba(0,0,0,0.2),
                 3px 0 5px var(--shadow-color);
@@ -108,7 +114,7 @@
         font-size: 1.1em;
         transform: translateX(-100%);
         animation: getAnimationDuration(.3s) slideInLeft forwards;
-        @for $i from 1 through 4{
+        @for $i from 1 through 3{
             &:nth-child(#{$i}){
                 animation-delay: #{$i * .1}s;
             }

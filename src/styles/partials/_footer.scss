@@ -3,7 +3,7 @@
     color: #fff;
     padding-block: 3em;
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1.5fr 1fr;
     grid-gap: 1em;
     .footer-section{
         p{
@@ -19,19 +19,30 @@
                 color: var(--primary-color);
             }
         }
-        .social{
+        .contact{
+            a{
+                color: #fff;
+            }
             svg{
                 float: left;
                 padding-right: .2em;
+            }
+        }
+        .social{
+            a{
                 &:nth-child(1){
                     color: #0063f7;
                 }
-                &:nth-child(3){
+                &:nth-child(2){
                     color: #13b4ff;
                 }
-                &:nth-child(5){
-                    color: #ff1c68;
+                &:nth-child(3){
+                    color: #ff258b;
                 }
+            }
+            svg{
+                float: left;
+                padding-right: .2em;
             }
         }
     }

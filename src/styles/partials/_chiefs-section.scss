@@ -10,8 +10,7 @@
 .chief-card{
     display: flex;
     height: 120px;
-    background-color: transparent;
-    box-shadow: 0 3px 6px var(--shadow-color);
+    background-color: var(--background-color);
     border-radius: 5px;
     overflow: hidden;
     img{
@@ -28,20 +27,16 @@
         padding-bottom: .5em;
         padding-left: 1em;
         padding-top: .5em;
-        .daerah{
+        .chief-card-name{
             font-size: 1.5em;
             font-weight: bold;
             color: var(--text-color);
         }
-        svg{
-            float: left;
-            padding-right: 5px;
-        }
-        .jumlah_menu, .hidangan_terenak{
+        .chief-recipe-count, .chief-cuisine{
             font-size: 1.2em;
             color: var(--text-light);
         }
-        .chief-icons{
+        .cheif-icons{
             font-size: 1.2em;
             svg{
                 margin-right: .5em;

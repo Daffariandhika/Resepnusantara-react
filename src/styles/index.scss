@@ -20,11 +20,9 @@
 }
 
 body{
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     font-size: var(--font-size);
     font-family: 'Roboto', sans-serif;
-    padding-top: 0px;
+    padding-top: 55px;
     background-color: var(--background-light);
 }
 a{
@@ -52,7 +50,6 @@ img{
 }
 
 .custom-image{
-    background-color: red;
     height: 0;
     width: 100%;
     position: relative;
@@ -76,13 +73,10 @@ img{
         display: block;
     }
     .title{
-        color: var(--primary-color);
+        color: var(--text-color);
         font-size: 2.5em;
         margin-bottom: .25em;
         font-weight: 900;
-        span{
-            color: var(--text-color);
-        }
     }
     .info{
         color: var(--text-light);
@@ -97,10 +91,12 @@ img{
     }
 }
 
-@import "partials/_imagesection.scss";
-@import "partials/_reseptrending.scss";
-@import "partials/_funfact.scss";
-@import "partials/_daerah.scss";
+@import "partials/hero-section.scss";
+@import "partials/improve-section.scss";
+@import "partials/quote-section.scss";
+@import "partials/daerah.scss";
+@import "partials/previous-searches.scss";
+@import "partials/recipes-section.scss";
 
 
 .options-container{
@@ -156,7 +152,7 @@ img{
 
 
 .main{
-    padding-block: 3vw;
+    padding-block: 5vw;
 }
 .container{
     padding-inline: 25vw;

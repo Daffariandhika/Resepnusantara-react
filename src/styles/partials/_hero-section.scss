@@ -1,13 +1,20 @@
-.image.section{
+.section.hero{
     .typography{
         padding-right: 1em;
+        .title{
+            color: var(--text-color);
+            span{
+                color: var(--primary-color);
+            }
+        }
     }
     .gallery{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 1.75vw;
         .custom-image{
-            border-radius: 3px;
+            box-shadow: 0 5px 15px var(--shadow-color);
+            border-radius: 100%;
             overflow: hidden;
             transform: scale(0);
             opacity: 0;

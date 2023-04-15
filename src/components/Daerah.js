@@ -21,10 +21,10 @@ export default function ChiefsSection(){
             menu_terenak: "Soto Banjar",
         },
         {
-            daerah: "Jogjakarta",
+            daerah: "Papua",
             img: "/gallery/indonesia.png",
             jumlah_menu: "0",
-            menu_terenak: "Gudeg"
+            menu_terenak: "Gohu"
         },
         {
             daerah: "Sulawesi",
