@@ -1,4 +1,4 @@
-import PreviousSearches from "../components/PreviousSearches"
+import PreviousSearches from "../components/Search"
 import RecipeCard from "../components/RecipeCard"
 
 export default function Recipes(){
