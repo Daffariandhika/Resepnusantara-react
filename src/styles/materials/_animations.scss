@@ -1,0 +1,58 @@
+// Animasi Slide Ke kiri
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+//Animasi Slide Ke Kanan
+@keyframes slideInRight {
+    from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+//Animasi Pop Out
+@keyframes popOut {
+    from{
+        transform: scale(0);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+//Animasi Bounce
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+        box-shadow: 0 5px 15px var(--shadow-color);
+    }
+    50% {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px var(--shadow-color);
+    }
+}
+
+//Animasi Background Gradient
+@keyframes pulse {
+    0% {
+      background-color: var(--two-color);
+    }
+    50% {
+      background-color: var(--one-color);
+    }
+    100% {
+      background-color: var(--two-color);
+    }
+  }

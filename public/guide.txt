@@ -12,4 +12,10 @@ npm install --save @fortawesome/react-fontawesome
 
 npm install --save @fortawesome/free-brands-svg-icons
 
+npm install react-google-login
+
+npm install -g serve
+
+npm install flag-icons 
+
 **please install those command above one by one**

@@ -1,0 +1,44 @@
+.footer{
+    background-color: #0f0f0f;
+    color: #fff;
+    padding-block: 3em;
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 1fr;
+    grid-gap: .9em;
+    .footer-section{
+        p{
+            opacity: .9;
+            margin-bottom: .5em;
+        }
+        p.title{
+            opacity: 1;
+            font-size: 1.1em;
+            font-weight: bold;
+            margin-bottom: 1em;
+            span{
+                color: var(--primary-color);
+            }
+        }
+        .contact{
+            p{
+                color: #fff;
+                span{
+                    width: 27px;
+                }
+            }
+            svg{
+                float: left;
+                padding-right: .2em;
+            }
+        }
+        .social{
+            p{
+                color: #fff;
+            }
+            svg{
+                float: left;
+                padding-right: .2em;
+            }
+        }
+    }
+}

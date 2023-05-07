@@ -1,0 +1,17 @@
+Gradient color of white
+
+background: linear-gradient(to bottom, #FFFFFF, #F7DC6F);
+background: linear-gradient(to bottom, #FFFFFF, #C6FFDD);
+background: linear-gradient(to bottom, #FFFFFF, #FFC2E2);
+background: linear-gradient(to bottom, #FFFFFF, #6DD5FA);
+
+Gradient color of Blue element
+
+background: linear-gradient(to bottom, #FD746C, #FFA07A);
+background: linear-gradient(to bottom, #1CB5E0, #000046);
+background: linear-gradient(to bottom, #E44D26, #F16529);
+background: linear-gradient(to bottom, #5C258D, #4389A2);
+
+Gradient of sunset
+
+background: linear-gradient(to top, #FFC371, #FF5F6D, #6B5B95, #1A1C2C);

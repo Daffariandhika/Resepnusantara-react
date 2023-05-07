@@ -1,8 +1,8 @@
 :root{
-    --background-color: #fff;
+    --background-color: #ffffff;
     --background-light: #fff;
     --shadow-color: rgba(0,0,0,0.2);
-    --primary-color: rgb(255, 145, 0);
+    --primary-color: rgb(72, 197, 255);
     --text-color: #0A0A0A;
     --text-light: #575757;
     --font-size: 16px;
@@ -19,17 +19,34 @@
     box-sizing: border-box;
 }
 
-body{
+body {
+    background-image: url('wave.avif');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: var(--font-size);
     font-family: 'Roboto', sans-serif;
-    padding-top: 55px;
-    background-color: var(--background-light);
+    padding-top: 75px;
+    backdrop-filter: blur(5px);
 }
 a{
     text-decoration: none;
 }
 img{
     object-fit: cover;
+}
+
+.judul.daerah{
+    color: var(--text-color);
+}
+
+.deskripsi{
+    border-left: .5em solid var(--primary-color);
+    font-weight: 500;
+    color: var(--text-light);
+    margin: 0.5cm;
+    padding-inline: 0.5cm;
+    padding-block: 0.5cm;
 }
 
 .btn{
@@ -45,7 +62,50 @@ img{
     border-radius: 3px;
     box-shadow: 0 2px 6px var(--shadow-color);
     &:hover{
-        box-shadow: 0 1px 3px var(--shadow-color);
+        animation: bounce 0.6s ease-in-out both infinite;
+    }
+}
+
+.google-login-container{
+    margin-top: -3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .google-login-btn{
+        display: flex;
+        align-items: center;
+        border: none;
+        outline: none;
+        padding: .75em 1em;
+        text-transform: uppercase;
+        font-size: 1em;
+        font-weight: bold;
+        letter-spacing: 1px;
+        border-radius: 3px;
+        box-shadow: 0 2px 6px var(--shadow-color);
+        &:hover{
+            animation: bounce 0.6s ease-in-out both infinite;
+        }
+
+    }
+}
+
+button.google-login-btn svg {
+    margin-right: 10px;
+  }
+
+.signup-container-btn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        color: var(--text-light);
+    }
+    .btn{
+        margin-block: 1em 2.5em;
     }
 }
 
@@ -62,8 +122,9 @@ img{
     }
 }
 
-@import "partials/navbar.scss";
+@import "materials/navbar.scss";
 
+// Body1
 .section{
     display: flex;
     flex-wrap: wrap;
@@ -73,16 +134,19 @@ img{
         display: block;
     }
     .title{
-        color: var(--text-color);
-        font-size: 2.5em;
-        margin-bottom: .25em;
+        color: var(--primary-color);
+        font-size: 3em;
+        margin-bottom: .35em;
         font-weight: 900;
+        span{
+            color: var(--text-color);
+        }
     }
     .info{
         color: var(--text-light);
-        font-size: 1em;
+        font-size: larger;
         letter-spacing: 1px;
-        line-height: 1.3;
+        line-height: 1.5;
         margin-bottom: 1.25em;
 
     }
@@ -91,15 +155,15 @@ img{
     }
 }
 
-@import "partials/hero-section.scss";
-@import "partials/improve-section.scss";
-@import "partials/quote-section.scss";
-@import "partials/daerah.scss";
-@import "partials/previous-searches.scss";
-@import "partials/recipes-section.scss";
+@import "materials/Title.scss";
+@import "materials/ResepUnggulan.scss";
+@import "materials/Daerah.scss";
+@import "materials/signupform.scss";
+@import "materials/previous-searches.scss";
+@import "materials/recipes-section.scss";
 
 
-.options-container{
+/*.options-container{
     box-shadow: 0 5px 10px var(--shadow-color);
     padding: 1em;
     border-radius: 5px;
@@ -141,13 +205,13 @@ img{
         display: inline-block;
         margin-left: .5em;
     }
-}
+}*/
 .d-block h2{
     font-size: 1.75em;
     color: var(--text-color)
 }
 
-@import "partials/footer.scss";
+@import "materials/footer.scss";
 
 
 
@@ -158,18 +222,47 @@ img{
     padding-inline: 25vw;
 }
 
-@import "partials/animations.scss";
+@import "materials/animations.scss";
 
 @media screen and (max-width: 1280px){
     .container{
-        padding-inline: 18vw;
+        padding-inline: 5vw;
     }
 }
 @media screen and (max-width: 1050px){
     .container{
-        padding-inline: 12vw;
+        padding-inline: 7vw;
+    }
+    .section.hero{
+        .col.typography{
+            font-size: 15px;
+            padding-inline: .5cm;
+        }
+        .col.gallery{
+            padding-block: .2cm;
+            padding-inline: .2cm;
+        }
+    }
+    .section.improve-skills{
+        padding-inline-end: 2cm;
+        margin-block-start: 2cm;
+        .col.img{
+            box-shadow: 0 15px 10px var(--shadow-color);
+            width: 300px;
+            height: 300px;
+            border-radius: 30%;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+    }
+    .footer{
+        grid-template-columns: 2fr 2.25fr 1fr;
+    }
+    span{
+        width: 28px;
     }
 }
+
 @media screen and (max-width: 768px){
     .navbar{
         .nav-links{
@@ -186,6 +279,15 @@ img{
             text-align: center;
             margin-bottom: 2em;
         }
+        .gallery{
+            margin-top: .5cm;
+        }
+    .title{
+        margin-top: 1.5cm;
+    }
+    }
+    .section.section.improve-skills{
+        margin-top: 1cm;
     }
     .skill-item{
         display: inline-block;
@@ -196,6 +298,9 @@ img{
         margin-left: 50%;
         transform: translateX(-50%);
     }
+    .section.quote{
+    }
+
     .chief-card{
         box-shadow: 0 5px 10px var(--shadow-color);
     }
@@ -203,7 +308,7 @@ img{
         padding-inline: 6vw;
     }
     .footer{
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         .footer-section:nth-child(1){
             grid-column: span 4;
         }
@@ -212,6 +317,14 @@ img{
         }
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .sign-in-form-container {
+      max-width: 90%;
+
+    }
+}
+
 @media screen and (max-width: 480px){
     .container{
         padding-inline: 3vw;
