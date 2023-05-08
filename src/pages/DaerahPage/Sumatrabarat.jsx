@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import CustomImage from '../../components/CustomImage';
 
-function Aceh() {
+function Sumatrabarat() {
   const recipes = [
     {
-      title: "Mie Aceh",
-      image: "../gallery/aceh/mieaceh.jpg",
-      desc: "hidangan khas Aceh yang memiliki cita rasa kaya akan perpaduan rempah Nusantara",
+      title: "",
+      image: "/gallery/",
+      desc: "",
     },
     {
       title: "",
@@ -58,9 +58,9 @@ function Aceh() {
 
   return (
     <div>
-      <h1 className='judul daerah'></h1>
+      <h1 className='judul daerah'>Sumatra Barat</h1>
       <p className='deskripsi'>
-        
+        Kuliner Bali memiliki keunikan dan cita rasa yang khas dan beragam. Makanan khas Bali umumnya menggunakan bumbu-bumbu tradisional seperti bawang merah, bawang putih, jahe, kunyit, kemiri, serai, cabai, dan rempah-rempah lainnya. Beberapa hidangan khas Bali yang populer antara lain:
       </p>
       <div className='recipes-container'>
         {recipes.map((recipe, index) => (
@@ -69,7 +69,7 @@ function Aceh() {
             <div className="recipe-card-info">
               <p className="recipe-title">{recipe.title}</p>
               <p className="recipe-desc">{recipe.desc}</p>
-              <Link className="view-btn" to={`/Aceh/${recipe.title}`}>Lihat Resep</Link>
+              <Link className="view-btn" to={`/Sumatrabarat/${recipe.title}`}>Lihat Resep</Link>
             </div>
           </div>
         ))}
@@ -78,4 +78,4 @@ function Aceh() {
   )
 }
 
-export default Aceh;
+export default Sumatrabarat;

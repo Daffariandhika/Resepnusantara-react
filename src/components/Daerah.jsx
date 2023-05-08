@@ -42,22 +42,22 @@ export default function ChiefsSection() {
       paling_terkenal: "Babi Guling",
     },
     {
-      daerah: "Palembang",
-      img: "/gallery/pempek.jpg",
+      daerah: "Jakarta",
+      img: "/gallery/soto-betawi.jpg",
       jumlah_menu: "0",
       paling_terkenal: "Pempek",
     },
     {
       daerah: "Aceh",
-      img: "/gallery/mie-aceh.jpg",
+      img: "../gallery/aceh/mieaceh.jpg",
       jumlah_menu: "0",
       paling_terkenal: "Mie Aceh",
     },
     {
-      daerah: "Jakarta",
-      img: "/gallery/soto-betawi.jpg",
+      daerah: "Sumatra Barat",
+      img: "/gallery/rendang.jpg",
       jumlah_menu: "0",
-      paling_terkenal: "Soto Betawi",
+      paling_terkenal: "Rendang",
     },
   ];
 

@@ -11,6 +11,10 @@ import SignUp from "./pages/SignUp";
 
 import Yogyakarta from './pages/DaerahPage/Yogyakarta';
 import Bali from './pages/DaerahPage/Bali';
+import Aceh from './pages/DaerahPage/Aceh';
+import Sumatrabarat from './pages/DaerahPage/Sumatrabarat';
+import Jakarta from './pages/DaerahPage/Jakarta';
+
 
 function App() {
   return (
@@ -25,6 +29,9 @@ function App() {
           { /*<Route path="/settings" element={<Settings />} /> */}
           <Route path="/daerah/yogyakarta" element={<Yogyakarta/>} />
           <Route path="/daerah/bali" element={<Bali/>} />
+          <Route path="/daerah/aceh" element={<Aceh/>} />
+          <Route path="/daerah/sumatrabarat" element={<Sumatrabarat/>} />
+          <Route path="/daerah/jakarta" element={<Jakarta/>} />
         </Routes>
       </div>
       <Footer />
