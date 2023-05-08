@@ -19,5 +19,3 @@ npm install -g serve
 npm install flag-icons 
 
 **please install those command above one by one**
-
-dick
