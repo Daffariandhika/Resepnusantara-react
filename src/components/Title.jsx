@@ -13,22 +13,22 @@ function shuffleArray(array) {
 export default function HeroSection() {
   const [images] = useState([
     "/gallery/cakwe.jpeg",
-    "/gallery/gudeg.jpg",
-    "/gallery/klepon.jpeg",
+    "/gallery/yogyakarta/gudeg.jpg",
+    "/gallery/jawatengah/klepon.jpeg",
     "/gallery/mie-ayam.jpeg",
     "/gallery/nasi-goreng.jpg",
     "/gallery/pempek.jpg",
     "/gallery/salad-buah.jpeg",
     "/gallery/sate-ayam.jpg",
     "/gallery/sop-buntut.jpg",
-    "/gallery/babi-guling.jpg",
-    "/gallery/mie-aceh.jpg",
+    "/gallery/bali/babi-guling.jpg",
+    "/gallery/aceh/mieaceh.jpg",
     "/gallery/mie-belitung.jpg",
-    "/gallery/nasi-tiwul.jpg",
+    "/gallery/jawatengah/nasi-tiwul.jpg",
     "/gallery/pindang-patin.jpg",
     "/gallery/soto-betawi.jpg",
     "/gallery/rendang.jpg",
-    "/gallery/nasi-jinggo.jpg",
+    "/gallery/bali/nasi-jinggo.jpg",
     "/gallery/sate-kambing.jpg",
   ]);
   

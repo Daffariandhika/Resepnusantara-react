@@ -2,57 +2,65 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import CustomImage from '../../components/CustomImage';
 
-function gantinamadaerah () {
+function namadaerah() {
   const recipes = [
     {
       title: "",
       image: "/gallery/",
+      desc: "",
     },
     {
       title: "",
       image: "/gallery/",
+      desc: "",
     },
     {
       title: "",
       image: "/gallery/",
+      desc: "",
     },
     {
       title: "",
       image: "/gallery/",
+      desc: "",
     },
     {
       title: "",
       image: "/gallery/",
+      desc: "",
     },
     {
       title: "",
       image: "/gallery/",
+      desc: "",
     },
     {
       title: "",
       image: "/gallery/",
+      desc: "",
     },
     {
       title: "",
       image: "/gallery/",
+      desc: "",
     },
     {
       title: "",
       image: "/gallery/",
+      desc: "",
     },
     {
       title: "",
       image: "/gallery/",
+      desc: "",
     }
   ].sort(() => Math.random() - 0.5)
 
   return (
     <div>
-      <h1 className='judul daerah'>gantinamadaerah</h1>
+      <h1 className='judul daerah'>namadaerah</h1>
       <p className='deskripsi'>
-      deskripsikulinerdaerah
-        
-      </p>
+        deskiripsi kuliner daerah
       <div className='recipes-container'>
         {recipes.map((recipe, index) => (
           <div className="recipe-card" key={index}>
@@ -60,7 +68,7 @@ function gantinamadaerah () {
             <div className="recipe-card-info">
               <p className="recipe-title">{recipe.title}</p>
               <p className="recipe-desc">{recipe.desc}</p>
-              <Link className="view-btn" to={`/gantinamadaerah/${recipe.title}`}>Lihat Resep</Link>
+              <Link className="view-btn" to={`/namadaerah/${recipe.title}`}>Lihat Resep</Link>
             </div>
           </div>
         ))}
@@ -69,4 +77,4 @@ function gantinamadaerah () {
   )
 }
 
-export default gantinamadaerah;
+export default namadaerah;
