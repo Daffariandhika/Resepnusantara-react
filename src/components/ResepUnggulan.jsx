@@ -15,10 +15,10 @@ list.sort(() => Math.random() - 0.5);
 
 const quotes = [
   {
-    text: "Salad buah adalah hidangan yang terdiri dari berbagai macam buah-buahan, terkadang disajikan dalam bentuk cair, baik jus maupun sirup. Dalam berbagai bentuk, salad buah bisa disajikan sebagai makanan pembuka atau lalapan.",
+    text: "Salad buah adalah hidangan yang terdiri dari berbagai macam buah-buahan, terkadang disajikan dalam bentuk cair, baik jus maupun sirup.",
   },
   {
-    text: "Cakwe juga sering dijadikan bahan dasar dalam berbagai hidangan, seperti bubur ayam, mi ayam, atau cap cai.",
+    text: "Cakwe memiliki cita rasa yang gurih dan sedikit asin. Teksturnya yang renyah di luar dan empuk di dalam memberikan sensasi yang nikmat ketika dimakan.",
   },
   {
     text: "Ada beberapa varian klepon yang memiliki isian berbeda. Selain gula merah, klepon juga dapat diisi dengan kacang hijau, keju, atau bahkan daging ayam.",
@@ -29,9 +29,9 @@ const quotes = [
 ]
 
 const images = [
-  '/gallery/salad-buah.jpeg',
-  '/gallery/cakwe.jpeg',
-  '/gallery/jawatengah/klepon.jpeg',
+  '/gallery/salad-buah.jpg',
+  '/gallery/cakwe.jpg',
+  '/gallery/jawatengah/klepon.jpg',
   '/gallery/mie-ayam.jpeg'
 ]
 

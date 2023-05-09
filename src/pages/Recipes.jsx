@@ -1,4 +1,4 @@
-import PreviousSearches from "../components/Search"
+import Search from "../components/Search"
 import RecipeCard from "../components/RecipeCard"
 
 export default function Recipes(){
@@ -55,6 +55,16 @@ export default function Recipes(){
         },
         {
             title: "",
+            image: "/gallery/",
+            desc: "",
+        },
+        {
+            title: "",
+            image: "/gallery/",
+            desc: "",
+        },
+        {
+            title: "",
             image: "/gallery/rendang.jpg",
             desc: "",
         },
@@ -65,12 +75,14 @@ export default function Recipes(){
         }
     ].sort(() => Math.random() - 0.5)
 
+    const limitedRecipes = recipes.slice(0, 12)
+
     return (
         <div>
-            <PreviousSearches />
+            <Search />
             <div className="recipes-container">
                 {/* <RecipeCard /> */}
-                {recipes.map((recipe, index) => (
+                {limitedRecipes.map((recipe, index) => (
                     <RecipeCard key={index} recipe={recipe} />
                 ))}
             </div>

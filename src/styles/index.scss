@@ -20,14 +20,14 @@
 }
 
 body {
-    background-image: url('wave.avif');
+    background-image: url('wave.avif'), url('cloud.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: multiply;
     font-size: var(--font-size);
     font-family: 'Roboto', sans-serif;
     padding-top: 75px;
-    backdrop-filter: blur(5px);
 }
 a{
     text-decoration: none;
@@ -61,6 +61,7 @@ img{
     letter-spacing: 1px;
     border-radius: 3px;
     box-shadow: 0 2px 6px var(--shadow-color);
+    cursor: pointer;
     &:hover{
         animation: bounce 0.6s ease-in-out both infinite;
     }

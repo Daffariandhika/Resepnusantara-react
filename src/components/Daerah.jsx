@@ -19,9 +19,9 @@ export default function ChiefsSection() {
     },
     {
       daerah: "Bangka Belitung",
-      img: "/gallery/mie-belitung.jpg",
+      img: "/gallery/bangkabelitung/lempah-kuning.jpg",
       jumlah_menu: "0",
-      paling_terkenal: "Mie Belitung",
+      paling_terkenal: "Lempah Kuning",
     },
     {
       daerah: "Bengkulu",

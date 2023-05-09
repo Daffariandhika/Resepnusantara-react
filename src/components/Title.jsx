@@ -12,24 +12,25 @@ function shuffleArray(array) {
 
 export default function HeroSection() {
   const [images] = useState([
-    "/gallery/cakwe.jpeg",
+    "/gallery/cakwe.jpg",
     "/gallery/yogyakarta/gudeg.jpg",
-    "/gallery/jawatengah/klepon.jpeg",
+    "/gallery/jawatengah/klepon.jpg",
     "/gallery/mie-ayam.jpeg",
     "/gallery/nasi-goreng.jpg",
     "/gallery/pempek.jpg",
-    "/gallery/salad-buah.jpeg",
+    "/gallery/salad-buah.jpg",
     "/gallery/sate-ayam.jpg",
     "/gallery/sop-buntut.jpg",
     "/gallery/bali/babi-guling.jpg",
     "/gallery/aceh/mieaceh.jpg",
-    "/gallery/mie-belitung.jpg",
+    "/gallery/bangkabelitung/mie-belitung.jpg",
     "/gallery/jawatengah/nasi-tiwul.jpg",
     "/gallery/pindang-patin.jpg",
     "/gallery/soto-betawi.jpg",
     "/gallery/rendang.jpg",
     "/gallery/bali/nasi-jinggo.jpg",
     "/gallery/sate-kambing.jpg",
+    "/gallery/bangkabelitung/lempah-kuning.jpg",
   ]);
   
   const [currentGroup, setCurrentGroup] = useState(shuffleArray(images.slice(0, 9)));
