@@ -13,7 +13,7 @@ export default function ChiefsSection() {
   const chiefs = [
     {
       daerah: "Yogyakarta",
-      img: "/gallery/gudeg.jpg",
+      img: "/gallery/yogyakarta/gudeg.jpg",
       jumlah_menu: "0",
       paling_terkenal: "Gudeg",
     },
@@ -31,13 +31,13 @@ export default function ChiefsSection() {
     },
     {
       daerah: "Jawa Tengah",
-      img: "/gallery/nasi-tiwul.jpg",
+      img: "/gallery/jawatengah/nasi-tiwul.jpg",
       jumlah_menu: "0",
       paling_terkenal: "Nasi Tiwul",
     },
     {
       daerah: "Bali",
-      img: "/gallery/babi-guling.jpg",
+      img: "/gallery/bali/babi-guling.jpg",
       jumlah_menu: "0",
       paling_terkenal: "Babi Guling",
     },
@@ -49,7 +49,7 @@ export default function ChiefsSection() {
     },
     {
       daerah: "Aceh",
-      img: "../gallery/aceh/mieaceh.jpg",
+      img: "/gallery/aceh/mieaceh.jpg",
       jumlah_menu: "0",
       paling_terkenal: "Mie Aceh",
     },
