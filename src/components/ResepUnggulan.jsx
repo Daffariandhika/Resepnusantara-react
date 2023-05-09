@@ -31,7 +31,7 @@ const quotes = [
 const images = [
   '/gallery/salad-buah.jpeg',
   '/gallery/cakwe.jpeg',
-  '/gallery/klepon.jpeg',
+  '/gallery/jawatengah/klepon.jpeg',
   '/gallery/mie-ayam.jpeg'
 ]
 
