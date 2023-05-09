@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import CustomImage from '../../components/CustomImage';
 
-function Sumatrabarat() {
+function JawaTengah() {
   const recipes = [
     {
       title: "",
@@ -58,9 +58,9 @@ function Sumatrabarat() {
 
   return (
     <div>
-      <h1 className='judul daerah'>Sumatra Barat</h1>
+      <h1 className='judul daerah'>Jawa Tengah</h1>
       <p className='deskripsi'>
-        
+
       </p>
       <div className='recipes-container'>
         {recipes.map((recipe, index) => (
@@ -69,7 +69,7 @@ function Sumatrabarat() {
             <div className="recipe-card-info">
               <p className="recipe-title">{recipe.title}</p>
               <p className="recipe-desc">{recipe.desc}</p>
-              <Link className="view-btn" to={`/Sumatra Barat/${recipe.title}`}>Lihat Resep</Link>
+              <Link className="view-btn" to={`/JawaTengah/${recipe.title}`}>Lihat Resep</Link>
             </div>
           </div>
         ))}
@@ -78,4 +78,4 @@ function Sumatrabarat() {
   )
 }
 
-export default Sumatrabarat;
+export default JawaTengah;
