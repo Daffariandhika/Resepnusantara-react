@@ -9,13 +9,7 @@ import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 //import Settings from "./pages/Settings";//
 
-import Yogyakarta from './pages/DaerahPage/Yogyakarta';
-import Bali from './pages/DaerahPage/Bali';
-import Aceh from './pages/DaerahPage/Aceh';
-import Sumatrabarat from './pages/DaerahPage/Sumatrabarat';
-import Jakarta from './pages/DaerahPage/Jakarta';
-import Bengkulu from './pages/DaerahPage/Bengkulu';
-
+import { Yogyakarta, Bali, Aceh, Sumatrabarat, Jakarta, Bengkulu } from './pages/Export';
 
 function App() {
   return (

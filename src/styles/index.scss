@@ -160,8 +160,8 @@ button.google-login-btn svg {
 @import "materials/ResepUnggulan.scss";
 @import "materials/Daerah.scss";
 @import "materials/signupform.scss";
-@import "materials/previous-searches.scss";
-@import "materials/recipes-section.scss";
+@import "materials/Search.scss";
+@import "materials/Recipes.scss";
 
 
 /*.options-container{
@@ -212,7 +212,7 @@ button.google-login-btn svg {
     color: var(--text-color)
 }
 
-@import "materials/footer.scss";
+@import "materials/Footer.scss";
 
 
 
@@ -223,7 +223,7 @@ button.google-login-btn svg {
     padding-inline: 25vw;
 }
 
-@import "materials/animations.scss";
+@import "materials/Animations.scss";
 
 @media screen and (max-width: 1280px){
     .container{
@@ -234,35 +234,50 @@ button.google-login-btn svg {
     .container{
         padding-inline: 7vw;
     }
-    .section.hero{
-        .col.typography{
-            font-size: 15px;
-            padding-inline: .5cm;
+
+    .section{
+        .col{
+            width: 100%;
+            padding: 0 !important;
+            text-align: center;
+            margin-bottom: 2em;
         }
-        .col.gallery{
-            padding-block: .2cm;
-            padding-inline: .2cm;
+        .gallery{
+            margin-top: .5cm;
         }
+    .title{
+        margin-top: 1.5cm;
     }
-    .section.improve-skills{
-        padding-inline-end: 2cm;
-        margin-block-start: 2cm;
-        .col.img{
-            box-shadow: 0 15px 10px var(--shadow-color);
-            width: 300px;
-            height: 300px;
-            border-radius: 30%;
-            overflow: hidden;
-            margin: 0 auto;
-        }
+    }
+    .section.section.improve-skills{
+        margin-top: 1cm;
+    }
+    .skill-item{
+        display: inline-block;
+        margin: .75em;
+    }
+    .section.improve-skills .btn{
+        display: block;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .chief-card{
+        box-shadow: 0 5px 10px var(--shadow-color);
+    }
+    .container{
+        padding-inline: 6vw;
+    }
+    
     }
     .footer{
         grid-template-columns: 2fr 2.25fr 1fr;
     }
+    
     span{
         width: 28px;
     }
-}
+
 
 @media screen and (max-width: 768px){
     .navbar{
@@ -298,8 +313,6 @@ button.google-login-btn svg {
         display: block;
         margin-left: 50%;
         transform: translateX(-50%);
-    }
-    .section.quote{
     }
 
     .chief-card{
