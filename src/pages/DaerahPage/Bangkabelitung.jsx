@@ -60,7 +60,11 @@ function Bangkabelitung() {
     <div>
       <h1 className='judul daerah'>Bangka Belitung</h1>
       <p className='deskripsi'>
+<<<<<<< HEAD
         Deskripsi Kuliner
+=======
+        kuliner bangka belitung adalah 
+>>>>>>> 6935e0f08b1104c9918b52c9edee7036bd11c138
         </p>
       <div className='recipes-container'>
         {recipes.map((recipe, index) => (
