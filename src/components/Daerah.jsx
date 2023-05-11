@@ -20,7 +20,7 @@ export default function ChiefsSection() {
     {
       daerah: "Bangka Belitung",
       img: "/gallery/belitung/lempah-kuning.jpg",
-      jumlah_menu: "0",
+      jumlah_menu: "11",
       paling_terkenal: "Lempah Kuning",
     },
     {
