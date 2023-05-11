@@ -19,7 +19,7 @@ export default function ChiefsSection() {
     },
     {
       daerah: "Bangka Belitung",
-      img: "/gallery/bangkabelitung/lempah-kuning.jpg",
+      img: "/gallery/belitung/lempah-kuning.jpg",
       jumlah_menu: "0",
       paling_terkenal: "Lempah Kuning",
     },
@@ -37,20 +37,20 @@ export default function ChiefsSection() {
     },
     {
       daerah: "Bali",
-      img: "/gallery/bali/babi-guling.jpg",
-      jumlah_menu: "0",
-      paling_terkenal: "Babi Guling",
+      img: "/gallery/bali/ayambetutu.jpg",
+      jumlah_menu: "10",
+      paling_terkenal: "Ayam Betutu",
     },
     {
       daerah: "Jakarta",
       img: "/gallery/soto-betawi.jpg",
       jumlah_menu: "0",
-      paling_terkenal: "Pempek",
+      paling_terkenal: "Kerak Telor",
     },
     {
       daerah: "Aceh",
       img: "/gallery/aceh/mieaceh.jpg",
-      jumlah_menu: "0",
+      jumlah_menu: "10",
       paling_terkenal: "Mie Aceh",
     },
     {

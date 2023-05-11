@@ -2,51 +2,66 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import CustomImage from '../../components/CustomImage';
 
-function Bengkulu() {
+function Bangkabelitung() {
   const recipes = [
     {
-      title: "Pindang Patin",
-      image: "/gallery/bangkabelitung/kuerintak.jpg",
+      title: "",
+      image: "/gallery/belitung/kuerintak.jpg",
       desc: "",
     },
     {
       title: "",
-      image: "/gallery/",
+      image: "/gallery/belitung/laksobangka.jpg",
       desc: "",
     },
     {
       title: "",
-      image: "/gallery/",
+      image: "/gallery/belitung/lempahdarat.jpg",
       desc: "",
     },
     {
       title: "",
-      image: "/gallery/",
+      image: "/gallery/belitung/lepetbangka.jpg",
       desc: "",
     },
     {
       title: "",
-      image: "/gallery/",
+      image: "/gallery/belitung/lokan.jpg",
       desc: "",
     },
     {
       title: "",
-      image: "/gallery/",
+      image: "/gallery/belitung/martabakbangka.jpg",
       desc: "",
     },
     {
       title: "",
-      image: "/gallery/",
+      image: "/gallery/belitung/miekoba.jpg",
       desc: "",
     },
+    {
+      title: "",
+      image: "/gallery/belitung/otakotakbangka.jpg",
+      desc: "",
+    },
+    {
+      title: "",
+      image: "/gallery/belitung/sambelikung.jpg",
+      desc: "",
+    },
+    {
+      title: "",
+      image: "/gallery/belitung/sotobangka.jpg",
+      desc: "",
+    }
   ].sort(() => Math.random() - 0.5)
 
   return (
     <div>
-      <h1 className='judul daerah'>Bengkulu</h1>
+      <h1 className='judul daerah'>Bangka Belitung</h1>
       <p className='deskripsi'>
-        
-      </p>
+        deskiripsi kuliner daerah
+        </p>
       <div className='recipes-container'>
         {recipes.map((recipe, index) => (
           <div className="recipe-card" key={index}>
@@ -54,7 +69,7 @@ function Bengkulu() {
             <div className="recipe-card-info">
               <p className="recipe-title">{recipe.title}</p>
               <p className="recipe-desc">{recipe.desc}</p>
-              <Link className="view-btn" to={`/Bengkulu/${recipe.title}`}>Lihat Resep</Link>
+              <Link className="view-btn" to={`/Bangka Belitung/${recipe.title}`}>Lihat Resep</Link>
             </div>
           </div>
         ))}
@@ -63,4 +78,4 @@ function Bengkulu() {
   )
 }
 
-export default Bengkulu;
+export default Bangkabelitung;

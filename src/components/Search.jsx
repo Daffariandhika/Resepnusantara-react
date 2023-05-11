@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const PREVIOUS_SEARCHES_KEY = "previousSearches";
-const MAX_PREVIOUS_SEARCHES = 10;
+const MAX_PREVIOUS_SEARCHES = 5;
 
 export default function PreviousSearches({ onSearch }) {
   const [searchTerm, setSearchTerm] = useState("");
@@ -59,7 +59,7 @@ export default function PreviousSearches({ onSearch }) {
           )}
         </div>
       </form>
-      <h2>Previous Searches</h2>
+      <h2>Pencarian Sebelumnya</h2>
       <div className="previous-searches-container">
         {searches.map((search, index) => (
           <button

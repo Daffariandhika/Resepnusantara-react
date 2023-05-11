@@ -4,3 +4,4 @@ export { default as Aceh } from './DaerahPage/Aceh';
 export { default as Sumatrabarat } from './DaerahPage/Sumatrabarat';
 export { default as Jakarta } from './DaerahPage/Jakarta';
 export { default as Bengkulu } from './DaerahPage/Bengkulu';
+export { default as Belitung } from './DaerahPage/Bangkabelitung';

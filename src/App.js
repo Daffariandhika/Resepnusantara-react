@@ -9,7 +9,7 @@ import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 //import Settings from "./pages/Settings";//
 
-import { Yogyakarta, Bali, Aceh, Sumatrabarat, Jakarta, Bengkulu } from './pages/Export';
+import { Yogyakarta, Bali, Aceh, Sumatrabarat, Jakarta, Bengkulu, Belitung } from './pages/Export';
 
 function App() {
   return (
@@ -28,6 +28,7 @@ function App() {
           <Route path="/daerah/sumatra barat" element={<Sumatrabarat/>} />
           <Route path="/daerah/jakarta" element={<Jakarta/>} />
           <Route path="/daerah/bengkulu" element={<Bengkulu/>} />
+          <Route path="/daerah/bangka belitung" element={<Belitung/>} />
         </Routes>
       </div>
       <Footer />
