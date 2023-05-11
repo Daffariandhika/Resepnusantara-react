@@ -15,7 +15,7 @@ export default function HeroSection() {
     "/gallery/cakwe.jpg",
     "/gallery/yogyakarta/gudeg.jpg",
     "/gallery/jawatengah/klepon.jpg",
-    "/gallery/mie-ayam.jpeg",
+    "/gallery/mie-ayam.jpg",
     "/gallery/nasi-goreng.jpg",
     "/gallery/pempek.jpg",
     "/gallery/salad-buah.jpg",
@@ -23,14 +23,14 @@ export default function HeroSection() {
     "/gallery/sop-buntut.jpg",
     "/gallery/bali/babi-guling.jpg",
     "/gallery/aceh/mieaceh.jpg",
-    "/gallery/bangkabelitung/mie-belitung.jpg",
+    "/gallery/belitung/mie-belitung.jpg",
     "/gallery/jawatengah/nasi-tiwul.jpg",
     "/gallery/pindang-patin.jpg",
     "/gallery/soto-betawi.jpg",
     "/gallery/rendang.jpg",
     "/gallery/bali/nasi-jinggo.jpg",
     "/gallery/sate-kambing.jpg",
-    "/gallery/bangkabelitung/lempah-kuning.jpg",
+    "/gallery/belitung/lempah-kuning.jpg",
   ]);
   
   const [currentGroup, setCurrentGroup] = useState(shuffleArray(images.slice(0, 9)));

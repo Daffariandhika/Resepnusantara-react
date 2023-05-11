@@ -32,7 +32,7 @@ const images = [
   '/gallery/salad-buah.jpg',
   '/gallery/cakwe.jpg',
   '/gallery/jawatengah/klepon.jpg',
-  '/gallery/mie-ayam.jpeg'
+  '/gallery/mie-ayam.jpg'
 ]
 
 export default function ImproveSkills() {
