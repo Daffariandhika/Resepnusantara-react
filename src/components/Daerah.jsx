@@ -26,8 +26,8 @@ export default function ChiefsSection() {
     {
       daerah: "Bengkulu",
       img: "/gallery/pindang-patin.jpg",
-      jumlah_menu: "0",
-      paling_terkenal: "Pindang Patin",
+      jumlah_menu: "10",
+      paling_terkenal: "Pendap",
     },
     {
       daerah: "Jawa Tengah",
@@ -58,6 +58,12 @@ export default function ChiefsSection() {
       img: "/gallery/rendang.jpg",
       jumlah_menu: "0",
       paling_terkenal: "Rendang",
+    },
+    {
+      daerah: "Banten",
+      img: "/gallery/banten/satebandeng.jpg",
+      jumlah_menu: "10",
+      paling_terkenal: "Sate Bandeng",
     },
   ];
 

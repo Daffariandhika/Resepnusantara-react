@@ -207,6 +207,107 @@ export default function Recipes() {
       image: "/gallery/belitung/lempah-kuning.jpg",
       desc: "Biasanya lempah kuning terbuat dari ikan kakap merah dan ikan tenggiri. Cara pembuatannya sendiri ikan tersebut dimasak dengan bumbu berwarna kuning yang berasal dari kunyit.",
     },
+    {
+      title: "Angeun Lada",
+      image: "/gallery/banten/angeunlada.jpg",
+      desc: "Angeun lada termasuk salah satu makanan khas Banten yang sering dijadikan menu saat merayakan hari-hari besar. jika anda menyukai pedas maka makanan ini cocok untuk anda",
+    },
+    {
+      title: "Ketan Bintul",
+      image: "/gallery/banten/ketanbintul.jpg",
+      desc: "Konon ketan bintul ini sudah menjadi makanan favorit para Sultan Banten sejak zaman dahulu. Bahkan hingga sekarang pun selalu tersaji di meja makan keturunan para Sultan Banten saat Ramadhan.",
+    },
+    {
+      title: "Kue Jojorong",
+      image: "/gallery/banten/kuejojorong.jpg",
+      desc: "Ciri khas dari makanan khas Banten ini adalah teksturnya yang lembut dan lumer di mulut dengan rasa gurih dan manis. Kue satu ini banyak dijual di pasar tradisional dan sering dijadikan sebagai menu sarapan masyarakat Banten.",
+    },
+    {
+      title: "Laksa",
+      image: "/gallery/banten/laksa.jpg",
+      desc: "Laksa adalah makanan yang cukup banyak dijumpai, dengan rasa gurih dari rebusan daging dan kuatnya rempah yang bercampur dengan santan sangat meningkatkan selera makan.",
+    },
+    {
+      title: "Leumeung",
+      image: "/gallery//banten/leumeung.jpg",
+      desc: "Makanan khas Banten untuk oleh-oleh lainnya yang bisa menjadi pilihan adalah leumeung. Kudapan ini terbuat dari beras ketan dan santan.",
+    },
+    {
+      title: "Nasi Bakar Sumsum",
+      image: "/gallery/banten/nasibakarsumsum.jpg",
+      desc: "Nasi bakar yang telah dicampur rempah dan lemak dari sumsum kemudian dibakar dengan dibalut daun pisang yang menambah aroma khas makanan ini.",
+    },
+    {
+      title: "Pecak Bandeng",
+      image: "/gallery/banten/pecakbandeng.jpg",
+      desc: "Pecak bandeng adalah salah satu makanan khas Serang, ibu kota Banten, yang bisa dengan mudah  temui di Jakarta. Nah, makanan satu ini umumnya dibuat untuk makanan para petani saat berada di sawah untuk makan siang. Hanya 2 bahan utamanya, yaitu pecak dan ikan bandeng.",
+    },
+    {
+      title: "Sambal Buroq",
+      image: "/gallery/banten/sambalburoq.jpg",
+      desc: "Sambal buroq yakni hidangan wajib untuk acara besar di daerah Banten. Terutama acara menuju Lebaran Haji. Cocok disantap dengan nasi hangat ataupun nasi bakar sum-sum.",
+    },
+    {
+      title: "Sate Bandeng",
+      image: "/gallery/banten/satebandeng.jpg",
+      desc: "Sate Bandeng dibuat dari ikan bandeng yang dihilangkan durinya, dagingnya dibumbui dan dimasukkan kembali ke kulitnya, lalu ditusuk atau dijepit tusukan tangkai bambu, lalu dibakar di atas bara arang",
+    },
+    {
+      title: "Sayur Besan",
+      image: "/gallery/banten/sayurbesan.jpg",
+      desc: "Dinamakan Sayur Besan karena dihidangkan saat pernikahan dari pihak mempelai wanita kepada orang tua mempelai pria",
+    },
+    {
+      title: "Bagar Hiu",
+      image: "/gallery/bengkulu/bagarhiu.jpg",
+      desc: "Bagar hiu menjadi salah satu makanan khas Bengkulu yang pernah dicicip oleh presiden pertama Indonesia yakni Ir. Soekarno.",
+    },
+    {
+      title: "Bolu Koja",
+      image: "/gallery/bengkulu/bolukoja.jpg",
+      desc: "Sama seperti kue bolu pada umumnya, bolu koja memiliki tekstur yang sangat lembut. Namun, uniknya kue bolu ini menggunakan agar-agar sebagai bahan campurannya (walau tak semua).",
+    },
+    {
+      title: "Bubur Sekoi",
+      image: "/gallery/bengkulu/bubursekoi.jpg",
+      desc: "Makanan khas Bengkulu ini merupakan jenis bubur manis karena dibuat dari bahan dasar biji sekoi atau jewawut yang dimasak dengan santan, jahe, daun pandan, gula pasir, dan gula merah.",
+    },
+    {
+      title: "Gulai Kemba'ang",
+      image: "/gallery/bengkulu/gulaikembaang.jpg",
+      desc: "Gulai kemba`ang adalah makanan khas Bengkulu yang dibuat dari bahan dasar iga sapi yang dimasak dengan aneka rempah. Gulai kemba’ang memiliki cita rasa yang sangat khas dengan aroma rempah yang cukup tajam.",
+    },
+    {
+      title: "Gulai Pisang",
+      image: "/gallery/bengkulu/gulaipisang.jpg",
+      desc: "Gulai memang biasanya dibuat dari bahan dasar ayam, ikan, daging, telur, tempe, hingga tahu. Gulai pisang dibuat dari bahan dasar pisang lalu dimasak dengan bumbu gulai.",
+    },
+    {
+      title: "Kue Bay Tat",
+      image: "/gallery/bengkulu/kuebaytat.jpg",
+      desc: "Bay Tat adalah Kue Tart berukuran besar khas Bengkulu. Makanan ini dipercaya pada zaman dahulu menjadi makanan para raja dan bangsawan Bengkulu.",
+    },
+    {
+      title: "Kue Lepek Biniti",
+      image: "/gallery/bengkulu/kuelepekbiniti.jpg",
+      desc: "Kue lepek binti merupakan penganan yang terbuat dari bahan dasar ketan dengan isian gilingan daging sapi.",
+    },
+    {
+      title: "Manisan Terong",
+      image: "/gallery/bengkulu/manisanterong.jpg",
+      desc: "Keunikan hidangan ini ialah terong yang termasuk jenis sayuran sangat jarang dijadikan sebagai manisan karena biasanya olahan manisan dibuat dari bahan dasar buah-buahan.",
+    },
+    {
+      title: "Pendap",
+      image: "/gallery/bengkulu/pendap.jpg",
+      desc: "Pendap adalah makanan khas Bengkulu yang terbuat dari bahan dasar ikan. Jenis ikan yang digunakan bisa apa saja, yakni ikan air tawar maupun ikan air laut.",
+    },
+    {
+      title: "Rebung asam undak liling",
+      image: "/gallery/bengkulu/rebungasamundakliling.jpg",
+      desc: "Makanan bersantan ini terbuat dari rebung atau tunas bambu muda.Rebung akan diolah menjadi gulai dan dipadukan dengan keong sawah (liling).",
+    },
+    
   ].sort(() => Math.random() - 0.5)
 
   const handleSearch = (searchTerm) => {
