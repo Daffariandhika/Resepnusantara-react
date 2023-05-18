@@ -12,18 +12,15 @@
 }
 .chief-card{
     display: flex;
-    height: 130px;
     background-color: transparent;
     border-right: .3em solid var(--primary-color);
     box-shadow: 0 3px 6px var(--shadow-color);
+    height: 130px;
     border-radius: 10px;
     overflow: hidden;
-    transform: scale(0);
-    opacity: 0;
-    animation: getAnimationDuration(.6s) popOut forwards;
+    transition: transform 0.3s ease;
     &:hover{
-        opacity: 1;
-        animation: bounce 0.6s ease-in-out both infinite;
+        transform: scale(1.1);
     }
     img{
         height: 100%;

@@ -22,7 +22,7 @@ export default function SignInForm() {
       console.log(error);
       // Display error message to user
     }
-  };
+  }
   
 
   return (
@@ -64,8 +64,7 @@ export default function SignInForm() {
           <select
             id="gender"
             value={gender}
-            onChange={(event) => setGender(event.target.value)}
-          >
+            onChange={(event) => setGender(event.target.value)}>
             <option value="">Select gender</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
@@ -74,5 +73,5 @@ export default function SignInForm() {
         <button className="btn" type="submit">Sign Up</button>
       </form>
     </div>
-  );
+  )
 }

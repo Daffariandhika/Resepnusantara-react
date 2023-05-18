@@ -7,14 +7,9 @@
         border-radius: 30%;
         overflow: hidden;
         margin: 0 auto;
-        transform: scale(0);
-        opacity: 5;
-        animation: getAnimationDuration(.3s) popOut forwards;
+        transition: transform 0.3s ease;
         &:hover{
-            animation: bounce 0.6s infinite;
-        }
-        .fade-in-out:hover {
-            opacity: 0.7;
+            transform: scale(1.1);
         }
         img{
             width: 100%;
@@ -31,7 +26,6 @@
         .skill-item{
             border-left: .3em solid var(--primary-color);
             margin-bottom: 1.5em;
-            border-radius: 30px;
             padding: .1em 0 .1em .5em;
             color: var(--text-light);
             font-weight: bold;

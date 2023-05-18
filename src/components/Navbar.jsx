@@ -25,11 +25,11 @@ export default function Navbar(){
             path: "/login",
             icon: faUser
         },
-        {/*
+        /*
             name: "Settings",
             path: "/settings",
             icon: faCog
-        */}
+        */
     ]
     // Function untuk menutup sidebar
     function tutupSidebar(){
