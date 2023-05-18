@@ -61,6 +61,7 @@ function namadaerah() {
       <h1 className='judul daerah'>namadaerah</h1>
       <p className='deskripsi'>
         deskiripsi kuliner daerah
+         </p>
       <div className='recipes-container'>
         {recipes.map((recipe, index) => (
           <div className="recipe-card" key={index}>

@@ -58,9 +58,9 @@ function Aceh() {
 
   return (
     <div>
-      <h1 className='judul daerah'></h1>
+      <h1 className='judul daerah'>Aceh</h1>
       <p className='deskripsi'>
-        
+      Surganya kuliner yang menggugah selera! Di sini, Anda akan menemukan hidangan khas yang kaya akan rasa dan aroma yang menggoda. Masakan Aceh adalah perpaduan harmonis antara cita rasa Melayu, Arab, dan India, menciptakan keunikan yang tak tertandingi.
       </p>
       <div className='recipes-container'>
         {recipes.map((recipe, index) => (

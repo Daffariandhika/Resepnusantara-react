@@ -67,7 +67,7 @@ function Bangkabelitung() {
     <div>
       <h1 className='judul daerah'>Bangka Belitung</h1>
       <p className='deskripsi'>
-        Deskripsi Kuliner
+      Makanan khas daerah Bangka Belitung memadukan keunikan budaya, bahan-bahan alami yang melimpah, serta pengaruh dari berbagai etnis yang mendiami pulau-pulau tersebut. Cita rasa makanan khas Bangka Belitung menawarkan kombinasi unik dari rasa gurih, pedas, asam, manis, dan segar yang menggugah selera. Secara keseluruhan, cita rasa makanan khas Bangka Belitung mencerminkan kekayaan alam, warisan budaya, dan keahlian kuliner masyarakatnya.
         </p>
       <div className='recipes-container'>
         {recipes.map((recipe, index) => (

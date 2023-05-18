@@ -60,7 +60,7 @@ function Bengkulu() {
     <div>
       <h1 className='judul daerah'>Bengkulu</h1>
       <p className='deskripsi'>
-        
+      Makanan khas daerah Bengkulu menawarkan sebuah perpaduan yang menggugah selera antara cita rasa yang kaya dan bumbu-bumbu tradisional yang lezat. Salah satu ciri khas makanan Bengkulu adalah keberlimpahan ikan segar yang ditangkap langsung dari Laut Bengkulu. Rasa segar dan manisnya daging ikan seperti patin, lele, dan belida diolah dengan kepiawaian sehingga menghasilkan hidangan yang menggugah selera.
       </p>
       <div className='recipes-container'>
         {recipes.map((recipe, index) => (

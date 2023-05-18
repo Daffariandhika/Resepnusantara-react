@@ -60,7 +60,7 @@ function Banten() {
     <div>
       <h1 className='judul daerah'>Banten</h1>
       <p className='deskripsi'>
-        deskiripsi kuliner daerah
+      Makanan khas daerah Banten menawarkan cita rasa yang menggugah selera dengan sentuhan khas Nusantara. Dalam setiap suapan, Anda akan merasakan harmoni sempurna antara rempah-rempah, bumbu-bumbu segar, dan tekstur yang menggiurkan. Kelezatan hidangan-hidangan Banten tak hanya memanjakan lidah, tetapi juga mengundang keinginan untuk terus menikmatinya.
         </p>
       <div className='recipes-container'>
         {recipes.map((recipe, index) => (

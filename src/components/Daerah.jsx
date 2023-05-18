@@ -25,9 +25,9 @@ export default function ChiefsSection() {
     },
     {
       daerah: "Bengkulu",
-      img: "/gallery/pindang-patin.jpg",
+      img: "/gallery/bengkulu/gulaikembaang.jpg",
       jumlah_menu: "10",
-      paling_terkenal: "Pendap",
+      paling_terkenal: "Gulai Kemba`ang",
     },
     {
       daerah: "Jawa Tengah",
@@ -43,9 +43,9 @@ export default function ChiefsSection() {
     },
     {
       daerah: "Jakarta",
-      img: "/gallery/soto-betawi.jpg",
-      jumlah_menu: "0",
-      paling_terkenal: "Kerak Telor",
+      img: "/gallery/jakarta/soto_betawi.jpg",
+      jumlah_menu: "10",
+      paling_terkenal: "Soto Betawi",
     },
     {
       daerah: "Aceh",
@@ -64,6 +64,12 @@ export default function ChiefsSection() {
       img: "/gallery/banten/satebandeng.jpg",
       jumlah_menu: "10",
       paling_terkenal: "Sate Bandeng",
+    },
+    {
+      daerah: "Gorontalo",
+      img: "/gallery/gorontalo/binte_biluhuta.jpg",
+      jumlah_menu: "10",
+      paling_terkenal: "Ayam Iloni",
     },
   ];
 

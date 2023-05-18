@@ -65,7 +65,7 @@ function Bali() {
     <div>
       <h1 className='judul daerah'>Bali</h1>
       <p className='deskripsi'>
-        Kuliner Bali memiliki keunikan dan cita rasa yang khas dan beragam. Makanan khas Bali umumnya menggunakan bumbu-bumbu tradisional seperti bawang merah, bawang putih, jahe, kunyit, kemiri, serai, cabai, dan rempah-rempah lainnya. Beberapa hidangan khas Bali yang populer antara lain:
+      Cita rasa makanan khas daerah Bali adalah perpaduan yang memikat antara kelezatan alami bahan-bahan segar dengan keunikan rempah-rempah yang khas. Makanan Bali memanjakan lidah dengan sentuhan pedas, gurih, dan lezat yang membangkitkan sensasi rasa yang tak terlupakan. Seperti hentakan ombak yang kuat di pantai-pantai Bali, makanan khasnya menghadirkan kekuatan dan keceriaan yang mengejutkan.
       </p>
       <div className='recipes-container'>
         {recipes.map((recipe, index) => (
