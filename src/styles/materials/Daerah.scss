@@ -15,6 +15,7 @@
     background-color: transparent;
     border-right: .3em solid var(--primary-color);
     box-shadow: 0 3px 6px var(--shadow-color);
+    background-color: rgba(0, 0, 0, 0.2);
     height: 130px;
     border-radius: 10px;
     overflow: hidden;
@@ -39,7 +40,7 @@
         .daerah{
             font-size: 1.3em;
             font-weight: bold;
-            color: var(--text-color);
+            color: var(--primary-color);
         }
         .jumlah_menu, .paling_terkenal{
             font-size: .9em;

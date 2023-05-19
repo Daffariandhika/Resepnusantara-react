@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCutlery } from "@fortawesome/free-solid-svg-icons";
 import CustomImage from "./CustomImage";
 
 function shuffleArray(array) {
@@ -12,27 +14,24 @@ function shuffleArray(array) {
 
 export default function HeroSection() {
   const [images] = useState([
-    "/gallery/cakwe.jpg",
-    "/gallery/yogyakarta/gudeg.jpg",
-    "/gallery/jawatengah/klepon.jpg",
-    "/gallery/mie-ayam.jpg",
-    "/gallery/nasi-goreng.jpg",
-    "/gallery/pempek.jpg",
-    "/gallery/salad-buah.jpg",
-    "/gallery/sate-ayam.jpg",
-    "/gallery/sop-buntut.jpg",
-    "/gallery/bali/babi-guling.jpg",
-    "/gallery/aceh/mieaceh.jpg",
-    "/gallery/belitung/mie-belitung.jpg",
-    "/gallery/jawatengah/nasi-tiwul.jpg",
-    "/gallery/pindang-patin.jpg",
-    "/gallery/soto-betawi.jpg",
-    "/gallery/rendang.jpg",
-    "/gallery/bali/nasi-jinggo.jpg",
-    "/gallery/sate-kambing.jpg",
-    "/gallery/belitung/lempah-kuning.jpg",
+    { src: "/gallery/cakwe.jpg", path: "/cakwe" },
+    { src: "/gallery/yogyakarta/gudeg.jpg", path: "/Gudeg" },
+    { src: "/gallery/jawatengah/klepon.jpg", path: "/jawatengah/klepon" },
+    { src: "/gallery/yogyakarta/ayam-kalasan.jpg", path: "/yogyakarta/Ayamkalasan" },
+    { src: "/gallery/mie-ayam.jpg", path: "/mie-ayam" },
+    { src: "/gallery/mie-ayam.jpg", path: "/mie-ayam" },
+    { src: "/gallery/mie-ayam.jpg", path: "/mie-ayam" },
+    { src: "/gallery/mie-ayam.jpg", path: "/mie-ayam" },
+    { src: "/gallery/mie-ayam.jpg", path: "/mie-ayam" },
+    { src: "/gallery/mie-ayam.jpg", path: "/mie-ayam" },
+    { src: "/gallery/mie-ayam.jpg", path: "/mie-ayam" },
+    { src: "/gallery/mie-ayam.jpg", path: "/mie-ayam" },
+    { src: "/gallery/mie-ayam.jpg", path: "/mie-ayam" },
+    { src: "/gallery/mie-ayam.jpg", path: "/mie-ayam" },
+    { src: "/gallery/mie-ayam.jpg", path: "/mie-ayam" },
+    { src: "/gallery/mie-ayam.jpg", path: "/mie-ayam" },
   ]);
-  
+
   const [currentGroup, setCurrentGroup] = useState(shuffleArray(images.slice(0, 9)));
 
   useEffect(() => {
@@ -50,11 +49,15 @@ export default function HeroSection() {
         <h1 className="title"><span>Resep</span>Nusan<span>tara</span></h1>
         <p className="info">Temukan Resep Favoritmu!</p>
         <Link to="/recipes">
-          <button className="btn">Temukan Cita Rasa</button>
+          <button className="btn"> <FontAwesomeIcon icon={faCutlery}/> Temukan Cita Rasa</button>
         </Link>
       </div>
       <div className="col gallery">
-        {currentGroup.map((src, index) => ( <CustomImage key={index} imgSrc={src} pt={"90%"} />))}
+        {currentGroup.map((image, index) => (
+          <Link to={image.path} key={index}>
+            <CustomImage imgSrc={image.src} pt={"90%"} />
+          </Link>
+        ))}
       </div>
     </div>
   )

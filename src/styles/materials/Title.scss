@@ -17,30 +17,6 @@
             border-radius: 25%;
             overflow: hidden;
             transition: transform 0.3s ease;
-            &:nth-child(2){
-                animation-delay: .1s;
-            }
-            &:nth-child(3){
-                animation-delay: .2s;
-            }
-            &:nth-child(6){
-                animation-delay: .3s;
-            }
-            &:nth-child(9){
-                animation-delay: .4s;
-            }
-            &:nth-child(8){
-                animation-delay: .5s;
-            }
-            &:nth-child(7){
-                animation-delay: .6s;
-            }
-            &:nth-child(4){
-                animation-delay: .7s;
-            }
-            &:nth-child(5){
-                animation-delay: .8s;
-            }
             &:hover{
                 transform: scale(1.1);
             }

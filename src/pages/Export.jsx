@@ -1,4 +1,5 @@
 export { default as Yogyakarta } from './DaerahPage/Yogyakarta';
+export { default as Jawatengah } from './DaerahPage/JawaTengah';
 export { default as Bali } from './DaerahPage/Bali';
 export { default as Aceh } from './DaerahPage/Aceh';
 export { default as Sumatrabarat } from './DaerahPage/Sumatrabarat';

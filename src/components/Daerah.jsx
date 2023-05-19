@@ -14,7 +14,7 @@ export default function ChiefsSection() {
     {
       daerah: "Yogyakarta",
       img: "/gallery/yogyakarta/gudeg.jpg",
-      jumlah_menu: "0",
+      jumlah_menu: "10",
       paling_terkenal: "Gudeg",
     },
     {

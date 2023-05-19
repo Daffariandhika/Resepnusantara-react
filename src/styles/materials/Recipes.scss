@@ -3,18 +3,19 @@
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     grid-gap: 1.5em;
 }
-.recipe-card{
+.recipe-card {
     isolation: isolate;
     border-radius: 30px;
     overflow: hidden;
     box-shadow: 0 5px 15px var(--shadow-color);
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease;  
     &:hover{
         transform: scale(1.1);
+        filter: brightness(110%);
     }
-
+    
     .recipe-card-info{
         padding: 15px;
     }
@@ -29,13 +30,10 @@
         margin-top: .25em;
     }
     .recipe-province{
-        font-size: 1em;
-        font-weight: bold;
-        margin-bottom: .5em;
-        color: var(--text-color);
-        margin-top: .25em;
+        display: none;
     }
     .recipe-desc{
+        display: none;
         color: var(--text-color);
         font-size: .9em;
         letter-spacing: 1px
