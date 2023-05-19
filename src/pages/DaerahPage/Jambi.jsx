@@ -50,7 +50,7 @@ function Jambi() {
       desc: "Tempe yang direndam rempah-rempah perpaduan bumbu ini membuat tempe menjadi lebih gurih dan beraroma nikmat. Sementara warna hitamnya merupakan campuran kecap manis. ",
     },
     {
-      title: "Tempoyak Ikan Patin",
+      title: "Tempoyak Ikan",
       image: "/gallery/jambi/tempoyak_ikan.jpg",
       desc: "Tempoyak adalah hasil fermentasi dari buah durian. Ya, Jambi memang salah satu daerah penghasil durian. Di Jambi, ikan patin diolah dengan tempoyak yang dicampur rempah-rempah Cita rasanya segar dan nikmat, perpaduan antara rasa pedas, manis dan asam yang menyatu.",
     },
