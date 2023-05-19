@@ -7,3 +7,4 @@ export { default as Bengkulu } from './DaerahPage/Bengkulu';
 export { default as Bangkabelitung } from './DaerahPage/Bangkabelitung';
 export { default as Banten } from './DaerahPage/Banten';
 export { default as Gorontalo } from './DaerahPage/Gorontalo';
+export { default as Jambi } from './DaerahPage/Jambi';

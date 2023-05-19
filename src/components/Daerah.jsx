@@ -71,6 +71,12 @@ export default function ChiefsSection() {
       jumlah_menu: "10",
       paling_terkenal: "Ayam Iloni",
     },
+    {
+      daerah: "Jambi",
+      img: "/gallery/jambi/tempoyak_ikan.jpg",
+      jumlah_menu: "10",
+      paling_terkenal: "Tempoyak Ikan Patin",
+    },
   ];
 
   // Use the useEffect hook to update the topChiefs array every 15 seconds
