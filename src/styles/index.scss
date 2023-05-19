@@ -2,7 +2,7 @@
     --background-color: #ffffff;
     --background-light: #fff;
     --shadow-color: rgba(0,0,0,0.2);
-    --primary-color: rgb(72, 197, 255);
+    --primary-color: rgb(255, 174, 0);
     --text-color: #0A0A0A;
     --text-light: #575757;
     --font-size: 16px;
@@ -20,11 +20,10 @@
 }
 
 body {
-    background-image: url('wave.avif'), url('cloud.png');
+    background-image: url('bgcutting.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: multiply;
     font-size: var(--font-size);
     font-family: 'Roboto', sans-serif;
     padding-top: 75px;
@@ -42,8 +41,8 @@ img{
 
 .deskripsi{
     border-left: .5em solid var(--primary-color);
-    font-weight: 500;
     color: var(--text-light);
+    font-weight: 500;
     margin: 0.5cm;
     padding-inline: 0.5cm;
     padding-block: 0.5cm;
@@ -53,17 +52,18 @@ img{
     border: none;
     outline: none;
     background-color: var(--primary-color);
+    box-shadow: 0 2px 6px var(--shadow-color);
     color: #fff;
     padding: .75em 1em;
-    text-transform: uppercase;
     font-size: 1em;
     font-weight: bold;
     letter-spacing: 1px;
-    border-radius: 3px;
-    box-shadow: 0 2px 6px var(--shadow-color);
+    border-radius: 100px;
+    text-transform: uppercase;
+    transition: transform 0.3s ease;
     cursor: pointer;
     &:hover{
-        animation: bounce 0.6s ease-in-out both infinite;
+        transform: scale(1.1);
     }
 }
 
@@ -84,10 +84,11 @@ img{
         letter-spacing: 1px;
         border-radius: 3px;
         box-shadow: 0 2px 6px var(--shadow-color);
+        transition: transform 0.3s ease;
+        cursor: pointer;
         &:hover{
-            animation: bounce 0.6s ease-in-out both infinite;
+            transform: scale(1.1);
         }
-
     }
 }
 

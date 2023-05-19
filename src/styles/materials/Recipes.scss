@@ -10,13 +10,11 @@
     box-shadow: 0 5px 15px var(--shadow-color);
     background-color: transparent;
     overflow: hidden;
-    transform: scale(0);
-    opacity: 0;
-    animation: getAnimationDuration(.6s) popOut forwards;
+    transition: transform 0.3s ease;
     &:hover{
-        opacity: 1;
-        animation: bounce 0.6s ease-in-out both infinite;
+        transform: scale(1.1);
     }
+
     .recipe-card-info{
         padding: 15px;
     }
@@ -25,6 +23,13 @@
     }
     .recipe-title{
         font-size: 1.25em;
+        font-weight: bold;
+        margin-bottom: .5em;
+        color: var(--text-color);
+        margin-top: .25em;
+    }
+    .recipe-province{
+        font-size: 1em;
         font-weight: bold;
         margin-bottom: .5em;
         color: var(--text-color);

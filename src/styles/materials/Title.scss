@@ -16,9 +16,7 @@
             box-shadow: 0 15px 10px var(--shadow-color);
             border-radius: 25%;
             overflow: hidden;
-            transform: scale(0);
-            opacity: 5;
-            animation: getAnimationDuration(.3s) popOut forwards;
+            transition: transform 0.3s ease;
             &:nth-child(2){
                 animation-delay: .1s;
             }
@@ -44,7 +42,7 @@
                 animation-delay: .8s;
             }
             &:hover{
-                animation: bounce 0.6s infinite;
+                transform: scale(1.1);
             }
         }
     }
