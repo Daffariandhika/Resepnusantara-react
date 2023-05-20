@@ -3,7 +3,7 @@ import Search from "../components/Search";
 import RecipeCard from "../components/RecipeCard";
 
 export const recipes = [
-  {
+  { // Menu Daerah Yogyakarta // 
     province: "Yogyakarta",
     title: "Gudeg",
     image: "/gallery/yogyakarta/gudeg.jpg",
@@ -46,7 +46,10 @@ export const recipes = [
     image: "/gallery/yogyakarta/jadah-tempe.jpg",
     desc: "Jadah biasanya dimakan bersamaan dengan tempe, jadi kita bisa menyebutnya jadah tempe. Jadah tempe merupakan nama gabungan dari dua jenis makanan, yaitu jadah yang terbuat dari beras ketan sedangkan tempe yang terbuat dari kedelai yang di olah dengan cara di bacem.",
   },
-  {
+  // Batas Menu Yogyakarta //
+
+
+  { // Menu Daerah Jawa Tengah //
     province: "Jawa Tengah",
     title: "Klepon",
     image: "/gallery/jawatengah/klepon.jpg",
@@ -58,43 +61,72 @@ export const recipes = [
     image: "/gallery/jawatengah/nasi-tiwul.jpg",
     desc: "nasi yang di tiwul-tiwul",
   },
-  {
-    province: "",
-    title: "Salad Buah",
-    image: "/gallery/salad-buah.jpg",
-    desc: "campuran buah untuk makanan pembuka biasa dicampur yougrt atau mayonais",
+  // Batas Menu Jawa Tengah //
+
+  { // Menu Daerah Jambi //
+    province: "Jambi",
+    title: "Daging Masak Itam",
+    image: "/gallery/jambi/daging_masakitam.jpg",
+    desc: "Kuliner berbahan dasar daging sapi ini seperti yang sudah diduga, menggunakan kecap manis untuk bumbu hitamnya. Perpaduan rasa gurih manis yang berpadu rempah-rempah Nusantara.",
   },
   {
-    province: "",
-    title: "Sate Ayam",
-    image: "/gallery/sate-ayam.jpg",
-    desc: "Sate daging ayam dengan kuah kacang atau kecap",
+    province: "Jambi",
+    title: "Gulai Tepek Ikan",
+    image: "/gallery/jambi/gulai_tepek.jpg",
+    desc: "Gulai tepek ini sangat unik karena dibuat dari bahan utama berupa bakso ikan (fishcake) dan nanas yang dipotong-potong kotak dan dibumbui dengan bumbu gulai.",
   },
   {
-    province: "",
-    title: "Sate Kambing",
-    image: "/gallery/sate-kambing.jpg",
-    desc: "Dagingnya dapat diganti dengan ayam atau sapi yang dapat dijumpai di mayoritas wilayan Indonesia",
+    province: "Jambi",
+    title: "Kerutup Ikan",
+    image: "/gallery/jambi/kerutup_ikan.jpg",
+    desc: "Olahan berbahan dasar ikan segar yang dimasak dengan balutan daun pisang dan dibumbui dengan rempah yang kuat menghilangkan rasa amis ikan.",
   },
   {
-    province: "",
-    title: "Cakwe",
-    image: "/gallery/cakwe.jpg",
-    desc: "kue goreng yang gurih yang dibawa pedagang Cina pada masa lalu",
+    province: "Jambi",
+    title: "Kue Padamaran",
+    image: "/gallery/jambi/kue_padamaran.jpg",
+    desc: "Kue padamaran mungkin bisa jadi alternatif kue sederhana namun enak untuk dibuat sendiri di rumah. Kue padamaran adalah kue tradisional dari Jambi yang sekilas mirip dengan kue talam.",
   },
   {
-    province: "Sumatra Barat",
-    title: "Rendang",
-    image: "/gallery/rendang.jpg",
-    desc: "Hidangan daging Khas padang yang dipadukan dengan rempah-rempah yang kental bercita rasa gurih pedas ",
+    province: "Jambi",
+    title: "Lakso Jambi",
+    image: "/gallery/jambi/lakso_jambi.jpg",
+    desc: "Lakso merupakan makanan warisan Melayu yang bisa ditemukan di Jambi dan beberapa daerah di Sumatera. Lakso menyerupai mi yang dibuat dari tepung sagu.",
   },
   {
-    province: "Bali",
-    title: "Babi Guling",
-    image: "/gallery/bali/babi-guling.jpg",
-    desc: "Babi panggang khas bali bercitarasa dominan gurih, kaya akan lemak yang meleleh sehingga lumer di mulut. ",
+    province: "Jambi",
+    title: "Nasi Minyak",
+    image: "/gallery/jambi/nasi_minyak.jpg",
+    desc: "Nasi minyak adalah salah satu sajian otentik Jambi, yang biasanya dijadikan hidangan untuk acara-acara tertentu. Meski namanya nasi minyak, nasi minyak tidak oily dan punya aroma khas menggugah selera.",
   },
   {
+    province: "Jambi",
+    title: "Sambal Kweni",
+    image: "/gallery/jambi/sambal_kweni.jpg",
+    desc: "Orang Jambi menggunakan mangga kweni karena memiliki aroma harum, rasa asam yang khas dan tekstur dagingnya lembut dan padat. Sambal kweni paling cocok dijadikan sebagai pendamping santapan ikan bakar dan hidangan bakar-bakaran lainnya.",
+  },
+  {
+    province: "Jambi",
+    title: "Sate Ikan Khas Jambi",
+    image: "/gallery/jambi/sate_ikan.jpg",
+    desc: "Sate ikan khas Jambi tidak diolah dengan ditusuk dan dibakar, melainkan dengan menghaluskan daging ikan, lalu dibungkus daun pisang dan direbus.",
+  },
+  {
+    province: "Jambi",
+    title: "Sate Tempe Rangkayo Hitam",
+    image: "/gallery/jambi/sate_tempe.jpg",
+    desc: "Tempe yang direndam rempah-rempah perpaduan bumbu ini membuat tempe menjadi lebih gurih dan beraroma nikmat. Sementara warna hitamnya merupakan campuran kecap manis. ",
+  },
+  {
+    province: "Jambi",
+    title: "Tempoyak Ikan",
+    image: "/gallery/jambi/tempoyak_ikan.jpg",
+    desc: "Tempoyak adalah hasil fermentasi dari buah durian. Ya, Jambi memang salah satu daerah penghasil durian. Di Jambi, ikan patin diolah dengan tempoyak yang dicampur rempah-rempah Cita rasanya segar dan nikmat, perpaduan antara rasa pedas, manis dan asam yang menyatu.",
+  },
+  // Batas Menu Jambi
+
+
+  { // Menu Daerah Aceh //
     province: "Aceh",
     title: "Nasi Gurih",
     image: "/gallery/aceh/nasi-gurih.jpg",
@@ -105,12 +137,6 @@ export const recipes = [
     title: "Roti Cane",
     image: "/gallery/aceh/roti-cane.jpg",
     desc: "hidangan Aceh yang diinfluensi budaya India. berbahan dasar tepung cocok untuk dijadikan makanan pokok ",
-  },
-  {
-    province: "Belitung",
-    title: "Lempah Kuning",
-    image: "/gallery/belitung/lempah-kuning.jpg",
-    desc: "Ikan berkuah kuning bercitarasa gurih asam khas Bangka, dapat menggunakan berbagai macam ikan ",
   },
   {
     province: "Aceh",
@@ -137,10 +163,43 @@ export const recipes = [
     desc: "Ayam yang digoreng dengan rempah dan daun pandan, memadukan gurihnya ayam dan aroma rempah dan daun pandan yang kuat",
   },
   {
+    province: "Aceh",
+    title: "Gulai Keueng",
+    image: "/gallery/aceh/gulaikeueng.jpg",
+    desc: "Gule Masam Keeung atau gulai asam pedas adalah hidangan khas Aceh yang terkenal dengan rasa pedas, asam, dan gurihnya.",
+  },
+  {
+    province: "Aceh",
+    title: "Keumamah",
+    image: "/gallery/aceh/keumamah.jpg",
+    desc: "salah satu kuliner tradisional masyarakat Aceh yang dibuat dari bahan baku ikan, yaitu tongkol dan cakalang. Keumamah terkenal juga dengan nama ikan kayu karena keras seperti kayu.",
+  },
+  {
+    province: "Aceh",
+    title: "Kuah Pliek U",
+    image: "/gallery/aceh/kuahpliek-u.jpg",
+    desc: "Pliek u merupakan salah satu hidangan yang merangkap sebagai bumbu di Aceh. Pliek u berasal dari ampas kering sisa minyak kelapa tua yang telah melalui beberapa kali proses pemerasan.",
+  },
+  {
+    province: "Aceh",
+    title: "Mie Aceh",
+    image: "../gallery/aceh/mieaceh.jpg",
+    desc: "hidangan khas Aceh yang memiliki cita rasa kaya akan perpaduan rempah Nusantara",
+  },
+  // Batas Menu Aceh //
+  
+
+  { // Menu Daerah Bali //
     province: "Bali",
     title: "Ayam Betutu ",
     image: "/gallery/bali/ayambetutu.jpg",
     desc: "Ayam betutu dimasak dengan bumbu betutu, yaitu bumbu khas Bali. Daging ayam yang lembut dipadukan dengan bumbu yang kaya akan rempah.",
+  },
+  {
+    province: "Bali",
+    title: "Babi Guling",
+    image: "/gallery/bali/babi-guling.jpg",
+    desc: "Babi panggang khas bali bercitarasa dominan gurih, kaya akan lemak yang meleleh sehingga lumer di mulut. ",
   },
   {
     province: "Bali",
@@ -185,102 +244,90 @@ export const recipes = [
     desc: "Lempet adalah makanan khas Bali yang terbuat dari ikan yang sudah diberi bumbu dan dibungkus dengan daun pisang.",
   },
   {
-    province: "Aceh",
-    title: "Gulai Keueng",
-    image: "/gallery/aceh/gulaikeueng.jpg",
-    desc: "Gule Masam Keeung atau gulai asam pedas adalah hidangan khas Aceh yang terkenal dengan rasa pedas, asam, dan gurihnya.",
-  },
-  {
-    province: "Aceh",
-    title: "Keumamah",
-    image: "/gallery/aceh/keumamah.jpg",
-    desc: "salah satu kuliner tradisional masyarakat Aceh yang dibuat dari bahan baku ikan, yaitu tongkol dan cakalang. Keumamah terkenal juga dengan nama ikan kayu karena keras seperti kayu.",
-  },
-  {
-    province: "Aceh",
-    title: "Kuah Pliek U",
-    image: "/gallery/aceh/kuahpliek-u.jpg",
-    desc: "Pliek u merupakan salah satu hidangan yang merangkap sebagai bumbu di Aceh. Pliek u berasal dari ampas kering sisa minyak kelapa tua yang telah melalui beberapa kali proses pemerasan.",
-  },
-  {
-    province: "Aceh",
-    title: "Mie Aceh",
-    image: "../gallery/aceh/mieaceh.jpg",
-    desc: "hidangan khas Aceh yang memiliki cita rasa kaya akan perpaduan rempah Nusantara",
-  },
-  {
     province: "Bali",
     title: "Serapah Daging",
     image: "../gallery/bali/serapahdaging.jpg",
     desc: "Serapah adalah sejenis lauk setengah basah yang terbuat dari daging yang dibumbui dengan aneka rempah, santan, dan tepung beras sebagai pengental. ",
   },
-  {
-    province: "Belitung",
+  // Batas Menu Bali //
+
+
+  { // Menu Daerah Belitung //
+    province: "Bangka Belitung",
     title: "Kue Rintak",
     image: "/gallery/belitung/kuerintak.jpg",
     desc: "Jenis Kue ini di racik dari bahan baku tepung sagu, santan kental dan telur. Kue nya memang cukup alot namun mempunyai rasa yang enak dan juga otentik.",
   },
   {
-    province: "Belitung",
+    province: "Bangka Belitung",
     title: "Lakso Bangka",
     image: "/gallery/belitung/laksobangka.jpg",
     desc: "Lakso merupakan sebuah kuliner yang diciptakan dari perpaduan antara masakan Melayu dengan Tionghoa. Kuliner ini sendiri terdiri dari mie putih yang berbahan dasar sagu dan tepung beras.",
   },
   {
-    province: "Belitung",
+    province: "Bangka Belitung",
     title: "Lempah Darat",
     image: "/gallery/belitung/lempahdarat.jpg",
     desc: ". Bahan utama membuat sayur ini bisa berbagai macam dan berbeda-beda diantaranya ada daun papaya muda, akar keladi, pucuk idat, dan lain sebagainya. Sayur ini dimasak dengan rempah yang kaya dan kuat.",
   },
   {
-    province: "Belitung",
+    province: "Bangka Belitung",
     title: "Lepet Bangka",
     image: "/gallery/belitung/lepetbangka.jpg",
     desc: "Lapet dari Bangka Belitung dibuat dari beras ketan yang dikukus dalam wadah. Yang uniknya, wadahnya terbuat dari daun kelapa yang masih muda atau janur.",
   },
   {
-    province: "Belitung",
+    province: "Bangka Belitung",
     title: "Lokan",
     image: "/gallery/belitung/lokan.jpg",
     desc: "Lokan adalah kerang yang biasa hidup di daerah rawa atau muara sungai yang berpapasan dengan laut. yang cukup direbus dengan serai dan ada yang dijadikan kuah kuning atau pun bumbu saus tiram. ",
   },
   {
-    province: "Belitung",
+    province: "Bangka Belitung",
     title: "Martabak Bangka",
     image: "/gallery/belitung/martabakbangka.jpg",
     desc: "Makanan manis yang tak pernah salah di lidah masyarakat. dengan toping beraneka ragam membuat ledakan rasa didalam mulut.",
   },
   {
-    province: "Belitung",
+    province: "Bangka Belitung",
     title: "Mie Koba",
     image: "/gallery/belitung/miekoba.jpg",
     desc: "Terdapat satu lagi olahan mie yang berasal dari Bangka Belitung, yaitu mie Koba. Mie Koba merupakan sejenis mie yang di dalamnya terdapat isian ikan tenggiri.",
   },
   {
-    province: "Belitung",
+    province: "Bangka Belitung",
     title: "Otak-otak Bangka",
     image: "/gallery/belitung/otakotakbangka.jpg",
     desc: "Makanan khas Bangka Belitung ini adalah salah satu kuliner yang memanfaatkan hasil laut. Otak-otak dibuat dari campuran daging ikan, tepung dan bumbu-bumbu rempah yang akan menambah kenikmatan cita rasanya.",
   },
   {
-    province: "Belitung",
+    province: "Bangka Belitung",
     title: "Sambelikung",
     image: "/gallery/belitung/sambelikung.jpg",
     desc: "Sambal lingkung adalah sejenis abon atau serundeng yang terbuat dari ikan, santan kelapa, dan rempah-rempah lainnya. Biasanya sambal lingkung dapat dengan mudah dijumpai di momen-momen lebaran.",
   },
   {
-    province: "Belitung",
+    province: "Bangka Belitung",
     title: "Soto Bangka",
     image: "/gallery/belitung/sotobangka.jpg",
     desc: "Meski bumbunya banyak, soto Belitung termasuk sajian sederhana. Soto Belitung biasanya dibuat dengan dua kuah: kuah santan dan kuah bening.",
   },
   {
-    province: "Belitung",
+    province: "Bangka Belitung",
     title: "Lempah Kuning",
     image: "/gallery/belitung/lempah-kuning.jpg",
     desc: "Biasanya lempah kuning terbuat dari ikan kakap merah dan ikan tenggiri. Cara pembuatannya sendiri ikan tersebut dimasak dengan bumbu berwarna kuning yang berasal dari kunyit.",
   },
   {
+    province: "Bangka Belitung",
+    title: "Lempah Kuning",
+    image: "/gallery/belitung/lempah-kuning.jpg",
+    desc: "Ikan berkuah kuning bercitarasa gurih asam khas Bangka, dapat menggunakan berbagai macam ikan ",
+  },
+  // Batas Menu Belitung //
+
+
+  { // Menu Daerah Banten //
     province: "Banten",
     title: "Angeun Lada",
     image: "/gallery/banten/angeunlada.jpg",
@@ -340,7 +387,9 @@ export const recipes = [
     image: "/gallery/banten/sayurbesan.jpg",
     desc: "Dinamakan Sayur Besan karena dihidangkan saat pernikahan dari pihak mempelai wanita kepada orang tua mempelai pria",
   },
-  {
+  // Batas Menu Banten //
+
+  { // Menu Daerah Bengkulu //
     province: "Bengkulu",
     title: "Bagar Hiu",
     image: "/gallery/bengkulu/bagarhiu.jpg",
@@ -394,7 +443,71 @@ export const recipes = [
     image: "/gallery/bengkulu/pendap.jpg",
     desc: "Pendap adalah makanan khas Bengkulu yang terbuat dari bahan dasar ikan. Jenis ikan yang digunakan bisa apa saja, yakni ikan air tawar maupun ikan air laut.",
   },
+  // Batas Menu Bengkulu //
+
+  {// Menu Daerah Gorontalo //
+    province: "Gorontalo",
+    title: "Ayam Iloni",
+    image: "/gallery/gorontalo/ayam_iloni.jpg",
+    desc: "Keunikan ayam bakar iloni terletak pada cara mengolahnya. Jika ayam bakar pada umumnya dipanggang setelah dibersihkan, ayam iloni harus ditambahkan bumbu khas terlebih dahulu sehingga meresap ke dalam daging dan dicampur dengan santan.",
+  },
   {
+    province: "Gorontalo",
+    title: "Bilenthango",
+    image: "/gallery/gorontalo/bilenthango.jpg",
+    desc: "Keunikan dari kuliner khas Gorontalo satu ini adalah proses pengolahannya yang terletak pada keberadaan daun pisang yang digunakan sebagai alas minyak dan ikan ketika digoreng",
+  },
+  {
+    province: "Gorontalo",
+    title: "Binte Biluhuta",
+    image: "/gallery/gorontalo/binte_biluhuta.jpg",
+    desc: "Sajian binte biluhuta menjadi salah satu makanan khas Gorontalo yang terkenal. Dalam bahasa Indonesia, binte biluhuta berarti jagung yang disiram. ",
+  },
+  {
+    province: "Gorontalo",
+    title: "Es Brenebon",
+    image: "/gallery/gorontalo/es_brenebon.jpg",
+    desc: "Es brenebon sendiri merupakan es kacang merah yang dipadu dengan gula merah dan cokelat. Rasanya manis unik dan menyegarkan.",
+  },
+  {
+    province: "Gorontalo",
+    title: "Ilabulo",
+    image: "/gallery/gorontalo/ilabulo.jpg",
+    desc: "Sekilas mirip sekali dengan otak-otak tapi dibuatnya dari ati ampela ayam, bisa juga ditambahkan jeroan lain dan kulit ayamnya. Rasanya yang khas dengan asin gurih pedas tentu bikin nagih.",
+  },
+  {
+    province: "Gorontalo",
+    title: "Kue Karawo",
+    image: "/gallery/gorontalo/kue_karawo.jpg",
+    desc: "Kue karawo merupakan kue kering yang hanya bisa ditemui di Gorontalo. Layaknya kue kering lainnya, kue karawo juga memiliki aneka varian rasa seperti rasa keju, coklat, kopi, atau strawberry.",
+  },
+  {
+    province: "Gorontalo",
+    title: "Kue Sabongi",
+    image: "/gallery/gorontalo/kue_sabongi.jpg",
+    desc: "Camilan dari bahan singkong ini punya rasa gurih manis yang bikin nagih. Penasaran seperti apa rasanya?",
+  },
+  {
+    province: "Gorontalo",
+    title: "Perkedel Nike",
+    image: "/gallery/gorontalo/perkedel_nike.jpg",
+    desc: "Berbeda dengan perkedel kebanyakan, perkedel khas Gorontalo ini merupakan perkedel yang terbuat dari ikan nike yaitu ikan yang berukuran kecil mirip seperti ikan teri.",
+  },
+  {
+    province: "Gorontalo",
+    title: "Sayur Putungo",
+    image: "/gallery/gorontalo/sayur_putungo.jpg",
+    desc: "lebih umum dikenal sebagai sayur ontong atau jantung pisang di Pulau Jawa. Sayur putungo ini merupakan sajian yang juga menjadi makanan khas Gorontalo",
+  },
+  {
+    province: "Gorontalo",
+    title: "Tili Aya",
+    image: "/gallery/gorontalo/tili_aya.jpg",
+    desc: "kue tili aya yang ternyata bahannya sangat sederhana dan manisnya bikin nagih. Tidak harus pergi ke Gorontalo jika ingin mencicipinya, ini resep kue tili aya yang bisa kamu coba di rumah.",
+  },
+  // Batas Menu Gorontalo //
+
+  { // Menu Daerah Jakarta //
     province: "Jakarta",
     title: "Rebung asam undak liling",
     image: "/gallery/bengkulu/rebungasamundakliling.jpg",
@@ -460,6 +573,15 @@ export const recipes = [
     image: "/gallery/jakarta/soto_tangkar.jpg",
     desc: "Soto ini berarti iga yang dimasak dengan rempah-rempah, biasanya disajikan dengan emping dan sambal.",
   },
+  // Batas Menu Jakarta //
+
+  { // Menu Daerah Sumatra Barat //
+    province: "Sumatra Barat",
+    title: "Rendang",
+    image: "/gallery/rendang.jpg",
+    desc: "Hidangan daging Khas padang yang dipadukan dengan rempah-rempah yang kental bercita rasa gurih pedas ",
+  },
+  // Batas Menu Sumatra Barat //
 ].sort(() => Math.random() - 0.5);
 
 export default function Recipes() {

@@ -2,7 +2,7 @@
     --background-color: #ffffff;
     --background-light: #fff;
     --shadow-color: rgba(0,0,0,0.2);
-    --primary-color: rgb(255, 174, 0);
+    --primary-color: rgb(255, 193, 59);
     --text-color: #0A0A0A;
     --text-light: #575757;
     --font-size: 16px;
@@ -292,6 +292,10 @@ button.google-login-btn svg {
             display: block;
         }
     }
+    .section.hero{
+        .typography{
+            font-size: 15px;
+    }    }
     .section{
         .col{
             width: 100%;
@@ -307,6 +311,7 @@ button.google-login-btn svg {
     }
     }
     .section.section.improve-skills{
+        display: none;
         margin-top: 1cm;
     }
     .skill-item{
@@ -326,6 +331,11 @@ button.google-login-btn svg {
         padding-inline: 6vw;
     }
     .footer{
+        .footer-section{
+            .contact{
+                font-size: 15px;
+            }
+        }
         grid-template-columns: repeat(3, 1fr);
         .footer-section:nth-child(1){
             grid-column: span 4;

@@ -2,14 +2,14 @@ import React from "react";
 import RecipeCard from "../../components/RecipeCard";
 import { recipes } from "../Recipes";
 
-export default function Jakarta() {
+export default function () {
   const filteredRecipes = recipes.filter(
-    (recipe) => recipe.province.toLowerCase() === "jakarta"
+    (recipe) => recipe.province === ""
   )
 
   return (
     <div>
-      <h1 className='judul daerah'>Jakarta</h1>
+      <h1 className='judul daerah'></h1>
       <p className='deskripsi'>
       
       </p>

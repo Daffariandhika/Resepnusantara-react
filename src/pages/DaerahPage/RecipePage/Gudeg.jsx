@@ -3,11 +3,11 @@ import React from 'react';
 function Gudeg() {
   const goBack = () => {
     window.history.back();
-  };
+  }
 
   return (
     <div className="recipe-page-container">
-      <h2 className="recipe-title">Gudeg</h2>
+      <h2 className="recipe-title-page">Gudeg</h2>
 
       <div className="recipe-description">
         <p>
@@ -17,7 +17,7 @@ function Gudeg() {
 
       <div className="recipe-content">
         <div className="recipe-image">
-          <img src="/gallery/yogyakarta/gudeg.jpg" alt="Gudeg" />
+          <img src="/gallery/yogyakarta/gudeg.jpg"/>
         </div>
 
         <div className="recipe-ingredients">

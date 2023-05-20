@@ -4,7 +4,7 @@ import { recipes } from "../Recipes";
 
 export default function Jakarta() {
   const filteredRecipes = recipes.filter(
-    (recipe) => recipe.province.toLowerCase() === "jakarta"
+    (recipe) => recipe.province === "Jakarta"
   )
 
   return (
