@@ -21,7 +21,7 @@ export default function Navbar(){
             icon: faCutlery
         },
         {
-            name: "Login",
+            name: "Sign in",
             path: "/login",
             icon: faUser
         },

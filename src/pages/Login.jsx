@@ -51,7 +51,7 @@ export default function LoginForm() {
   return (
     <div className="form-container">
       <form className="form" onSubmit={handleSubmit}>
-        <h2>Login</h2>
+        <h2>Sign In</h2>
         <div className="form-group">
           <label htmlFor="username">Username :</label>
           <input

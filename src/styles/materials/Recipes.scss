@@ -8,16 +8,22 @@
     border-radius: 30px;
     overflow: hidden;
     box-shadow: 0 5px 15px var(--shadow-color);
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: var(--transparent-color);
     overflow: hidden;
-    transition: transform 0.3s ease;  
+    animation: getAnimationDuration(0.5s) popOut;
+    transition: transform 0.3s ease; 
     &:hover{
         transform: scale(1.1);
         filter: brightness(110%);
+        .recipe-desc {
+            display: block;
+        }
     }
     
     .recipe-card-info{
         padding: 15px;
+        transform: scale(0.909);
+        transition: transform 0.3s ease;
     }
     .custom-image{
         z-index: -1;

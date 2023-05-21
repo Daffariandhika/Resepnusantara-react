@@ -64,7 +64,7 @@ export default function PreviousSearches({ onSearch }) {
           )}
         </div>
       </form>
-      <h2>Previous Searches</h2>
+      <h2>Pencarian Sebelumnya</h2>
       <div className="previous-searches-container">
         {searches.map((search, index) => (
           <button

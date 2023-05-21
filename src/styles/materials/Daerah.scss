@@ -19,8 +19,9 @@
     height: 130px;
     border-radius: 10px;
     overflow: hidden;
+    animation: getAnimationDuration(0.5s) popOut;
     transition: transform 0.3s ease;
-    &:hover{
+    &:hover {
         transform: scale(1.1);
     }
     img{

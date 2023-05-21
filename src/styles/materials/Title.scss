@@ -1,23 +1,21 @@
-.section.hero{
-    .typography{
+.section.hero {
+    .typography {
         font-size: 20px;
         padding-inline: 1.5cm;
     }
-    button{
-        cursor: pointer;
-    }
-    .gallery{
+    .gallery {
         padding-inline: 1cm;
         padding-block: 1cm;
         display: grid;
         grid-template-columns: repeat(3, 2fr);
         gap: 1.75vw;
-        .custom-image{
+        .custom-image {
             box-shadow: 0 15px 10px var(--shadow-color);
             border-radius: 25%;
             overflow: hidden;
+            animation: getAnimationDuration(0.5s) popOut;
             transition: transform 0.3s ease;
-            &:hover{
+            &:hover {
                 transform: scale(1.1);
             }
         }

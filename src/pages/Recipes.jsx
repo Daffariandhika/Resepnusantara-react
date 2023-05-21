@@ -597,7 +597,7 @@ export default function Recipes() {
   };
 
   const limitedRecipes =
-    filteredRecipes.length > 0 ? filteredRecipes : recipes.slice(0, 16);
+    filteredRecipes.length > 0 ? filteredRecipes : recipes.slice(0, 12);
 
   return (
     <div>

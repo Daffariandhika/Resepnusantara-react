@@ -2,7 +2,8 @@
     --background-color: #ffffff;
     --background-light: #fff;
     --shadow-color: rgba(0,0,0,0.2);
-    --primary-color: rgb(255, 193, 59);
+    --primary-color: rgb(255, 145, 100);
+    --transparent-color: rgba(255, 145, 100, 0.3);
     --text-color: #0A0A0A;
     --text-light: #575757;
     --font-size: 16px;
@@ -24,6 +25,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed; /* Set the background attachment to fixed */
     font-size: var(--font-size);
     font-family: 'Roboto', sans-serif;
     padding-top: 75px;
@@ -62,9 +64,10 @@ img{
     letter-spacing: 1px;
     border-radius: 100px;
     text-transform: uppercase;
-    transition: transform 0.3s ease;
     cursor: pointer;
-    &:hover{
+    animation: getAnimationDuration(0.5s) popOut;
+    transition: transform 0.3s ease;
+    &:hover {
         transform: scale(1.1);
     }
 }
@@ -86,9 +89,9 @@ img{
         letter-spacing: 1px;
         border-radius: 3px;
         box-shadow: 0 2px 6px var(--shadow-color);
+        animation: getAnimationDuration(0.5s) popOut;
         transition: transform 0.3s ease;
-        cursor: pointer;
-        &:hover{
+        &:hover {
             transform: scale(1.1);
         }
     }
