@@ -247,6 +247,11 @@ img{
 }
 
 @media only screen and (max-width: 600px) {
+    .section.hero {
+        .typography {
+            font-size: 12px;
+        }
+    }
     .sign-in-form-container {
       max-width: 90%;
 

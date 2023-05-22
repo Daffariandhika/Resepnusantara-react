@@ -15,9 +15,12 @@ function shuffleArray(array) {
 export default function HeroSection() {
   const [images] = useState([
     { src: "/gallery/cakwe.jpg", path: "/cakwe" },
+    //Yogyakarta//
     { src: "/gallery/yogyakarta/gudeg.jpg", path: "/Gudeg" },
+    { src: "/gallery/yogyakarta/ayam-kalasan.jpg", path: "/Ayamkalasan" },
+    { src: "/gallery/yogyakarta/bakmi-jawa.jpg", path: "/Bakmijawa" },
+    //Batas Yogyakarta//
     { src: "/gallery/jawatengah/klepon.jpg", path: "/jawatengah/klepon" },
-    { src: "/gallery/yogyakarta/ayam-kalasan.jpg", path: "/yogyakarta/Ayamkalasan" },
     { src: "/gallery/bali/ayambetutu.jpg", path: "/bali/ayambetutu" },
     { src: "/gallery/banten/nasibakarsumsum.jpg", path: "/banten/nasibakarsumsum" },
     { src: "/gallery/belitung/martabakbangka.jpg", path: "/belitung/martabakbangka" },
@@ -39,7 +42,7 @@ export default function HeroSection() {
       const shuffledImages = shuffleArray(images);
       const newGroup = shuffledImages.slice(0, 9);
       setCurrentGroup(newGroup);
-    }, 6000);
+    }, 15000);
     return () => clearInterval(intervalId);
   }, [images]);
 
