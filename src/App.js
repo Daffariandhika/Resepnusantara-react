@@ -22,7 +22,6 @@ function App() {
           <Route path="/recipes" element={<Recipes />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
-          { /*<Route path="/settings" element={<Settings />} /> */}
           <Route path="/daerah/yogyakarta" element={<Yogyakarta/>} />
             <Route path="/Gudeg" element={<Gudeg/>} />
           <Route path="/daerah/jawa tengah" element={<Jawatengah/>} />

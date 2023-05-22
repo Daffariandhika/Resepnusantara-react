@@ -6,7 +6,7 @@ export default function Footer(){
         <div className="footer container">
             <div className="footer-section">
                 {/*These are the HTML tags that make up the first section of the footer. It contains the name and description of the website, as well as the copyright notice.*/}
-                <p className="title">Resep<span>Nusan</span>tara.com</p>
+                <p className="title-logo">Resep<span>Nusan</span>tara.com</p>
                 <p>ResepNusantara adalah website yang menyediakan berbagai macam resep-resep masakan nusantara</p>
                 <p>&copy; 2023 | All Rights Reserved</p>
             </div>

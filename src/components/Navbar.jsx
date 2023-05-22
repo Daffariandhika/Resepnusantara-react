@@ -2,7 +2,7 @@
 import { Link, useLocation } from "react-router-dom"
 import { useState } from "react"
 import Sidebar from "./Sidebar"
-import { faHome, faUser, /*faCog,*/ faCutlery } from "@fortawesome/free-solid-svg-icons"
+import { faHome, faUser, faCutlery } from "@fortawesome/free-solid-svg-icons"
 
 export default function Navbar(){
     // State untuk menampilkan componen sidebar
@@ -25,11 +25,6 @@ export default function Navbar(){
             path: "/login",
             icon: faUser
         },
-        /*
-            name: "Settings",
-            path: "/settings",
-            icon: faCog
-        */
     ]
     // Function untuk menutup sidebar
     function tutupSidebar(){

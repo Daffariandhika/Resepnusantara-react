@@ -4,7 +4,7 @@
   align-items: center;
   .recipe-title-page {
     color: var(--primary-color);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color:var(--transparent-color);
     box-shadow: 0 5px 10px var(--shadow-color);
     border-left: 0.07em solid var(--primary-color);
     border-radius: 10px;
@@ -15,8 +15,8 @@
   }
 
   .recipe-description {
-    color: bisque;
-    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--text-color);
+    background-color: var(--transparent-color);
     box-shadow: 0 5px 10px var(--shadow-color);
     border-left: 0.3em solid var(--primary-color);
     border-radius: 10px;
@@ -50,7 +50,7 @@
     }
   
     .recipe-ingredients {
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: var(--transparent-color);
       box-shadow: 0 5px 10px var(--shadow-color);
       border-left: 0.3em solid var(--primary-color);
       border-radius: 10px;
@@ -75,7 +75,7 @@
         row-gap: 1em;
     
         li {
-          color: bisque;
+          color: var(--text-color);
           width: calc(50% - 1em);
         }
       }
@@ -84,7 +84,7 @@
   
 
   .recipe-tutorial {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--transparent-color);
     box-shadow: 0 5px 10px var(--shadow-color);
     border-left: 0.3em solid var(--primary-color);
     border-radius: 10px;
@@ -110,7 +110,7 @@
     }
 
     li {
-      color: bisque;
+      color: var(--text-color);
       list-style-type: disc;
       margin-left: 1em;
       margin-bottom: 10px;
@@ -118,7 +118,7 @@
   }
 
   .recipe-history {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--transparent-color);
     box-shadow: 0 5px 10px var(--shadow-color);
     border-left: 0.3em solid var(--primary-color);
     border-radius: 10px;
@@ -134,7 +134,7 @@
 
     p {
       word-spacing: 5px;
-      color: bisque;
+      color: var(--text-color);
       text-align: justify;
       margin-bottom: 10px;
     }
@@ -143,21 +143,20 @@
   @media (max-width: 768px) {
     .recipe-content {
       .recipe-image {
-        width: 100%; // Make the image responsive
-        max-width: 550px; // Limit the maximum width
-        height: auto; // Maintain aspect ratio
+        width: 100%;
+        max-width: 550px;
+        height: auto;
         margin-bottom: 30px;
       }
 
       .recipe-ingredients {
-        flex-basis: 100%; // Make the ingredients list take up full width
+        flex-basis: 100%;
 
         ul {
-          flex-wrap: wrap; // Allow list items to wrap to a new row
-          column-gap: 0; // Remove column gap
-
+          flex-wrap: wrap;
+          column-gap: 0;
           li {
-            width: 100%; // Make each list item occupy full width
+            width: 100%;
             margin-bottom: 15px;
           }
         }
