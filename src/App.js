@@ -8,17 +8,17 @@ import Recipes from "./pages/Recipes";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 
-import Mieaceh from "./pages/DaerahPage/RecipePage/Acehfile/Mieaceh"
-import Nasigurih from "./pages/DaerahPage/RecipePage/Acehfile/Nasigurih"
 import { 
   Yogyakarta, 
   Jawatengah, 
   Bali, 
   Aceh, 
   Sumatrabarat, 
-  Jakarta, Bengkulu, 
+  Jakarta, 
+  Bengkulu, 
   Bangkabelitung, 
-  Banten, Gorontalo, 
+  Banten, 
+  Gorontalo, 
   Jambi,
  } from './pages/Export';
 
@@ -27,6 +27,12 @@ import{
   Bakmijawa,
   Ayamkalasan,
 } from '../src/pages/DaerahPage/Yogyakartafile/ExportYogya';
+
+import{
+  Mieaceh,
+  Nasigurih,
+  Kuahplieku,
+} from '../src/pages/DaerahPage/Acehfile/Exportaceh';
 
 function App() {
   return (
@@ -47,6 +53,7 @@ function App() {
           <Route path="/daerah/aceh" element={<Aceh/>} />
             <Route path="/Mieaceh" element={<Mieaceh/>} />
             <Route path="/Nasigurih" element={<Nasigurih/>} />
+            <Route path="/Kuahplieku" element={<Kuahplieku/>} />
           <Route path="/daerah/sumatra barat" element={<Sumatrabarat/>} />
           <Route path="/daerah/jakarta" element={<Jakarta/>} />
           <Route path="/daerah/bengkulu" element={<Bengkulu/>} />

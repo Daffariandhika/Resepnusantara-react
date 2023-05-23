@@ -197,7 +197,7 @@ export const recipes = [
     title: "Gulai Keueng",
     image: "/gallery/aceh/gulaikeueng.jpg",
     desc: "Gule Masam Keeung atau gulai asam pedas adalah hidangan khas Aceh yang terkenal dengan rasa pedas, asam, dan gurihnya.",
-    path: "Gulaikeueng",
+    path: "/Gulaikeueng",
   },
   {
     province: "Aceh",
