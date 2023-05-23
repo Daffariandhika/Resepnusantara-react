@@ -58,7 +58,7 @@ export default function ImproveSkills() {
     const intervalId = setInterval(() => {
       const newIndex = Math.floor(Math.random() * images.length);
       setImageIndex(newIndex);
-    }, 6000);
+    }, 30000);
     return () => clearInterval(intervalId);
   }, []);
 

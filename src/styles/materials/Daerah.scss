@@ -12,10 +12,9 @@
 }
 .chief-card{
     display: flex;
-    background-color: transparent;
     border-right: .3em solid var(--primary-color);
     box-shadow: 0 3px 6px var(--shadow-color);
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 130px;
     border-radius: 10px;
     overflow: hidden;
@@ -45,7 +44,21 @@
         }
         .jumlah_menu, .paling_terkenal{
             font-size: .9em;
-            color: #fff;
+            color: var(--text-light);
         }
     }
+}
+
+.judul.daerah{
+    color: var(--text-color);
+}
+
+.deskripsi{
+    background-color: rgba(0,0,0,0.2);
+    border-left: .5em solid var(--primary-color);
+    color: var(--text-color);
+    font-weight: 500;
+    margin: 0.5cm;
+    padding-inline: 0.5cm;
+    padding-block: 0.5cm;
 }

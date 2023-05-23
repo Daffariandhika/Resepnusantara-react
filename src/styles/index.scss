@@ -1,13 +1,12 @@
 :root{
-    --background-color: #ffffff;
-    --background-light: #fff;
+    --background-color: #0f0f0f;
     --shadow-color: rgba(0,0,0,0.2);
     --primary-color: rgb(255, 145, 100);
-    --transparent-color: rgba(255, 145, 100, 0.3);
-    --text-color: #0A0A0A;
-    --text-light: #575757;
+    --transparent-color: rgba(0, 0, 0, 0.5);
+    --text-color: bisque;
+    --text-light: #ffffff;
     --font-size: 16px;
-    --animation-speed: 1;
+    --animation-speed: 2;
 }
 
 @function getAnimationDuration($duration: number) {
@@ -21,11 +20,11 @@
 }
 
 body {
-    background-image: url('bgcutting.jpg');
+    background-image: url('bg2.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed; /* Set the background attachment to fixed */
+    background-attachment: fixed;
     font-size: var(--font-size);
     font-family: 'Roboto', sans-serif;
     padding-top: 75px;
@@ -38,26 +37,12 @@ img{
     filter: brightness(110%) contrast(90%) saturate(150%) hue-rotate(10deg);
 }
 
-.judul.daerah{
-    color: var(--text-color);
-}
-
-.deskripsi{
-    background-color: rgba(0,0,0,0.2);
-    border-left: .5em solid var(--primary-color);
-    color: var(--background-light);
-    font-weight: 500;
-    margin: 0.5cm;
-    padding-inline: 0.5cm;
-    padding-block: 0.5cm;
-}
-
 .btn{
     border: none;
     outline: none;
     background-color: var(--primary-color);
     box-shadow: 0 2px 6px var(--shadow-color);
-    color: #fff;
+    color: var(--text-light);
     padding: .75em 1em;
     font-size: 1em;
     font-weight: bold;
@@ -69,51 +54,6 @@ img{
     transition: transform 0.3s ease;
     &:hover {
         transform: scale(1.1);
-    }
-}
-
-.google-login-container{
-    margin-top: -3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    .google-login-btn{
-        display: flex;
-        align-items: center;
-        border: none;
-        outline: none;
-        padding: .75em 1em;
-        text-transform: uppercase;
-        font-size: 1em;
-        font-weight: bold;
-        letter-spacing: 1px;
-        border-radius: 3px;
-        box-shadow: 0 2px 6px var(--shadow-color);
-        animation: getAnimationDuration(0.5s) popOut;
-        transition: transform 0.3s ease;
-        &:hover {
-            transform: scale(1.1);
-        }
-    }
-}
-
-button.google-login-btn svg {
-    margin-right: 10px;
-  }
-
-.signup-container-btn{
-    display: flex;
-    flex-direction: column;
-    margin-top: 1cm;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    p{
-        color: var(--text-color);
-        font-weight: bold;
-    }
-    .btn{
-        margin-block: 1em 2.5em;
     }
 }
 
@@ -171,49 +111,6 @@ button.google-login-btn svg {
 @import "materials/Recipes.scss";
 @import "materials/RecipePage.scss";
 
-/*.options-container{
-    box-shadow: 0 5px 10px var(--shadow-color);
-    padding: 1em;
-    border-radius: 5px;
-    border-left: .5em solid var(--primary-color);
-    background-color: var(--background-light);
-    margin-top: 1em;
-    display: flex;
-    gap: 1em;
-    .option{
-        height: 3.5em;
-        width: 3.5em;
-        box-shadow: 0 3px 6px var(--shadow-color);
-        border-radius: 5px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        &.light{
-            background-color: #fff;
-        }
-        &.dark{
-            background-color: rgb(29, 29, 29);
-        }
-        .check{
-            height: 2.5em;
-            width: 2.5em;
-            background-color: var(--primary-color);
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            box-shadow: 0 2px 5px var(--shadow-color);
-            svg{
-                height: 1.5em;
-                width: 1.5em;
-            }
-        }
-    }
-    .btn span{
-        display: inline-block;
-        margin-left: .5em;
-    }
-}*/
 .d-block h2{
     font-size: 1.75em;
     color: var(--text-color)
@@ -297,7 +194,7 @@ button.google-login-btn svg {
     }
     .section.hero{
         .typography{
-            font-size: 15px;
+            font-size: 17px;
     }    }
     .section{
         .col{
@@ -350,6 +247,11 @@ button.google-login-btn svg {
 }
 
 @media only screen and (max-width: 600px) {
+    .section.hero {
+        .typography {
+            font-size: 12px;
+        }
+    }
     .sign-in-form-container {
       max-width: 90%;
 

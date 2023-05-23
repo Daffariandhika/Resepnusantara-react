@@ -7,7 +7,7 @@
     isolation: isolate;
     border-radius: 30px;
     overflow: hidden;
-    box-shadow: 0 5px 15px var(--shadow-color);
+    box-shadow: 0 5px 5px var(--shadow-color);
     background-color: var(--transparent-color);
     overflow: hidden;
     animation: getAnimationDuration(0.5s) popOut;
@@ -47,7 +47,7 @@
     .view-btn{
         font-size: 1em;
         font-weight: bold;
-        color: var(--background-light);
+        color: var(--text-light);
         margin-top: .75em;
         display: inline-block;
     }

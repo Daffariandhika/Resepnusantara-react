@@ -1,6 +1,7 @@
 .form-container {
+  background-color: var(--transparent-color);
   box-shadow: 0 5px 10px var(--shadow-color);
-  border-left: .5em solid var(--primary-color);
+  border-left: .3em solid var(--primary-color);
   border-radius: 10px;
   max-width: 500px;
   margin: 0 auto;
@@ -50,3 +51,48 @@
         box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
       }
     }
+
+    .google-login-container{
+      margin-top: -3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .google-login-btn{
+          display: flex;
+          align-items: center;
+          border: none;
+          outline: none;
+          padding: .75em 1em;
+          text-transform: uppercase;
+          font-size: 1em;
+          font-weight: bold;
+          letter-spacing: 1px;
+          border-radius: 3px;
+          box-shadow: 0 2px 6px var(--shadow-color);
+          animation: getAnimationDuration(0.5s) popOut;
+          transition: transform 0.3s ease;
+          &:hover {
+              transform: scale(1.1);
+          }
+      }
+  }
+  
+  button.google-login-btn svg {
+      margin-right: 10px;
+    }
+
+    .signup-container-btn{
+      display: flex;
+      flex-direction: column;
+      margin-top: 1cm;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      p{
+          color: var(--text-color);
+          font-weight: bold;
+      }
+      .btn{
+          margin-block: 1em 2.5em;
+      }
+  }

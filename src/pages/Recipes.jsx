@@ -18,9 +18,28 @@ export const recipes = [
   },
   {
     province: "Yogyakarta",
+    title: "Bakpia",
+    image: "/gallery/yogyakarta/bakpia.jpg",
+    desc: "Bakpia adalah sejenis makanan kue yang berasal dari Yogyakarta, Indonesia. Bakpia biasanya berbentuk bulat dan memiliki berbagai macam isian, seperti kacang hijau, cokelat, keju",
+  },
+  {
+    province: "Yogyakarta",
+    title: "Mie Lethek",
+    image: "/gallery/yogyakarta/mielethek.jpg",
+    desc: "Mie Lethek biasanya disajikan dengan taburan bawang goreng, irisan daun bawang, dan kerupuk sebagai pelengkap. Rasanya yang lezat, tekstur mi yang kenyal, serta kuah kaldu yang gurih membuat Mie Lethek menjadi hidangan yang populer di Yogyakarta dan menjadi favorit bagi pecinta mi tradisional.",
+  },
+  {
+    province: "Yogyakarta",
+    title: "Nasi Kucing",
+    image: "/gallery/yogyakarta/nasikucing.jpg",
+    desc: "Nasi Kucing terdiri dari sepiring kecil nasi putih yang diberi lauk-pauk dan sambal sebagai pelengkap. Lauk-pauk yang biasa disajikan antara lain ayam suwir, ikan asin, tempe goreng, telur, sambal terasi, dan beberapa jenis lauk-pauk lainnya sesuai selera dan ketersediaan. Sambal yang disajikan biasanya pedas dan memiliki rasa yang khas.",
+  },
+  {
+    province: "Yogyakarta",
     title: "Bakmi Jawa",
     image: "/gallery/yogyakarta/bakmi-jawa.jpg",
     desc: "Bakmi Jawa merupakan salah satu makanan khas khususnya di wilayah Yogyakarta dan sekitarnya. Bakmi Jawa atau Mi Jawa dahulu dikenal dengan istilah bakmi rebus atau dalam bahasa jawa disebut dengan Bakmi godhog.",
+    path: "/Bakmijawa",
   },
   {
     province: "Yogyakarta",
@@ -30,15 +49,10 @@ export const recipes = [
   },
   {
     province: "Yogyakarta",
-    title: "Es Dawet",
-    image: "/gallery/yogyakarta/es-dawet.jpg",
-    desc: "Es Dawet merupakan minuman khas Jawa yang terbuat dari tepung beras ataupun tepung beras ketan, disajikan dengan es parut serta gula merah cair dan santan. minuman ini memiliki rasa yang manis dan gurih.",
-  },
-  {
-    province: "Yogyakarta",
     title: "Ayam Goreng Kalasan",
     image: "/gallery/yogyakarta/ayam-kalasan.jpg",
     desc: "Ayam goreng Kalasan atau ayam Kalasan merupakan salah satu makanan khas Yogyakarta. Sesuai namanya, ayam goreng ini berasal dari daerah Kalasan, Sleman, Yogyakarta. Ayam goreng Kalasan mempunyai cita rasa gurih yang dipandu dengan rempah-rempah khas Indonesia.",
+    path: "/Ayamkalasan",
   },
   {
     province: "Yogyakarta",

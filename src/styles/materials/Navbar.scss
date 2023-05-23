@@ -59,7 +59,7 @@
             border-radius: 5px;
             height: 6px;
             width: 100%;
-            background-color: var(--text-color);
+            background-color: var(--text-light);
             position: absolute;
             transition: transform getAnimationDuration(.5s);
             &:nth-child(1){
@@ -111,7 +111,7 @@
         padding: 1em 2em;
         border-left: .4em solid transparent;
         margin-bottom: 1em;
-        color: var(--text-color);
+        color: var(--text-light);
         font-size: 1.3em;
         transform: translateX(-100%);
         animation: getAnimationDuration(.3s) slideInLeft forwards;
@@ -122,6 +122,7 @@
         }
         &.active{
             border-left-color: var(--primary-color);
+            color: var(--primary-color);
             svg{
                 color: var(--primary-color);
             }

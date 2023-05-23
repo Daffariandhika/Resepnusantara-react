@@ -7,12 +7,27 @@ import Home from "./pages/Home";
 import Recipes from "./pages/Recipes";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
-//import Settings from "./pages/Settings";//
 
-import { Yogyakarta, Jawatengah, Bali, Aceh, Sumatrabarat, Jakarta, Bengkulu, Bangkabelitung, Banten, Gorontalo, Jambi } from './pages/Export';
-import Gudeg from "./pages/DaerahPage/RecipePage/Gudeg"
-import Mieaceh from "./pages/DaerahPage/RecipePage/Mieaceh"
-import Nasigurih from "./pages/DaerahPage/RecipePage/Nasigurih"
+import Mieaceh from "./pages/DaerahPage/RecipePage/Acehfile/Mieaceh"
+import Nasigurih from "./pages/DaerahPage/RecipePage/Acehfile/Nasigurih"
+import { 
+  Yogyakarta, 
+  Jawatengah, 
+  Bali, 
+  Aceh, 
+  Sumatrabarat, 
+  Jakarta, Bengkulu, 
+  Bangkabelitung, 
+  Banten, Gorontalo, 
+  Jambi,
+ } from './pages/Export';
+
+import{
+  Gudeg,
+  Bakmijawa,
+  Ayamkalasan,
+} from '../src/pages/DaerahPage/Yogyakartafile/ExportYogya';
+
 function App() {
   return (
     <Router>
@@ -23,9 +38,10 @@ function App() {
           <Route path="/recipes" element={<Recipes />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
-          { /*<Route path="/settings" element={<Settings />} /> */}
           <Route path="/daerah/yogyakarta" element={<Yogyakarta/>} />
             <Route path="/Gudeg" element={<Gudeg/>} />
+            <Route path="/Bakmijawa" element={<Bakmijawa/>} />
+            <Route path="/Ayamkalasan" element={<Ayamkalasan/>}/>
           <Route path="/daerah/jawa tengah" element={<Jawatengah/>} />
           <Route path="/daerah/bali" element={<Bali/>} />
           <Route path="/daerah/aceh" element={<Aceh/>} />
