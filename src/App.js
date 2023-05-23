@@ -32,6 +32,13 @@ import{
   Mieaceh,
   Nasigurih,
   Kuahplieku,
+  Ayamtangkap,
+  Satematang,
+  Roticane,
+  Gulaikeueng,
+  Timphan,
+  Sotoaceh,
+  Keumamah,
 } from '../src/pages/DaerahPage/Acehfile/Exportaceh';
 
 function App() {
@@ -54,6 +61,13 @@ function App() {
             <Route path="/Mieaceh" element={<Mieaceh/>} />
             <Route path="/Nasigurih" element={<Nasigurih/>} />
             <Route path="/Kuahplieku" element={<Kuahplieku/>} />
+            <Route path="/Ayamtangkap" element={<Ayamtangkap/>} />
+            <Route path="/Satematang" element={<Satematang/>} />
+            <Route path="/Roticane" element={<Roticane/>} />
+            <Route path="/Gulaikeueng" element={<Gulaikeueng/>} />
+            <Route path="/Timphan" element={<Timphan/>} />
+            <Route path="/Sotoaceh" element={<Sotoaceh/>} />
+            <Route path="/Keumamah" element={<Keumamah/>} />
           <Route path="/daerah/sumatra barat" element={<Sumatrabarat/>} />
           <Route path="/daerah/jakarta" element={<Jakarta/>} />
           <Route path="/daerah/bengkulu" element={<Bengkulu/>} />

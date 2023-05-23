@@ -1,3 +1,10 @@
 export { default as Mieaceh } from './Mieaceh';
 export { default as Nasigurih } from './Nasigurih';
 export { default as Kuahplieku } from './Kuahplieku';
+export { default as Ayamtangkap } from './Ayamtangkap';
+export { default as Satematang } from './Satematang';
+export { default as Roticane } from './Roticane';
+export { default as Gulaikeueng } from './Gulaikeueng';
+export { default as Timphan } from './Timphan';
+export { default as Sotoaceh } from './Sotoaceh';
+export { default as Keumamah } from './Keumamah';
