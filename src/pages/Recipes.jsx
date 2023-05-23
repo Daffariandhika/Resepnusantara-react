@@ -667,7 +667,7 @@ export const recipes = [
   { // Menu Daerah Sumatra Barat //
     province: "Sumatra Barat",
     title: "Rendang",
-    image: "/gallery/rendang.jpg",
+    image: "/gallery/sumatrabarat/rendang.jpg",
     desc: "Hidangan daging Khas padang yang dipadukan dengan rempah-rempah yang kental bercita rasa gurih pedas ",
   },
   // Batas Menu Sumatra Barat //

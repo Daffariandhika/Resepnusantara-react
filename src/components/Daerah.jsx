@@ -55,7 +55,7 @@ export default function ChiefsSection() {
     },
     {
       daerah: "Sumatra Barat",
-      img: "/gallery/rendang.jpg",
+      img: "/gallery/sumatrabarat/rendang.jpg",
       jumlah_menu: "0",
       paling_terkenal: "Rendang",
     },
