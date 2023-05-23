@@ -11,13 +11,13 @@ function Nasigurih() {
 
       <div className="recipe-description">
         <p>
-         
+        Nasi Gurih adalah hidangan khas dari Aceh yang terbuat dari beras yang dimasak dengan santan dan bumbu rempah-rempah khas Aceh. Sejarah nasi gurih khas Aceh berasal dari zaman kerajaan Aceh Darussalam di mana hidangan ini disajikan sebagai hidangan istimewa pada acara-acara resmi.
         </p>
       </div>
 
       <div className="recipe-content">
         <div className="recipe-image">
-          <img src="/gallery/aceh/nasigurih.jpg"/>
+          <img src="/gallery/aceh/nasi-gurih.jpg"/>
         </div>
 
         <div className="recipe-ingredients">

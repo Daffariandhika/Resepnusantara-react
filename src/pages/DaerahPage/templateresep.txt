@@ -45,25 +45,31 @@ function Gudeg() {
       <div className="recipe-tutorial">
         <h2>Tutorial</h2>
         <ul>
-        <h3></h3>
+        <h3>Langkah 1</h3>
             <li></li>
+        <h3>Langkah 2</h3>
             <li></li>
+        <h3>Langkah 3</h3>
             <li></li>
-        <h3></h3>
+        <h3>Langkah 4</h3>
             <li></li>
+        <h3>Langkah 5</h3>   
             <li></li>
+        <h3>Langkah 6</h3>   
             <li></li>
-        <h3></h3>
+        <h3>Langkah 7</h3>   
             <li></li>
+        <h3>Langkah 5</h3>   
             <li></li>
+        <h3>Langkah 8</h3>   
             <li></li>
-        <h3></h3>
+        <h3>Langkah 9</h3>   
             <li></li>
+        <h3>Langkah 10</h3>   
             <li></li>
+        <h3>Langkah 11</h3>   
             <li></li>
-        <h3></h3>   
-            <li></li>
-            <li></li>
+        <h3>Langkah 12</h3>   
             <li></li>
         </ul>
       </div>
