@@ -11,7 +11,7 @@ export default function Aceh() {
     <div>
       <h1 className='judul daerah'>Aceh</h1>
       <p className='deskripsi'>
-      Kuliner Aceh merupakan perpaduan unik antara cita rasa rempah-rempah yang kaya dan pengaruh masakan Melayu yang kental. Berikut adalah beberapa deskripsi kuliner khas Aceh yang patut dicoba
+      Kuliner Aceh merupakan perpaduan unik antara cita rasa rempah-rempah yang kaya dan pengaruh masakan Melayu yang kental. Berikut adalah beberapa sajian kuliner khas Aceh yang patut dicoba
       </p>
       <div className="recipes-container">
         {filteredRecipes.map((recipe, index) => (

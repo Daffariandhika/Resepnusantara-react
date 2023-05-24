@@ -11,7 +11,7 @@ export default function Yogyakarta() {
     <div>
       <h1 className='judul daerah'>Yogyakarta</h1>
       <p className='deskripsi'>
-      Kuliner Yogyakarta sangat terkenal dengan kelezatan dan keunikan masakan tradisional Jawa. Berikut adalah beberapa deskripsi kuliner khas Yogyakarta yang patut dicoba
+      Kuliner Yogyakarta sangat terkenal dengan kelezatan dan keunikan masakan tradisional Jawa. Berikut adalah beberapa sajian kuliner khas Yogyakarta yang patut dicoba
       </p>
       <div className="recipes-container">
         {filteredRecipes.map((recipe, index) => (
