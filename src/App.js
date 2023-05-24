@@ -47,7 +47,25 @@ Bebekbetutu,
 Sambalmatah,
 Satekakul,
 Satelilit,
+Jakuturap,
+Satepelecing,
+Lempetikan,
+Serapahdaging,
+Babiguling,
 } from '../src/pages/DaerahPage/Balifile/Exportbali';
+
+import{
+Kuerintak,
+Laksobangka,
+Lempahdarat,
+Lepetbangka,
+Lokan,
+Martabakbangka,
+Miekoba,
+Otakotakbangka,
+Sambelikung,
+Sotobangka,
+} from '../src/pages/DaerahPage/Bangkabelitungfile/Exportbangkabelitung';
 
 function App() {
   return (
@@ -70,6 +88,12 @@ function App() {
             <Route path="/Sambalmatah" element={<Sambalmatah/>} />
             <Route path="/Satekakul" element={<Satekakul/>} />
             <Route path="/Satelilit" element={<Satelilit/>} />
+            <Route path="/Jakuturap" element={<Jakuturap/>} />
+            <Route path="/Satepelecing" element={<Satepelecing/>} />
+            <Route path="/Lempetikan" element={<Lempetikan/>} />
+            <Route path="/Serapahdaging" element={<Serapahdaging/>} />
+            <Route path="/Babiguling" element={<Babiguling/>} />
+
           <Route path="/daerah/aceh" element={<Aceh/>} />
             <Route path="/Mieaceh" element={<Mieaceh/>} />
             <Route path="/Nasigurih" element={<Nasigurih/>} />
@@ -85,6 +109,19 @@ function App() {
           <Route path="/daerah/jakarta" element={<Jakarta/>} />
           <Route path="/daerah/bengkulu" element={<Bengkulu/>} />
           <Route path="/daerah/bangka belitung" element={<Bangkabelitung/>} />
+            <Route path="/Kuerintak" element={<Kuerintak/>} />
+            <Route path="/Laksobangka" element={<Laksobangka/>} />
+            <Route path="/Lempahdarat" element={<Lempahdarat/>} />
+            <Route path="/Lepetbangka" element={<Lepetbangka/>} />
+            <Route path="/Lokan" element={<Lokan/>} />
+            <Route path="/Martabakbangka" element={<Martabakbangka/>} />
+            <Route path="/Miekoba" element={<Miekoba/>} />
+            <Route path="/Otakotakbangka" element={<Otakotakbangka/>} />
+            <Route path="/Sambelikung" element={<Sambelikung/>} />
+            <Route path="/Sotobangka" element={<Sotobangka/>} />
+
+
+
           <Route path="/daerah/banten" element={<Banten/>} />
           <Route path="/daerah/gorontalo" element={<Gorontalo/>} />
           <Route path="/daerah/jambi" element={<Jambi/>} />

@@ -284,7 +284,7 @@ export const recipes = [
     title: "Lempet Ikan",
     image: "/gallery/bali/lempetikan.jpg",
     desc: "Lempet adalah makanan khas Bali yang terbuat dari ikan yang sudah diberi bumbu dan dibungkus dengan daun pisang.",
-    path: "/Lepetikan",
+    path: "/Lempetikan",
   },
   {
     province: "Bali",
@@ -322,7 +322,7 @@ export const recipes = [
     title: "Lepet Bangka",
     image: "/gallery/belitung/lepetbangka.jpg",
     desc: "Lapet dari Bangka Belitung dibuat dari beras ketan yang dikukus dalam wadah. Yang uniknya, wadahnya terbuat dari daun kelapa yang masih muda atau janur.",
-    path: "/Lapetbangka",
+    path: "/Lepetbangka",
   },
   {
     province: "Bangka Belitung",

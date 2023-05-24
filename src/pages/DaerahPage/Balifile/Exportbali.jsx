@@ -3,3 +3,8 @@ export { default as Bebekbetutu } from './Bebekbetutu';
 export { default as Sambalmatah } from './Sambalmatah';
 export { default as Satekakul } from './Satekakul';
 export { default as Satelilit } from './Satelilit';
+export { default as Jakuturap } from './Jakuturap';
+export { default as Satepelecing } from './Satepelecing';
+export { default as Lempetikan } from './Lempetikan';
+export { default as Serapahdaging } from './Serapahdaging';
+export { default as Babiguling } from './Babiguling';
