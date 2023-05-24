@@ -59,8 +59,6 @@ function Gudeg() {
             <li></li>
         <h3>Langkah 7</h3>   
             <li></li>
-        <h3>Langkah 5</h3>   
-            <li></li>
         <h3>Langkah 8</h3>   
             <li></li>
         <h3>Langkah 9</h3>   
@@ -70,6 +68,8 @@ function Gudeg() {
         <h3>Langkah 11</h3>   
             <li></li>
         <h3>Langkah 12</h3>   
+            <li></li>
+        <h3>Langkah 13</h3>   
             <li></li>
         </ul>
       </div>
