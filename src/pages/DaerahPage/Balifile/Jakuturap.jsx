@@ -28,9 +28,8 @@ function Jakuturap() {
             <li>3 lonjor kacang panjang</li>
             <li>50 gr tauge</li>
             <li>200 gr kelapa agak muda</li>
-            <li>1 sdm bawang goreng untuk taburan</li>
+            <li>1 sdm bawang goreng</li>
             <li>300 ml air untuk merebus</li>
-            <li>BUMBU :</li>
             <li>2 sdm bawang goreng</li>
             <li>2 siung bawang putih</li>
             <li>2 buah cabai merah besar</li>

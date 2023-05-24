@@ -11,7 +11,7 @@ export default function Bali() {
     <div>
       <h1 className='judul daerah'>Bali</h1>
       <p className='deskripsi'>
-      
+      Kuliner Bali merupakan salah satu yang paling terkenal di Indonesia, dengan hidangan-hidangan yang kaya akan rasa, aroma, dan keunikan. Berikut adalah deskripsi beberapa kuliner khas Bali yang populer
       </p>
       <div className="recipes-container">
         {filteredRecipes.map((recipe, index) => (

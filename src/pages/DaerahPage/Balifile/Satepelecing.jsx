@@ -17,7 +17,7 @@ function Satepelecing() {
 
       <div className="recipe-content">
         <div className="recipe-image">
-          <img src="/gallery/bali/satepelecing.jpg"/>
+          <img src="/gallery/bali/sateplecing.jpg"/>
         </div>
 
         <div className="recipe-ingredients">
@@ -26,15 +26,14 @@ function Satepelecing() {
             <li>250 gr daging sapi</li>
             <li>Tusuk sate secukupnya</li>
             <li>2 sdm minyak goreng</li>
-            <li>1/2 sdt backing powder untuk pelembut daging</li>
+            <li>1/2 sdt backing powder</li>
             <li>1 buah jeruk limo </li>
-            <li>secukupnya Air untuk merebus</li>
-            <li>BUMBU SAMBAL:</li>
-            <li>15 buah cabe merah besar</li>
-            <li>2 buah tomat ukuran sedang</li>
+            <li>Air Secukupnya</li>
+            <li>15 buah cabe merah</li>
+            <li>2 buah tomat</li>
             <li>5 buah cabe rawit </li>
             <li>1 sdm terasi bakar</li>
-            <li>300 CC air</li>
+            <li>300 cc air</li>
             <li>Garam</li>
             <li>Gula</li>
             <li>4 sdm minyak tandusan</li>

@@ -27,19 +27,17 @@ Babi guling sendiri dimasak dalam bentuk utuh, namun bagian dalamnya diisi denga
         <div className="recipe-ingredients">
           <h2>Ingredients</h2>
           <ul>
-            <li>500 gram babi bagian paha</li>
-            <li>BUMBU HALUS:</li>
-            <li>1/2 sendok makan gula pasir</li>
-            <li>1/2 sendok makan garam</li>
-            <li>1/2 sendok teh bubuk ngohiong</li>
-            <li>1/4 sendok teh merica bubuk</li>
-            <li>1 sendok makan kecap asin</li>
-            <li>1 sendok makan angciu</li>
+            <li>500 gr babi bagian paha</li>
+            <li>1/2 sdm gula pasir</li>
+            <li>1/2 sdm garam</li>
+            <li>1/2 sdt bubuk ngohiong</li>
+            <li>1/4 sdt merica bubuk</li>
+            <li>1 sdm kecap asin</li>
+            <li>1 sdm angciu</li>
             <li>4 siung bawang putih</li>
-            <li>BUMBU UNTUK KULIT:</li>
-            <li>1/2 sendok makan garam</li>
-            <li>1/2 sendok makan cuka masak</li>
-            <li>1/2 sendok makan backing powder.</li>
+            <li>1/2 sdm garam</li>
+            <li>1/2 sdm cuka masak</li>
+            <li>1/2 sdm backing powder</li>
           </ul>
         </div>
       </div>

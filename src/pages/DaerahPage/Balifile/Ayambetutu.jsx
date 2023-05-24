@@ -26,55 +26,24 @@ Ayam Betutu dimasak dengan bumbu betutu, yaitu bumbu khas Bali yang terbuat dari
         <div className="recipe-ingredients">
           <h2>Ingredients</h2>
           <ul>
-            <li>700 g ayam (1 ekor utuh)</li>
+            <li>1 ayam ekor utuh</li>
             <li>2 sdm air jeruk nipis</li>
             <li>1 sdt garam</li>
-            <li>2 sdm minyak untuk menumis</li>
-            <li>2
-batang serai, iris tipis
-</li>
-            <li>2
-sdt
-Royco Kaldu Ayam
-</li>
-            <li>200
-g daun singkong, rebus
-</li>
-            <li>4
-lembar daun jeruk
-daun pisang, untuk membungkus
-Bumbu halus
-</li>
-            <li>8
-butir bawang merah
-</li>
-            <li>6
-siung bawang putih
-</li>
-            <li>12
-buah cabai merah keriting
-</li>
-            <li>2
-cm kunyit, bakar
-</li>
-            <li>½
-sdt ketumbar butiran
-</li>
-            <li>2
-cm jahe, parut
-</li>
-            <li>2
-cm lengkuas, parut
-</li>
-            <li>1
-sdt garam
-</li>
-            <li>1
-sdm gula merah
-</li>
-            <li>1
-sdt minyak
-</li>
+            <li>2 sdm minyak</li>
+            <li>2 batang serai</li>
+            <li>2 sdt Royco Kaldu Ayam</li>
+            <li>200g daun singkong rebus</li>
+            <li>4 lmb daun jeruk</li>
+            <li>8 butir bawang merah</li>
+            <li>6 siung bawang putih</li>
+            <li>12 cabai merah keriting</li>
+            <li>2 cm kunyit bakar</li>
+            <li>1/2 sdt ketumbar butiran</li>
+            <li>2 cm jahe parut</li>
+            <li>2 cm lengkuas parut</li>
+            <li>1 sdt garam</li>
+            <li>1 sdm gula merah</li>
+            <li>1 sdt minyak</li>
           </ul>
         </div>
       </div>
@@ -101,9 +70,7 @@ sdt minyak
         <h2>History</h2>
         <p>
         Nama makanan khas Bali yang satu ini pasti sudah sangat familiar. Jika kamu berkunjung ke Pulau Dewata, kamu tidak boleh melewatkan kuliner yang satu ini.
-
-Ayam Betutu dimasak dengan bumbu betutu, yaitu bumbu khas Bali yang terbuat dari campuran daun jeruk, sereh, salam, kunyit, kemiri, jahe, bawang merah, dan bumbu lainnya. Ayam yang dimasak dengan bumbu ini tentu akan menghasilkan cita 
-
+        Ayam Betutu dimasak dengan bumbu betutu, yaitu bumbu khas Bali yang terbuat dari campuran daun jeruk, sereh, salam, kunyit, kemiri, jahe, bawang merah, dan bumbu lainnya. Ayam yang dimasak dengan bumbu ini tentu akan menghasilkan cita 
         </p>
       </div>
 
