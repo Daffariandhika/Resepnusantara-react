@@ -38,15 +38,15 @@ const images = [
     url: '/gallery/yogyakarta/gudeg.jpg'
   },
   {
-    path: '/path-to-image-2',
+    path: '/',
     url: '/gallery/cakwe.jpg'
   },
   {
-    path: '/path-to-image-3',
+    path: '/',
     url: '/gallery/jawatengah/klepon.jpg'
   },
   {
-    path: '/path-to-image-4',
+    path: '/',
     url: '/gallery/mie-ayam.jpg'
   }
 ];
