@@ -41,6 +41,14 @@ import{
   Keumamah,
 } from '../src/pages/DaerahPage/Acehfile/Exportaceh';
 
+import{
+Ayambetutu,
+Bebekbetutu,
+Sambalmatah,
+Satekakul,
+Satelilit,
+} from '../src/pages/DaerahPage/Balifile/Exportbali';
+
 function App() {
   return (
     <Router>
@@ -57,6 +65,11 @@ function App() {
             <Route path="/Ayamkalasan" element={<Ayamkalasan/>}/>
           <Route path="/daerah/jawa tengah" element={<Jawatengah/>} />
           <Route path="/daerah/bali" element={<Bali/>} />
+            <Route path="/Ayambetutu" element={<Ayambetutu/>} />
+            <Route path="/Bebekbetutu" element={<Bebekbetutu/>} />
+            <Route path="/Sambalmatah" element={<Sambalmatah/>} />
+            <Route path="/Satekakul" element={<Satekakul/>} />
+            <Route path="/Satelilit" element={<Satelilit/>} />
           <Route path="/daerah/aceh" element={<Aceh/>} />
             <Route path="/Mieaceh" element={<Mieaceh/>} />
             <Route path="/Nasigurih" element={<Nasigurih/>} />
