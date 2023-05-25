@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-inline: 40px;
   .recipe-title-page {
     color: var(--text-color);
     background-color:var(--transparent-color);
@@ -31,7 +32,6 @@
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
-    padding-inline: 100px;
     margin-bottom: 50px;
   
     .recipe-image {

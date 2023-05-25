@@ -19,6 +19,11 @@ export default function HeroSection() {
     { src: "/gallery/yogyakarta/gudeg.jpg", path: "/Gudeg" },
     { src: "/gallery/yogyakarta/ayam-kalasan.jpg", path: "/Ayamkalasan" },
     { src: "/gallery/yogyakarta/bakmi-jawa.jpg", path: "/Bakmijawa" },
+    { src: "/gallery/yogyakarta/sate-klathak.jpg", path: "/Sateklathak" },
+    { src: "/gallery/yogyakarta/bakpia.jpg", path: "/Bakpia"},
+    { src: "/gallery/yogyakarta/mielethek.jpg", path: "/Mielethek"},
+    { src: "/gallery/yogyakarta/nasikucing.jpg", path: "/NasiKucing"},
+    { src: "/gallery/yogyakarta/soto-lenthok.jpg", path: "/Sotolenthok"},
     //Batas Yogyakarta//
     { src: "/gallery/jawatengah/klepon.jpg", path: "/jawatengah/klepon" },
     { src: "/gallery/bali/ayambetutu.jpg", path: "/bali/ayambetutu" },

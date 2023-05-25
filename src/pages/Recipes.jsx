@@ -15,24 +15,28 @@ export const recipes = [
     title: "Sate Klathak",
     image: "/gallery/yogyakarta/sate-klathak.jpg",
     desc: "Sate ini sangat berbeda dari ragam sate lainnya, Tusukan yang dipakai untuk memanggang terbuat dari besi, Tusukan besi sebagai konduktor penghangat akan membuat daging lebih masak dari bagian dalam.",
+    path: "",
   },
   {
     province: "Yogyakarta",
     title: "Bakpia",
     image: "/gallery/yogyakarta/bakpia.jpg",
     desc: "Bakpia adalah sejenis makanan kue yang berasal dari Yogyakarta, Indonesia. Bakpia biasanya berbentuk bulat dan memiliki berbagai macam isian, seperti kacang hijau, cokelat, keju",
+    path: "",
   },
   {
     province: "Yogyakarta",
     title: "Mie Lethek",
     image: "/gallery/yogyakarta/mielethek.jpg",
     desc: "Mie Lethek biasanya disajikan dengan taburan bawang goreng, irisan daun bawang, dan kerupuk sebagai pelengkap. Rasanya yang lezat, tekstur mi yang kenyal, serta kuah kaldu yang gurih membuat Mie Lethek menjadi hidangan yang populer di Yogyakarta dan menjadi favorit bagi pecinta mi tradisional.",
+    path: "",
   },
   {
     province: "Yogyakarta",
     title: "Nasi Kucing",
     image: "/gallery/yogyakarta/nasikucing.jpg",
     desc: "Nasi Kucing terdiri dari sepiring kecil nasi putih yang diberi lauk-pauk dan sambal sebagai pelengkap. Lauk-pauk yang biasa disajikan antara lain ayam suwir, ikan asin, tempe goreng, telur, sambal terasi, dan beberapa jenis lauk-pauk lainnya sesuai selera dan ketersediaan. Sambal yang disajikan biasanya pedas dan memiliki rasa yang khas.",
+    path: "",
   },
   {
     province: "Yogyakarta",
@@ -46,6 +50,7 @@ export const recipes = [
     title: "Soto Lenthok",
     image: "/gallery/yogyakarta/soto-lenthok.jpg",
     desc: "soto lenthok adalah makanan yang khas dari Yogyakarta. Makanan khas Yogyakarta ini memiliki ciri khas disantap dengan lenthok atau singkong goreng yang sudah dibentuk lonjong.",
+    path: "",
   },
   {
     province: "Yogyakarta",
@@ -59,6 +64,7 @@ export const recipes = [
     title: "Jadah Tempe",
     image: "/gallery/yogyakarta/jadah-tempe.jpg",
     desc: "Jadah biasanya dimakan bersamaan dengan tempe, jadi kita bisa menyebutnya jadah tempe. Jadah tempe merupakan nama gabungan dari dua jenis makanan, yaitu jadah yang terbuat dari beras ketan sedangkan tempe yang terbuat dari kedelai yang di olah dengan cara di bacem.",
+    path: "",
   },
   // Batas Menu Yogyakarta //
 
@@ -68,12 +74,14 @@ export const recipes = [
     title: "Klepon",
     image: "/gallery/jawatengah/klepon.jpg",
     desc: "kue manis kenyal berisi gula merah yang lumer ketika digigit",
+    path: "",
   },
   {
     province: "Jawa Tengah",
     title: "Nasi Tiwul",
     image: "/gallery/jawatengah/nasi-tiwul.jpg",
     desc: "nasi yang di tiwul-tiwul",
+    path: "",
   },
   // Batas Menu Jawa Tengah //
 
@@ -274,8 +282,8 @@ export const recipes = [
   },
   {
     province: "Bali",
-    title: "Sate Pelecing",
-    image: "/gallery/bali/satepelecing.jpg",
+    title: "Sate Plecing",
+    image: "/gallery/bali/sateplecing.jpg",
     desc: "Sate ini dimasak dengan bumbu khas Bali yang bernama plecing yang terbuat dari kemiri, terasi, tomat, bawang putih, dan beberapa bumbu lainnya.",
     path: "/Satepelecing",
   },
@@ -581,7 +589,7 @@ export const recipes = [
     title: "Tili Aya",
     image: "/gallery/gorontalo/tili_aya.jpg",
     desc: "kue tili aya yang ternyata bahannya sangat sederhana dan manisnya bikin nagih. Tidak harus pergi ke Gorontalo jika ingin mencicipinya, ini resep kue tili aya yang bisa kamu coba di rumah.",
-    path: "",
+    path: "/",
   },
   // Batas Menu Gorontalo //
 
@@ -668,7 +676,57 @@ export const recipes = [
     province: "Sumatra Barat",
     title: "Rendang",
     image: "/gallery/sumatrabarat/rendang.jpg",
-    desc: "Hidangan daging Khas padang yang dipadukan dengan rempah-rempah yang kental bercita rasa gurih pedas ",
+    desc: "Hidangan daging Khas padang yang dipadukan dengan rempah-rempah yang kental bercita rasa gurih pedas.",
+    path: "/Rendang",
+  },
+  {
+    province: "Sumatra Barat",
+    title: "Dendeng Balado",
+    image: "/gallery/sumatrabarat/dendengbalado.jpg",
+    desc: "Rasa pedas, gurih, dan renyah dari dendeng balado menjadikannya sebagai hidangan yang sangat populer di Indonesia.",
+    path: "/",
+  },
+  {
+    province: "Sumatra Barat",
+    title: "Itiak Lado Mudo",
+    image: "/gallery/sumatrabarat/itiakladomudo.jpg",
+    desc: "Itiak Lado Mudo dapat dinikmati dengan sensasi pedas yang menyegarkan dan kelezatan daging bebek yang berpadu dengan saus Lado Mudo yang kaya cita rasa.",
+    path: "/",
+  },
+  {
+    province: "Sumatra Barat",
+    title: "Lontong Sayur",
+    image: "/gallery/sumatrabarat/lontongsayur.jpg",
+    desc: "lontong sayur memiliki rasa sangat gurih dan lezat, dengan perpaduan rempah-rempah yang kaya dan aroma santan yang menggugah selera.",
+    path: "/",
+  },
+  {
+    province: "Sumatra Barat",
+    title: "Sate Padang",
+    image: "/gallery/sumatrabarat/satepadang.jpg",
+    desc: "Sate Padang merupakan hidangan yang lezat dan kaya rempah. Rasa pedas, gurih, dan beraroma khas dari kuah gulai.",
+    path: "/",
+  },
+  {
+    province: "Sumatra Barat",
+    title: "Soto Padang",
+    image: "/gallery/sumatrabarat/sotopadang.jpg",
+    desc: "Soto Padang sangat gurih dan lezat, dengan perpaduan rempah-rempah yang kaya dan kuah santan yang kental.",
+    path: "/",
+  },
+  {
+    province: "Sumatra Barat",
+    title: "Ayam Pop",
+    image: "/gallery/sumatrabarat/ayampop.jpg",
+    desc: "Ayam Pop umumnya memiliki kombinasi rasa gurih, sedikit manis, dan rempah-rempah yang khas. Kulit ayam yang renyah dan daging yang kenyal memberikan tekstur yang menyenangkan dalam setiap gigitan.",
+    path: "/",
+  },
+  {
+    province: "Sumatra Barat",
+    title: "Gulai",
+    image: "/gallery/sumatrabarat/gulai.jpg",
+    desc: "Gulai memiliki kuah kental yang kaya rempah-rempah dengan daging (seperti daging sapi, kambing, atau ikan) atau sayuran sebagai bahan utama. Gulai memiliki rasa gurih, pedas, dan rempah yang khas.",
+    path: "/",
   },
   // Batas Menu Sumatra Barat //
 ].sort(() => Math.random() - 0.5);

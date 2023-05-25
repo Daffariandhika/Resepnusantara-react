@@ -23,23 +23,23 @@ function Serapahdaging() {
         <div className="recipe-ingredients">
           <h2>Ingredients</h2>
           <ul>
-            <li>500 gram daging sapi has luar  </li>
-            <li>2 sdm tepung beras, larutkan dengan air </li>
-            <li>2 lembar daun salam  </li>
-            <li>1 sdm gula merah  </li>
-            <li>5 sdm minyak goreng  </li>
-            <li>500 ml santan encer  </li>
-            <li>1 lt air  Bumbu halus </li>
-            <li>3 buah bawang merah  </li>
-            <li>4 siung bwang putih  </li>
-            <li>3 cm kunyit  </li>
-            <li>5 buah cabai merah  </li>
-            <li>2 cm lengkuas  </li>
-            <li>2 cm jahe </li>
-            <li>1 sdt terasi  </li>
-            <li>1 cm kencur  </li>
-            <li>1/2 biji pala </li>
-            <li>1/2 sdt merica bubuk  </li>
+            <li>500 gr daging sapi</li>
+            <li>2 sdm tepung beras</li>
+            <li>2 lembar daun salam</li>
+            <li>1 sdm gula merah</li>
+            <li>5 sdm minyak goreng</li>
+            <li>500 ml santan</li>
+            <li>1 lt air Bumbu halus</li>
+            <li>3 buah bawang merah</li>
+            <li>4 siung bawang putih</li>
+            <li>3 cm kunyit</li>
+            <li>5 buah cabai merah</li>
+            <li>2 cm lengkuas</li>
+            <li>2 cm jahe</li>
+            <li>1 sdt terasi</li>
+            <li>1 cm kencur</li>
+            <li>1/2 biji pala</li>
+            <li>1/2 sdt merica bubuk</li>
             <li>Garam secukupnya</li>
           </ul>
         </div>
@@ -61,10 +61,8 @@ function Serapahdaging() {
         <h2>History</h2>
         <p>
         Sebagai salah satu masakan tradisional, masakan khas Bali memang memiliki rasa yang khas, lezat dan unik mewakili tempat asalnya. Berbagai bahan masakan diolah dengan rempah untuk menghasilkan sajian yang lekat di lidah.
-
-Salah satu yang tak kalah diminati oleh pecinta kuliner adalah Masakan Serapah Daging Khas Bali ini. Masakan yang satu ini menggunakan bahan dasar daging babi dengan beberapa bahan lain seperti gula tepung beras dan juga santan.
-
-Bumbu-bumbu yang digunakan masih menggunakan bahan rempah ciri khas nusantara yaitu seperti misalnya bawang, cabe, kunjit, jahe dan lain sebagainya. Untuk memasak sajian ini tidak sulit karena sebenarnya sudah banyak panduan memasak yang dibahas melalui Resep Serapah Daging tersebut.
+        Salah satu yang tak kalah diminati oleh pecinta kuliner adalah Masakan Serapah Daging Khas Bali ini. Masakan yang satu ini menggunakan bahan dasar daging babi dengan beberapa bahan lain seperti gula tepung beras dan juga santan.
+        Bumbu-bumbu yang digunakan masih menggunakan bahan rempah ciri khas nusantara yaitu seperti misalnya bawang, cabe, kunjit, jahe dan lain sebagainya. Untuk memasak sajian ini tidak sulit karena sebenarnya sudah banyak panduan memasak yang dibahas melalui Resep Serapah Daging tersebut.
         </p>
       </div>
 

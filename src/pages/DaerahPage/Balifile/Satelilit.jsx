@@ -27,24 +27,24 @@ Sate lilit terbuat dari daging ayam atau ikan yang digiling. Daging ini kemudian
           <h2>Ingredients</h2>
           <ul>
             <li>250 gr daging ayam giling</li>
-            <li>30 mL santan</li>
-            <li>6-10 batang sereh, geprek bonggolnya</li>
+            <li>30 ml santan</li>
+            <li>6-10 batang sereh</li>
             <li>3 sdm minyak kelapa</li>
             <li>2 lembar daun salam</li>
-            <li>Secukupnya lada bubuk (sekitar 1/4 sdt)</li>
-            <li>Secukupnya garam (sekitar 1/2 sdt)</li>
-            <li>Secukupnya gula pasir (sekitar 1/4 sdt)</li>
+            <li>1/4 lada bubuk</li>
+            <li>1/2 sdt garam</li>
+            <li>1/2 sdt gula pasir</li>
             <li>10 siung bawang merah</li>
             <li>5 siung bawang putih</li>
             <li>3 cm kunyit</li>
             <li>4 cm lengkuas</li>
             <li>1 cm jahe</li>
             <li>1 cm kencur</li>
-            <li>3 buah cabai keriting (atau 1 cabai merah besar)</li>
-            <li>3 butir kemiri (boleh disangrai dulu atau tidak)</li>
+            <li>3 buah cabai keriting</li>
+            <li>3 butir kemiri</li>
             <li>1 batang sereh iris halus</li>
-            <li>3 lembar daun jeruk (buang tengahnya, iris halus)</li>
-            <li>10 cabai rawit (jika tidak mau pedas skip juga boleh)</li>
+            <li>3 lembar daun jeruk</li>
+            <li>10 cabai rawit</li>
           </ul>
         </div>
       </div>

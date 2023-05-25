@@ -23,62 +23,24 @@ function Bebekbetutu() {
         <div className="recipe-ingredients">
           <h2>Ingredients</h2>
           <ul>
-            <li>1
-ekor (900 gr) bebek
-</li>
-            <li>150
-ml minyak kelapa
-</li>
-            <li>½
-sdm
-Royco Kaldu Ayam
-</li>
-            <li>6
-lembar daun salam
-</li>
-            <li>daun pisang, untuk membungkus
-Bumbu perendam
-</li>
-            <li>2
-sdm air jeruk nipis
-</li>
-            <li>1
-sdt garam
-</li>
-            <li>6
-cm kunyit, haluskan
-</li>
-            <li>BUMBU HALUS :</li>
-            <li>100
-g bawang merah
-</li>
-            <li>10
-siung bawang putih
-</li>
-            <li>10
-buah cabai rawit merah
-</li>
-            <li>5
-cm kencur
-</li>
-            <li>3
-cm jahe
-</li>
-            <li>3
-cm lengkuas
-</li>
-            <li>1
-sdt merica putih bubuk
-</li>
-            <li>1
-sdm terasi
-</li>
-            <li>1
-sdt ketumbar
-</li>
-            <li>1
-sdm gula merah
-</li>
+            <li>1 ekor (900 gr) bebek</li>
+            <li>150 ml minyak kelapa</li>
+            <li>1/2 sdm Royco Ayam</li>
+            <li>6 lembar daun salam</li>
+            <li>Daun pisang</li>
+            <li>2 sdm air jeruk nipis</li>
+            <li>1 sdt garam</li>
+            <li>6 cm kunyit, haluskan</li>
+            <li>100 g bawang merah</li>
+            <li>10 siung bawang putih</li>
+            <li>10 buah cabai rawit merah</li>
+            <li>5 cm kencur</li>
+            <li>3 cm jahe</li>
+            <li>3 cm lengkuas</li>
+            <li>1 sdt merica putih bubuk</li>
+            <li>1 sdm terasi</li>
+            <li>1 sdt ketumbar</li>
+            <li>1 sdm gula merah</li>
           </ul>
         </div>
       </div>
@@ -101,8 +63,7 @@ sdm gula merah
         <h2>History</h2>
         <p>
         Sejarah Ayam Betutu pertama bermula pada tahun 1976, dari olahan tangan, Ni Wayan Tempeh atau Men Tempeh yang berasal dari wilayah Abiansi, kota Gianyar.
-
-Kemudian, bersama dengan suaminya yang bernama I Nyoman Suratna yang berasal dari Bangli, Ni Wayan Tempeh mendirikan warung Ayam Betutu.
+        Kemudian, bersama dengan suaminya yang bernama I Nyoman Suratna yang berasal dari Bangli, Ni Wayan Tempeh mendirikan warung Ayam Betutu.
         </p>
       </div>
 

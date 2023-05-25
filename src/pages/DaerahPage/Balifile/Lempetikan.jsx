@@ -23,16 +23,16 @@ function Lempetikan() {
         <div className="recipe-ingredients">
           <h2>Ingredients</h2>
           <ul>
-            <li>10 ekor ikan tongkol ukuran sedang</li>
+            <li>10 ekor ikan tongkol</li>
             <li>65 ml Kara</li>
             <li>2 bh Gula merah</li>
             <li>1 bungkus Masako sapi</li>
             <li>secukupnya Garam</li>
-            <li>10 bh bawang merah ukuran sedang</li>
-            <li>5 siung besar bawang putih</li>
-            <li>4 bh cabe merah besar</li>
+            <li>10 bh bawang merah</li>
+            <li>5 siung bawang putih</li>
+            <li>4 bh cabe merah</li>
             <li>20 bh cabe merah kecil</li>
-            <li>Terasi abc kecil</li>
+            <li>Terasi</li>
             <li>Daun pisang</li>
             <li>Staples</li>
           </ul>
@@ -62,7 +62,7 @@ function Lempetikan() {
       <div className="recipe-history">
         <h2>History</h2>
         <p>
-        
+        Asal mula lempet ikan tidak dapat dipastikan secara pasti, namun dapat dikaitkan dengan budaya dan kebiasaan masyarakat pesisir di Indonesia yang memiliki akses mudah terhadap ikan segar. Proses pembuatan lempet ikan, yaitu melumuri ikan dengan bumbu dan memanggangnya dalam bungkusan daun pisang, adalah metode yang telah digunakan dalam kegiatan memasak tradisional Indonesia sejak lama.
         </p>
       </div>
 

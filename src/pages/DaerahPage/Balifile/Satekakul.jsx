@@ -23,32 +23,26 @@ function Satekakul() {
         <div className="recipe-ingredients">
           <h2>Ingredients</h2>
           <ul>
-            <li>400 gram kerang darah</li>
-            <li>2 batang serai (ambil putihnya)</li>
-            <li>1 sendok makan air asam jawa</li>
-            <li>1/2 sendok teh garam</li>
+            <li>400 gr kerang darah</li>
+            <li>2 batang serai</li>
+            <li>1 sdm air asam jawa</li>
+            <li>1/2 sdt garam</li>
             <li>400 ml air</li>
             <li>25 tusuk sate</li>
-            <li>BAHAN BUMBU HALUS :</li>
             <li>6 siung bawang merah</li>
-            <li>2 siung bawang putih</li>
+            <li>4 siung bawang putih</li>
             <li>2 cm jahe</li>
             <li>1 cm kencur</li>
             <li>2 buah kemiri sangrai</li>
-            <li>1 sendok teh terasi</li>
-            <li>1 sachet Saus Tiram Selera</li>
-            <li>BAHAN SAUS:</li>
-            <li>2 siung bawang putih (haluskan)</li>
-            <li>2 sendok makan minyak sayur</li>
-            <li>100 gram kacang tanah goreng (haluskan)</li>
-            <li>50 gram kelapa sangrai (haluskan)</li>
-            <li>1 sendok makan kecap manis</li>
-            <li>1 sendok teh garam</li>
+            <li>1 sdt terasi</li>
+            <li>1 sachet Saus Tiram</li>
+            <li>2 sdm minyak sayur</li>
+            <li>100 gr kacang tanah</li>
+            <li>50 gr kelapa sangrai</li>
+            <li>1 sdm kecap manis</li>
+            <li>1 sdt garam</li>
             <li>200 ml air panas</li>
-            <li>1 bungkus BonCabe level 10, rasa Bawang Goreng (7,5gr)</li>
-
-
-
+            <li>1 bungkus BonCabe</li>
           </ul>
         </div>
       </div>

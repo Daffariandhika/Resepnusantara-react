@@ -23,16 +23,16 @@ function Sambalmatah() {
         <div className="recipe-ingredients">
           <h2>Ingredients</h2>
           <ul>
-            <li>Cabai rawit merah, iris halus 8 atau 10 buah sesuai selera</li>
-            <li>Bawang merah, iris halus 8 buah</li>
-            <li>Bawang puting, iris halus 3 siung</li>
-            <li>Batang serai ambil putihnya dan iris halus, 2 batang</li>
-            <li>Daun jeruk, iris halus 3 lembar</li>
-            <li>Air jeruk limau 4 sdm</li>
-            <li>Gula pasir 1 sdt</li>
-            <li>Terasi bakar atau sangrai dihaluskan, 1/2 sdt</li>
-            <li>Minyak sayur 4 sdm</li>
-            <li>Garam 1 sdt.</li>
+            <li>8-10 buah Cabai rawit merah</li>
+            <li>8 siung bawang merah</li>
+            <li>3 siung bawang putih</li>
+            <li>2 batang serai</li>
+            <li>3 lembar daun jeruk</li>
+            <li>4 sdm air jeruk limau</li>
+            <li>1 sdt gula pasir</li>
+            <li>1/2 sdt terasi bakar</li>
+            <li>4 sdm minyak sayur</li>
+            <li>1 sdt garam</li>
           </ul>
         </div>
       </div>
