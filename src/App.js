@@ -67,6 +67,19 @@ Sambelikung,
 Sotobangka,
 } from '../src/pages/DaerahPage/Bangkabelitungfile/Exportbangkabelitung';
 
+import{
+Angeunlada,
+Ketanbintul,
+Kuejojorong,
+Laksa,
+Leumeung,
+Nasibakarsumsum,
+Pecakbandeng,
+Sambalburoq,
+Satebandeng,
+Sayurbesan,
+} from '../src/pages/DaerahPage/Bantenfile/Exportbanten';
+
 function App() {
   return (
     <Router>
@@ -105,6 +118,7 @@ function App() {
             <Route path="/Timphan" element={<Timphan/>} />
             <Route path="/Sotoaceh" element={<Sotoaceh/>} />
             <Route path="/Keumamah" element={<Keumamah/>} />
+
           <Route path="/daerah/sumatra barat" element={<Sumatrabarat/>} />
           <Route path="/daerah/jakarta" element={<Jakarta/>} />
           <Route path="/daerah/bengkulu" element={<Bengkulu/>} />
@@ -120,9 +134,20 @@ function App() {
             <Route path="/Sambelikung" element={<Sambelikung/>} />
             <Route path="/Sotobangka" element={<Sotobangka/>} />
 
-
-
           <Route path="/daerah/banten" element={<Banten/>} />
+            <Route path="/Angeunlada" element={<Angeunlada/>} />
+            <Route path="/Ketanbintul" element={<Ketanbintul/>} />
+            <Route path="/Kuejojorong" element={<Kuejojorong/>} />
+            <Route path="/Laksa" element={<Laksa/>} />
+            <Route path="/Leumeung" element={<Leumeung/>} />
+            <Route path="/Nasibakarsumsum" element={<Nasibakarsumsum/>} />
+            <Route path="/Pecakbandeng" element={<Pecakbandeng/>} />
+            <Route path="/Sambalburoq" element={<Sambalburoq/>} />
+            <Route path="/Satebandeng" element={<Satebandeng/>} />
+            <Route path="/Sayurbesan" element={<Sayurbesan/>} />
+
+
+
           <Route path="/daerah/gorontalo" element={<Gorontalo/>} />
           <Route path="/daerah/jambi" element={<Jambi/>} />
         </Routes>
