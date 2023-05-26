@@ -1,0 +1,10 @@
+export { default as Bagarhiu } from './Bagarhiu';
+export { default as Bolukoja } from './Bolukoja';
+export { default as Bubursekoi } from './Bubursekoi';
+export { default as Gulaikembaang } from './Gulaikembaang';
+export { default as Gulaipisang } from './Gulaipisang';
+export { default as Kuebaytat } from './Kuebaytat';
+export { default as Kuelepekbiniti } from './Kuelepekbiniti';
+export { default as Manisanterong } from './Manisanterong';
+export { default as Pendap } from './Pendap';
+export { default as Rebungasamundakliling } from './Rebungasamundakliling';

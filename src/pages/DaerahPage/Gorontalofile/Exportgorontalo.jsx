@@ -1,0 +1,10 @@
+export { default as Ayamiloni } from './Ayamiloni';
+export { default as Bilenthango } from './Bilenthango';
+export { default as Bintebiluhuta } from './Bintebiluhuta';
+export { default as Esbrenebon } from './Esbrenebon';
+export { default as Ilabulo } from './Ilabulo';
+export { default as Kuekarawo } from './Kuekarawo';
+export { default as Kuesabongi } from './Kuesabongi';
+export { default as Perkedelnike } from './Perkedelnike';
+export { default as Sayurputungo } from './Sayurputungo';
+export { default as Tiliaya } from './Tiliaya';

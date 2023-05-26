@@ -80,6 +80,32 @@ Satebandeng,
 Sayurbesan,
 } from '../src/pages/DaerahPage/Bantenfile/Exportbanten';
 
+import{
+Bagarhiu,
+Bolukoja,
+Bubursekoi,
+Gulaikembaang,
+Gulaipisang,
+Kuebaytat,
+Kuelepekbiniti,
+Manisanterong,
+Pendap,
+Rebungasamundakliling,
+} from '../src/pages/DaerahPage/Bengkulufile/Exportbengkulu';
+
+import{
+Ayamiloni,
+Bilenthango,
+Bintebiluhuta,
+Esbrenebon,
+Ilabulo,
+Kuekarawo,
+Kuesabongi,
+Perkedelnike,
+Sayurputungo,
+Tiliaya,
+} from '../src/pages/DaerahPage/Gorontalofile/Exportgorontalo';
+
 function App() {
   return (
     <Router>
@@ -89,12 +115,15 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/recipes" element={<Recipes />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<SignUp />} />
+          <Route path="/signup" element={<SignUp />} />\
+
           <Route path="/daerah/yogyakarta" element={<Yogyakarta/>} />
             <Route path="/Gudeg" element={<Gudeg/>} />
             <Route path="/Bakmijawa" element={<Bakmijawa/>} />
             <Route path="/Ayamkalasan" element={<Ayamkalasan/>}/>
+
           <Route path="/daerah/jawa tengah" element={<Jawatengah/>} />
+
           <Route path="/daerah/bali" element={<Bali/>} />
             <Route path="/Ayambetutu" element={<Ayambetutu/>} />
             <Route path="/Bebekbetutu" element={<Bebekbetutu/>} />
@@ -120,8 +149,21 @@ function App() {
             <Route path="/Keumamah" element={<Keumamah/>} />
 
           <Route path="/daerah/sumatra barat" element={<Sumatrabarat/>} />
+
           <Route path="/daerah/jakarta" element={<Jakarta/>} />
+
           <Route path="/daerah/bengkulu" element={<Bengkulu/>} />
+            <Route path="/Bagarhiu" element={<Bagarhiu/>} />
+            <Route path="/Bolukoja" element={<Bolukoja/>} />
+            <Route path="/Bubursekoi" element={<Bubursekoi/>} />
+            <Route path="/Gulaikembaang" element={<Gulaikembaang/>} />
+            <Route path="/Gulaipisang" element={<Gulaipisang/>} />
+            <Route path="/Kuebaytat" element={<Kuebaytat/>} />
+            <Route path="/Kuelepekbiniti" element={<Kuelepekbiniti/>} />\
+            <Route path="/Manisanterong" element={<Manisanterong/>} />
+            <Route path="/Pendap" element={<Pendap/>} />
+            <Route path="/Rebungasamundakliling" element={<Rebungasamundakliling/>} />
+
           <Route path="/daerah/bangka belitung" element={<Bangkabelitung/>} />
             <Route path="/Kuerintak" element={<Kuerintak/>} />
             <Route path="/Laksobangka" element={<Laksobangka/>} />
@@ -146,9 +188,18 @@ function App() {
             <Route path="/Satebandeng" element={<Satebandeng/>} />
             <Route path="/Sayurbesan" element={<Sayurbesan/>} />
 
-
-
           <Route path="/daerah/gorontalo" element={<Gorontalo/>} />
+            <Route path="/Ayamiloni" element={<Ayamiloni/>} />
+            <Route path="/Bilenthango" element={<Bilenthango/>} />
+            <Route path="/Esbrenebon" element={<Esbrenebon/>} />
+            <Route path="/Ilabulo" element={<Ilabulo/>} />
+            <Route path="/Kuekarawo" element={<Kuekarawo/>} />
+            <Route path="/Kuesabongi" element={<Kuesabongi/>} />
+            <Route path="/Perkedelnike" element={<Perkedelnike/>} />
+            <Route path="/Sayurputungo" element={<Sayurputungo/>} />
+            <Route path="/Tiliaya" element={<Tiliaya/>} />
+            <Route path="/Bintebiluhuta" element={<Bintebiluhuta/>} />
+
           <Route path="/daerah/jambi" element={<Jambi/>} />
         </Routes>
       </div>

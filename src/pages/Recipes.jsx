@@ -519,6 +519,13 @@ export const recipes = [
     desc: "Pendap adalah makanan khas Bengkulu yang terbuat dari bahan dasar ikan. Jenis ikan yang digunakan bisa apa saja, yakni ikan air tawar maupun ikan air laut.",
     path: "/Pendap",
   },
+  {
+    province: "Bengkulu",
+    title: "Rebung Asam Undak Liling",
+    image: "/gallery/bengkulu/rebungasamundakliling.jpg",
+    desc: "Gulai Rebung Asam Undak Liling merupakan salah satu kuliner khas dari daerah Bengkulu.",
+    path: "/Rebungasamundakliling",
+  },
   // Batas Menu Bengkulu //
 
   {// Menu Daerah Gorontalo //
@@ -589,7 +596,7 @@ export const recipes = [
     title: "Tili Aya",
     image: "/gallery/gorontalo/tili_aya.jpg",
     desc: "kue tili aya yang ternyata bahannya sangat sederhana dan manisnya bikin nagih. Tidak harus pergi ke Gorontalo jika ingin mencicipinya, ini resep kue tili aya yang bisa kamu coba di rumah.",
-    path: "/",
+    path: "/Tiliaya",
   },
   // Batas Menu Gorontalo //
 
