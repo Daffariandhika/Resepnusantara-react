@@ -602,13 +602,6 @@ export const recipes = [
 
   { // Menu Daerah Jakarta //
     province: "Jakarta",
-    title: "Rebung asam undak liling",
-    image: "/gallery/bengkulu/rebungasamundakliling.jpg",
-    desc: "Makanan bersantan ini terbuat dari rebung atau tunas bambu muda. Rebung akan diolah menjadi gulai dan dipadukan dengan keong sawah (liling).",
-    path: "/Rebungasamundakliling",
-  },
-  {
-    province: "Jakarta",
     title: "Asinan Betawi",
     image: "/gallery/jakarta/asinan_betawi.jpg",
     desc: "ciri khas dari asinan betawi adalah penggunaan sawi asin, air gula, serta bumbu kacangnya yang menjadi pembeda diantara asinan lainnya.",

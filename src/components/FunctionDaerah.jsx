@@ -13,7 +13,7 @@ export default function Data({chief}) {
                     {/* Renders the name of the 'daerah' property of the chief object*/}
                     <h3 className="daerah">{chief.daerah}</h3>
                     {/*Renders the number of 'jumlah_menu' property of the chief object*/}
-                    <p className="jumlah_menu">Jumlah Menu: <b>{chief.jumlah_menu}</b></p>
+                    <p className="jumlah_menu">Jumlah Resep: <b>{chief.jumlah_menu}</b></p>
                     {/* Renders the name of the most famous dish of the 'paling_terkenal' property of the chief object*/}
                     <p className="paling_terkenal">Paling Terkenal: <b>{chief.paling_terkenal}</b></p>
                 </div>

@@ -25,19 +25,32 @@ export default function HeroSection() {
     { src: "/gallery/yogyakarta/nasikucing.jpg", path: "/NasiKucing"},
     { src: "/gallery/yogyakarta/soto-lenthok.jpg", path: "/Sotolenthok"},
     //Batas Yogyakarta//
+    //Jawatengah//
     { src: "/gallery/jawatengah/klepon.jpg", path: "/jawatengah/klepon" },
-    { src: "/gallery/bali/ayambetutu.jpg", path: "/bali/ayambetutu" },
-    { src: "/gallery/banten/nasibakarsumsum.jpg", path: "/banten/nasibakarsumsum" },
-    { src: "/gallery/belitung/martabakbangka.jpg", path: "/belitung/martabakbangka" },
-    { src: "/gallery/bengkulu/gulaikembaang.jpg", path: "/bengkulu/gulaikembaang" },
-    { src: "/gallery/gorontalo/binte_biluhuta.jpg", path: "/gorontalo/bintebiluhuta" },
-    { src: "/gallery/jakarta/soto_betawi.jpg", path: "/jakarta/sotobetawi" },
-    { src: "/gallery/jakarta/kerak_telor.jpg", path: "/jakarta/keraktelor" },
-    { src: "/gallery/jambi/kerutup_ikan.jpg", path: "/jambi/kerutupikan" },
-    { src: "/gallery/jambi/sambal_kweni.jpg", path: "/jambi/sambalkweni" },
-    { src: "/gallery/aceh/mieaceh.jpg", path: "/aceh/mieaceh" },
-    { src: "/gallery/gorontalo/es_brenebon.jpg", path: "/gorontalo/esbrenebon" },
-    { src: "/gallery/mie-ayam.jpg", path: "/mie-ayam" },
+    //Batas Jawatengah//
+    //Bali
+    { src: "/gallery/bali/ayambetutu.jpg", path: "/Ayambetutu" },
+    { src: "/gallery/bali/babi-guling.jpg", path: "/Babiguling" },
+    { src: "/gallery/bali/bebekbetutu.jpg", path: "/Bebekbetutu" },
+    { src: "/gallery/bali/sambalmatah.jpg", path: "/Sambalmatah" },
+    { src: "/gallery/bali/satekakul.jpg", path: "/Satekakul" },
+    { src: "/gallery/bali/satelilit.jpg", path: "/Satelilit" },
+    { src: "/gallery/bali/jakuturap.jpg", path: "/Jakuturap" },
+    { src: "/gallery/bali/sateplecing.jpg", path: "/Satepelecing" },
+    { src: "/gallery/bali/lempetikan.jpg", path: "/Lempetikan" },
+    { src: "/gallery/bali/serapahdaging.jpg", path: "/Serapahdaging" },
+    //Batas Bali//
+    { src: "/gallery/banten/nasibakarsumsum.jpg", path: "/Nasibakarsumsum" },
+    { src: "/gallery/belitung/martabakbangka.jpg", path: "Martabakbangka" },
+    { src: "/gallery/bengkulu/gulaikembaang.jpg", path: "/Gulaikembaang" },
+    { src: "/gallery/gorontalo/binte_biluhuta.jpg", path: "/Bintebiluhuta" },
+    { src: "/gallery/jakarta/soto_betawi.jpg", path: "/Sotobetawi" },
+    { src: "/gallery/jakarta/kerak_telor.jpg", path: "Keraktelor" },
+    { src: "/gallery/jambi/kerutup_ikan.jpg", path: "/Kerutupikan" },
+    { src: "/gallery/jambi/sambal_kweni.jpg", path: "/Sambalkweni" },
+    { src: "/gallery/aceh/mieaceh.jpg", path: "/Mieaceh" },
+    { src: "/gallery/gorontalo/es_brenebon.jpg", path: "/Esbrenebon" },
+    { src: "/gallery/mie-ayam.jpg", path: "/Mie-ayam" },
   ]);
 
   const [currentGroup, setCurrentGroup] = useState(shuffleArray(images.slice(0, 9)));
@@ -47,7 +60,7 @@ export default function HeroSection() {
       const shuffledImages = shuffleArray(images);
       const newGroup = shuffledImages.slice(0, 9);
       setCurrentGroup(newGroup);
-    }, 15000);
+    }, 7000);
     return () => clearInterval(intervalId);
   }, [images]);
 

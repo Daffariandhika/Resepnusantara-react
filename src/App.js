@@ -106,6 +106,32 @@ Sayurputungo,
 Tiliaya,
 } from '../src/pages/DaerahPage/Gorontalofile/Exportgorontalo';
 
+import{
+Asinanbetwi,
+Dodolbetawi,
+Keraktelor,
+Ketoprak,
+Laksabetawi,
+Rotibuaya,
+Sayurbabanci,
+Semurjengkol,
+Sotobetawi,
+Sototangkar,
+} from '../src/pages/DaerahPage/Jakartafile/Exportjakarta';
+
+import{
+Dagingmasakitam,
+Gulaitepekikan,
+Kerutupikan,
+Kuepadamaran,
+Laksojambi,
+Nasiminyak,
+Sambalkweni,
+Sateikankhasjambi,
+Satetempe,
+Tempoyakikan,
+} from '../src/pages/DaerahPage/Jambifile/Exportjambi';
+
 function App() {
   return (
     <Router>
@@ -151,6 +177,16 @@ function App() {
           <Route path="/daerah/sumatra barat" element={<Sumatrabarat/>} />
 
           <Route path="/daerah/jakarta" element={<Jakarta/>} />
+            <Route path="/Asinanbetawi" element={<Asinanbetwi/>} />
+            <Route path="/Dodolbetawi" element={<Dodolbetawi/>} />
+            <Route path="/Keraktelor" element={<Keraktelor/>} />
+            <Route path="/Laksabetawi" element={<Laksabetawi/>} />
+            <Route path="/Rotibuaya" element={<Rotibuaya/>} />
+            <Route path="/Sayurbabanci" element={<Sayurbabanci/>} />
+            <Route path="/Semurjengkol" element={<Semurjengkol/>} />
+            <Route path="/Sotobetawi" element={<Sotobetawi/>} />
+            <Route path="/Sototangkar" element={<Sototangkar/>} />
+            <Route path="/Ketoprak" element={<Ketoprak/>} />
 
           <Route path="/daerah/bengkulu" element={<Bengkulu/>} />
             <Route path="/Bagarhiu" element={<Bagarhiu/>} />
@@ -201,6 +237,18 @@ function App() {
             <Route path="/Bintebiluhuta" element={<Bintebiluhuta/>} />
 
           <Route path="/daerah/jambi" element={<Jambi/>} />
+            <Route path="/Dagingmasakitam" element={<Dagingmasakitam/>} />
+            <Route path="/Gulaitepekikan" element={<Gulaitepekikan/>} />
+            <Route path="/Kerutupikan" element={<Kerutupikan/>} />
+            <Route path="/Kuepadamaran" element={<Kuepadamaran/>} />
+            <Route path="/Laksojambi" element={<Laksojambi/>} />
+            <Route path="/Nasiminyak" element={<Nasiminyak/>} />
+            <Route path="/Sambalkweni" element={<Sambalkweni/>} />
+            <Route path="/Sateikankhasjambi" element={<Sateikankhasjambi/>} />
+            <Route path="/Satetempe" element={<Satetempe/>} />
+            <Route path="/Tempoyakikan" element={<Tempoyakikan/>} />
+
+
         </Routes>
       </div>
       <Footer />

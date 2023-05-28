@@ -1,0 +1,10 @@
+export { default as Dagingmasakitam } from './Dagingmasakitam';
+export { default as Gulaitepekikan } from './Gulaitepekikan';
+export { default as Kerutupikan } from './Kerutupikan';
+export { default as Kuepadamaran } from './Kuepadamaran';
+export { default as Laksojambi } from './Laksojambi';
+export { default as Nasiminyak } from './Nasiminyak';
+export { default as Sambalkweni } from './Sambalkweni';
+export { default as Sateikankhasjambi } from './Sateikankhasjambi';
+export { default as Satetempe } from './Satetempe';
+export { default as Tempoyakikan } from './Tempoyakikan';
