@@ -1297,7 +1297,8 @@ export default function Recipes() {
   const handleSearch = (searchTerm) => {
     setSearchTerm(searchTerm);
     const filtered = recipes.filter((recipe) =>
-      recipe.title.toLowerCase().includes(searchTerm.toLowerCase())
+      recipe.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      recipe.province.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setFilteredRecipes(filtered);
   };
@@ -1314,5 +1315,6 @@ export default function Recipes() {
         ))}
       </div>
     </div>
-  )
+  );
 }
+

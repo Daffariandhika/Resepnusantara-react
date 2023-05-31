@@ -42,7 +42,7 @@ export default function SignUpForm() {
 
   return (
     <div className="form-container">
-      <form className="form" onSubmit={handleSubmit}>
+      <form className="form" onSubmit={handleSubmit} autoComplete="off">
         <h2>Sign Up</h2>
         <div className="form-group">
           <label htmlFor="username">Username :</label>

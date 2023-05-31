@@ -43,7 +43,7 @@ export default function LoginForm() {
 
   return (
     <div className="form-container">
-      <form onSubmit={handleSubmit} className="form">
+      <form onSubmit={handleSubmit} className="form" autoComplete="off">
         <h2>Sign In</h2>
         <div className="form-group">
           <label htmlFor="email">Email :</label>
