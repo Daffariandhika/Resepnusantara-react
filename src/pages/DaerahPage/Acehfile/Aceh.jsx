@@ -1,6 +1,6 @@
 import React from "react";
-import RecipeCard from "../../components/RecipeCard";
-import { recipes } from "../Recipes";
+import RecipeCard from "../../../components/RecipeCard";
+import { recipes } from "../../Recipes";
 
 export default function Aceh() {
   const filteredRecipes = recipes.filter(

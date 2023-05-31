@@ -1,15 +1,15 @@
 import React from "react";
-import RecipeCard from "../../components/RecipeCard";
-import { recipes } from "../Recipes";
+import RecipeCard from "../../../components/RecipeCard";
+import { recipes } from "../../Recipes";
 
-export default function Banten() {
+export default function Bangkabelitung() {
   const filteredRecipes = recipes.filter(
-    (recipe) => recipe.province === "Banten"
+    (recipe) => recipe.province === "Bangka Belitung"
   )
 
   return (
     <div>
-      <h1 className='judul daerah'>Banten</h1>
+      <h1 className='judul daerah'>Bangka Belitung</h1>
       <p className='deskripsi'>
       
       </p>

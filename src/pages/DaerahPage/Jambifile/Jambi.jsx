@@ -1,6 +1,6 @@
 import React from "react";
-import RecipeCard from "../../components/RecipeCard";
-import { recipes } from "../Recipes";
+import RecipeCard from "../../../components/RecipeCard";
+import { recipes } from "../../Recipes";
 
 export default function Jambi() {
   const filteredRecipes = recipes.filter(
@@ -10,7 +10,7 @@ export default function Jambi() {
   return (
     <div>
       <h1 className='judul daerah'>Jambi</h1>
-      <p className="deskripsi">
+      <p className='deskripsi'>
 
       </p>
       <div className="recipes-container">

@@ -1,0 +1,10 @@
+export { default as Baksomalang } from './Baksomalang';
+export { default as Gadogado } from './Gadogado';
+export { default as Gethukpisang } from './Gethukpisang';
+export { default as Lontongbalap } from './Lontongbalap';
+export { default as Nasikrawu } from './Nasikrawu';
+export { default as Pecel } from './Pecel';
+export { default as Rawon } from './Rawon';
+export { default as Rujakcingur } from './Rujakcingur';
+export { default as Sotolamongan } from './Sotolamongan';
+export { default as Tahucampur } from './Tahucampur';

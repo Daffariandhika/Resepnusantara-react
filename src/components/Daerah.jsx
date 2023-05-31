@@ -30,12 +30,6 @@ export default function ChiefsSection() {
       paling_terkenal: "Gulai Kemba`ang",
     },
     {
-      daerah: "Jawa Tengah",
-      img: "/gallery/jawatengah/nasi-tiwul.jpg",
-      jumlah_menu: "0",
-      paling_terkenal: "Nasi Tiwul",
-    },
-    {
       daerah: "Bali",
       img: "/gallery/bali/ayambetutu.jpg",
       jumlah_menu: "10",
@@ -76,6 +70,54 @@ export default function ChiefsSection() {
       img: "/gallery/jambi/tempoyak_ikan.jpg",
       jumlah_menu: "10",
       paling_terkenal: "Tempoyak Ikan Patin",
+    },
+    {
+      daerah: "Jawa Barat",
+      img: "/gallery/jawabarat/seblak.jpg",
+      jumlah_menu: "10",
+      paling_terkenal: "Seblak",
+    },
+    {
+      daerah: "Jawa Tengah",
+      img: "/gallery/jawatengah/brongkos.jpg",
+      jumlah_menu: "10",
+      paling_terkenal: "Brongkos",
+    },
+    {
+      daerah: "Jawa Timur",
+      img: "/gallery/jawatimur/pecel.jpg",
+      jumlah_menu: "5",
+      paling_terkenal: "Pecel",
+    },
+    {
+      daerah: "Kalimantan Barat",
+      img: "/gallery/kalimantanbarat/buburgunting.jpg",
+      jumlah_menu: "5",
+      paling_terkenal: "Bubur Gunting",
+    },
+    {
+      daerah: "Kalimantan Selatan",
+      img: "/gallery/kalimantanselatan/habangbanjar.jpg",
+      jumlah_menu: "5",
+      paling_terkenal: "Habang Banjar",
+    },
+    {
+      daerah: "Kalimantan Tengah",
+      img: "/gallery/kalimantantengah/cotomenggala.jpg",
+      jumlah_menu: "5",
+      paling_terkenal: "Coto Menggala",
+    },
+    {
+      daerah: "Kalimantan Timur",
+      img: "/gallery/kalimantantimur/sambalgamiudang.jpg",
+      jumlah_menu: "5",
+      paling_terkenal: "Sambal Gami Udang",
+    },
+    {
+      daerah: "Kalimantan Utara",
+      img: "/gallery/kalimantanutara/sateikanpari.jpg",
+      jumlah_menu: "5",
+      paling_terkenal: "Sate Ikan Pari",
     },
   ];
 

@@ -4,12 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 
 const list = [
-  'Temukan cita rasa baru',
-  'Latihan memasak',
+  'Temukan rasa idaman anda didalam website ini',
+  'Perluas pengetahuan anda',
   'Belajar resep baru',
-  'Cari tau kandungan nutrisi',
-  'Tips untuk memasak',
-  'Sajikan kepada keluarga anda'
+  'Siapkan menu terbaik untuk keluarga anda',
+  'Bukan hanya belajar dalam web ini, tapi juga mengetahui fun fact makanan',
+  'Sajikan hidangan istimega kepada keluarga anda'
 ];
 list.sort(() => Math.random() - 0.5);
 
