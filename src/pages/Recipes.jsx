@@ -851,7 +851,7 @@ export const recipes = [
   },
   {
     province: "Jawa Barat",
-    title: "tutugoncom",
+    title: "Tutug Oncom",
     image: "/gallery/jawabarat/tutugoncom.jpg",
     desc: "Tutug oncom adalah salah satu makanan khas dari provinsi Jawa Barat tepatnya berasal dari kota Tasikmalaya. Tutug oncom sesuai dengan namanya menggunakan bahan dasar utama yaitu oncom.",
     path: "/Tutugoncom",

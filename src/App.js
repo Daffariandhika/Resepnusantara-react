@@ -20,6 +20,8 @@ import {
   Banten, 
   Gorontalo, 
   Jambi,
+  Jawabarat,
+  Jawatimur,
  } from './pages/Export';
 
 import{
@@ -131,6 +133,32 @@ Sateikankhasjambi,
 Satetempe,
 Tempoyakikan,
 } from '../src/pages/DaerahPage/Jambifile/Exportjambi';
+
+import{
+Asinanbogor,
+Batagor,
+Cimol,
+Combro,
+Kredok,
+Lotek,
+Rengginang,
+Seblak,
+Surabi,
+Tutugoncom,
+} from '../src/pages/DaerahPage/Jawabaratfile/Exportjawabarat';
+
+import{
+Baksomalang,
+Gadogado,
+Gethukpisang,
+Lontongbalap,
+Nasikrawu,
+Pecel,
+Rawon,
+Rujakcingur,
+Sotolamongan,
+Tahucampur,
+} from '../src/pages/DaerahPage/Jawatimurfile/Exportjawatimur';
 
 function App() {
   return (
@@ -247,6 +275,30 @@ function App() {
             <Route path="/Sateikankhasjambi" element={<Sateikankhasjambi/>} />
             <Route path="/Satetempe" element={<Satetempe/>} />
             <Route path="/Tempoyakikan" element={<Tempoyakikan/>} />
+          
+          <Route path="/daerah/jawa barat" element={<Jawabarat/>} />
+            <Route path="/Asinanbogor" element={<Asinanbogor/>} />
+            <Route path="/Batagor" element={<Batagor/>} />
+            <Route path="/Cimol" element={<Cimol/>} />
+            <Route path="/Combro" element={<Combro/>} />
+            <Route path="/Kredok" element={<Kredok/>} />
+            <Route path="/Lotek" element={<Lotek/>} />
+            <Route path="/Rengginang" element={<Rengginang/>} />
+            <Route path="/Seblak" element={<Seblak/>} />
+            <Route path="/Surabi" element={<Surabi/>} />
+            <Route path="/Tutugoncom" element={<Tutugoncom/>} />
+          
+          <Route path="/daerah/jawa timur" element={<Jawatimur/>} />
+            <Route path="/Baksomalang" element={<Baksomalang/>} />
+            <Route path="/Gadogado" element={<Gadogado/>} />
+            <Route path="/Gethukpisang" element={<Gethukpisang/>} />
+            <Route path="/Lontongbalap" element={<Lontongbalap/>} />
+            <Route path="/Nasikrawu" element={<Nasikrawu/>} />
+            <Route path="/Pecel" element={<Pecel/>} />
+            <Route path="/Rawon" element={<Rawon/>} />
+            <Route path="/Rujakcingur" element={<Rujakcingur/>} />
+            <Route path="/Sotolamongan" element={<Sotolamongan/>} />
+            <Route path="/Tahucampur" element={<Tahucampur/>} />
 
 
         </Routes>
