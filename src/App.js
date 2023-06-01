@@ -23,6 +23,8 @@ import {
   Jawabarat,
   Jawatimur,
   Kalimantanbarat,
+  Kalimantanselatan,
+  Kalimantantengah,
  } from './pages/Export';
 
 import{
@@ -168,6 +170,22 @@ Choipan,
 Kopisingkawang,
 Pengkang,
 } from '../src/pages/DaerahPage/Kaliamantanbaratfile/Exportkalimantanbarat';
+
+import{
+Amparantatak,
+Dodolkandangan,
+Habangbanjar,
+Ipau,
+Lontongorari,
+} from '../src/pages/DaerahPage/Kalimantanselatanfile/Exportkalimantanselatan';
+
+import{
+Cotomenggala,
+Geguduhpisang,
+Hintalukaruang,
+Ikanjelawatbakar,
+Kalumpe,
+} from '../src/pages/DaerahPage/Kalimantantengahfile/Exportkalimantantengah';
 
 function App() {
   return (
@@ -315,6 +333,20 @@ function App() {
             <Route path="/Choipan" element={<Choipan/>} />
             <Route path="/Kopisingkawang" element={<Kopisingkawang/>} />
             <Route path="/Pengkang" element={<Pengkang/>} />
+          
+            <Route path="/daerah/kalimantan selatan" element={<Kalimantanselatan/>} />
+              <Route path="/Amparantatak" element={<Amparantatak/>} />
+              <Route path="/Dodolkandangan" element={<Dodolkandangan/>} />
+              <Route path="/Habangbanjar" element={<Habangbanjar/>} />
+              <Route path="/Ipau" element={<Ipau/>} />
+             <Route path="/Lontongorari" element={<Lontongorari/>} />
+            
+             <Route path="/daerah/kalimantan tengah" element={<Kalimantantengah/>} />
+              <Route path="/Cotomenggala" element={<Cotomenggala/>} />
+              <Route path="/Geguduhpisang" element={<Geguduhpisang/>} />
+              <Route path="/Hintalukaruang" element={<Hintalukaruang/>} />
+              <Route path="/Ikanjelawatbakar" element={<Ikanjelawatbakar/>} />
+              <Route path="/Kalumpe" element={<Kalumpe/>} />
 
 
         </Routes>

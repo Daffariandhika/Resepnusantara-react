@@ -12,3 +12,5 @@ export { default as Jambi } from './DaerahPage/Jambifile/Jambi';
 export { default as Jawabarat } from './DaerahPage/Jawabaratfile/Jawabarat';
 export { default as Jawatimur } from './DaerahPage/Jawatimurfile/Jawatimur';
 export { default as Kalimantanbarat } from './DaerahPage/Kaliamantanbaratfile/Kalimantanbarat';
+export { default as Kalimantanselatan } from './DaerahPage/Kalimantanselatanfile/Kalimantanselatan';
+export { default as Kalimantantengah } from './DaerahPage/Kalimantantengahfile/Kalimantantengah';

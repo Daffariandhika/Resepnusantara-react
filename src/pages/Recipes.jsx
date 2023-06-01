@@ -976,24 +976,10 @@ export const recipes = [
   },
   { 
     province: "Kalimantan Selatan",
-    title: "Cacapan Asam",
-    image: "/gallery/kalimantanselatan/cacapanasam.jpg",
-    desc: "Cacapan asam ini dinikmati layaknya sambal, tetapi sebenarnya bukan. Sambal cenderung memiliki tekstur yang padat, sedangan cacapan asam ini memiliki tekstur yang cair",
-    path: "/Cacapanasam",
-  },
-  { 
-    province: "Kalimantan Selatan",
     title: "Dodol Kandangan",
     image: "/gallery/kalimantanselatan/dodolkandangan.jpg",
     desc: "Dodol kandangan ini menjadi salah satu oleh oleh khas dari kandangan yang cukup banyak diburu oleh para wisatawan sebagai oleh-oleh.",
     path: "/Dodolkandangan",
-  },
-  { 
-    province: "Kalimantan Selatan",
-    title: "Gangan Asam",
-    image: "/gallery/kalimantanselatan/ganganasam.jpg",
-    desc: "Gangan dalam bahasa Kalimantan Selatan berarti sayur. Jadi gangan asam adalah sayur asam. Sayur asam yang ada di daerah Banjarmasin tentunya berbeda dengan sayur asam yang umumnya kamu temui.",
-    path: "/Ganganasam",
   },
   { 
     province: "Kalimantan Selatan",
@@ -1011,54 +997,19 @@ export const recipes = [
   },
   { 
     province: "Kalimantan Selatan",
-    title: "Ketupat Kandangan",
-    image: "/gallery/kalimantanselatan/ketupatkandangan.jpg",
-    desc: "Makanan khas Kalimantan Selatan berikutnya yang juga cukup populer adalah ketupat kandangan. Dinamakan demikian, karena ketupat ini berasal dari daerah Kandangan.",
-    path: "/Ketupatkandangan",
-  },
-  { 
-    province: "Kalimantan Selatan",
     title: "Lontong Orari",
     image: "/gallery/kalimantanselatan/lontongorari.jpg",
     desc: "lontong orari ini serupa dengan lontong sayur pada umumnya. namun, ada beberapa perbedaan mencolok dari yang lain.",
     path: "/Lontongorari",
   },
-  { 
-    province: "Kalimantan Selatan",
-    title: "Mandai",
-    image: "/gallery/kalimantanselatan/mandai.jpg",
-    desc: "Kuliner yang satu ini menggunakan bahan dasar dari kulit cempedak atau masyarakat sekitar menyebutnya sebagai tiwadak.",
-    path: "/Mandai",
-  },
-  { 
-    province: "Kalimantan Selatan",
-    title: "Sate Tulang",
-    image: "/gallery/kalimantanselatan/satetulang.jpg",
-    desc: "Namanya memang sate tulang, tetapi kuliner ini malah tak ada hubungannya dengan tulang. Sate ini terbuat dari sisa-sisa bagian tubuh ayam yang tak terpakai, seperti bagian kulit dan lemak.",
-    path: "/Satetulang",
-  },
   // Batas Menu Kalimantan Barat //
 
   { // Menu Kalimantan Tengah //
-    province: "Kalimantan Tengah",
-    title: "Bika Barandam",
-    image: "/gallery/kalimantantengah/bikabarandam.jpg",
-    desc: "Cara penyajiannya ialah dengan menggunakan kuah gula, sehingga kue barandam memiliki rasa yang manis.",
-    path: "/Bikabarandam",
-  },
-  { 
     province: "Kalimantan Tengah",
     title: "Coto Menggala",
     image: "/gallery/kalimantantengah/cotomenggala.jpg",
     desc: "coto menggala memakai potongan sayap dan dada ayam tanpa disuwir. Bumbu coto diracik dengan kaldu, garam, bawang putih, merica, dan kayu manis.",
     path: "/Cotomenggala",
-  },
-  { 
-    province: "Kalimantan Tengah",
-    title: "Gagatas",
-    image: "/gallery/kalimantantengah/gagatas.jpg",
-    desc: " Gagatas adalah kue yang terbuat dari tepung beras ketan dan dicampur dengan gula.",
-    path: "/Gagatas",
   },
   { 
     province: "Kalimantan Tengah",
@@ -1083,31 +1034,10 @@ export const recipes = [
   },
   { 
     province: "Kalimantan Tengah",
-    title: "Juhu Umbut Rotan",
-    image: "/gallery/kalimantantengah/juhuumbutrotan.jpg",
-    desc: "Juhu umbut rotan sekilas tampak seperti gulai rebung. Makanan ini bisa dimakan menggunakan nasi atau lontong sebagai sayur pelengkap.",
-    path: "/Juhuumbutrotan",
-  },
-  { 
-    province: "Kalimantan Tengah",
     title: "Kalumpe",
     image: "/gallery/kalimantantengah/Kalumpe.jpg",
     desc: "Kalumpe adalah makanan yang memakai bahan dasar daun singkong. Dalam pembuatannya, terdapat proses tersendiri untuk memasak daun singkong, yaitu dengan menumbuk daun singkong hingga halus terlebih dulu.",
     path: "/Kalumpe",
-  },
-  { 
-    province: "Kalimantan Tengah",
-    title: "Keripik Kelakai",
-    image: "/gallery/kalimantantengah/keripikkelakai.jpg",
-    desc: "Keripik ini dibuat memakai bahan dasar daun kelakai. Daun ini banyak ditemukan di Kalimantan Tengah.",
-    path: "/Keripikkelakai",
-  },
-  { 
-    province: "Kalimantan Tengah",
-    title: "Terong Mapui",
-    image: "/gallery/kalimantantengah/terongmapui.jpg",
-    desc: "Masyarakat Kalimantan Tengah umum memakai terong ungu dengan ukuran besar untuk membuat olahan terong mapui.",
-    path: "/Terongmapui",
   },
 // Batas Menu Kalimantan Tengah //
 
