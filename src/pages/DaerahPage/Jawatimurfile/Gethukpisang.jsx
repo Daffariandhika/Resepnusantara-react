@@ -11,7 +11,7 @@ function Gethukpisang() {
 
       <div className="recipe-description">
         <p>
-         
+        Getuk pisang adalah salah satu makanan khas Kediri. Tidak seperti getuk pada umumnya yang biasa terbuat dari singkong, ubi atau sukun, getuk pisang ini terbuat dari pisang. Pisang yang digunakan merupakan jenis pisang raja nangka karena memiliki citarasa yang khas, berbeda dengan pisang pada umumnya.
         </p>
       </div>
 
@@ -23,21 +23,13 @@ function Gethukpisang() {
         <div className="recipe-ingredients">
           <h2>Ingredients</h2>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>1 sisir pisang kapok setengah matang</li>
+            <li>25 gr tepung beras</li>
+            <li>40 gr tepung tapioka</li>
+            <li>1 sdt vanili</li>
+            <li>Sejumput garam</li>
+            <li>Daun pisang secukupnya</li>
+            <li>6 sdm gula</li>
           </ul>
         </div>
       </div>
@@ -46,39 +38,20 @@ function Gethukpisang() {
         <h2>Tutorial</h2>
         <ul>
         <h3>Langkah 1</h3>
-            <li></li>
+            <li>Kukus pisang menggunakan kukusan yang telah dipanaskan terlebih dahulu hingga pisang matang. Kukus kurang lebih selama 20 menit.</li>
         <h3>Langkah 2</h3>
-            <li></li>
+            <li>Setelah pisang matang, keluarkan dan kupas kulit pisang. Kemudian haluskan menggunakan tumbuh atau garpu.</li>
         <h3>Langkah 3</h3>
-            <li></li>
+            <li>Masukkan pisang yang telah dihaluskan ke dalam wadah, masukkan tepung tapioka, tepung beras, gula pasir, vanili dan garam. Campur adonan hingga merata.</li>
         <h3>Langkah 4</h3>
-            <li></li>
+            <li>Bungkus adonan menyerupai lontong. Tusuk kedua ujung menggunakan lidi. Lakukan pada adonan yang masih tersisa.</li>
         <h3>Langkah 5</h3>   
-            <li></li>
+            <li>Tata ke dalam panci kukus yang telah dipanaskan terlebih dahulu. Kukus selama 25-30 menit dengan api sedang.</li>
         <h3>Langkah 6</h3>   
-            <li></li>
+            <li>Angkat gethuk pisang, biarkan dingin.</li>
         <h3>Langkah 7</h3>   
-            <li></li>
-        <h3>Langkah 8</h3>   
-            <li></li>
-        <h3>Langkah 9</h3>   
-            <li></li>
-        <h3>Langkah 10</h3>   
-            <li></li>
-        <h3>Langkah 11</h3>   
-            <li></li>
-        <h3>Langkah 12</h3>   
-            <li></li>
-        <h3>Langkah 13</h3>   
-            <li></li>
+            <li>Setelah dingin, potong gethuk dan sajikan.</li>
         </ul>
-      </div>
-
-      <div className="recipe-history">
-        <h2>History</h2>
-        <p>
-        
-        </p>
       </div>
 
       <button className="btn" onClick={goBack}>

@@ -11,3 +11,4 @@ export { default as Gorontalo } from './DaerahPage/Gorontalofile/Gorontalo';
 export { default as Jambi } from './DaerahPage/Jambifile/Jambi';
 export { default as Jawabarat } from './DaerahPage/Jawabaratfile/Jawabarat';
 export { default as Jawatimur } from './DaerahPage/Jawatimurfile/Jawatimur';
+export { default as Kalimantanbarat } from './DaerahPage/Kaliamantanbaratfile/Kalimantanbarat';

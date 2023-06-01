@@ -953,13 +953,6 @@ export const recipes = [
   },
   {
     province: "Kalimantan Barat",
-    title: "Kerupuk Basah",
-    image: "/gallery/kalimantanbarat/kerupukbasah.jpg",
-    desc: "Makanan ini adalah salah satu kuliner khas Kalimantan Barat. bentuk  makanan ini lebih mirip pempek Palembang namun dengan ukuran yang lebih panjang.",
-    path: "/Kerupukbasah",
-  },
-  {
-    province: "Kalimantan Barat",
     title: "Kopi Singkawang",
     image: "/gallery/kalimantanbarat/kopisingkawang.jpg",
     desc: "Kopi singkawang adalah kopi robusta tradisional dari Kalimantan Barat yang banyak dijumpai di daerah kota seribu Kelenteng, Singkawang.",
@@ -967,38 +960,10 @@ export const recipes = [
   },
   {
     province: "Kalimantan Barat",
-    title: "Kue Kantong Semar",
-    image: "/gallery/kalimantanbarat/kuekantongsemar.jpg",
-    desc: "Terbuat dari beras ketan yang dicampur dengan santan, gula, dan kacang beras. yang unik, adonan tersebut ditaruh kedalam sebuah wadah dari kantong semar.",
-    path: "/kuekantong semar",
-  },
-  {
-    province: "Kalimantan Barat",
-    title: "Pekasam Ikan",
-    image: "/gallery/kalimantanbarat/pekasamikan.jpg",
-    desc: "Pekasan merupakan jenis makanan yang dibuat dari ikan yang digiling dan difermentasikan dengan bahan-bahan seperti garam, asam jawa dan rempah-rempah",
-    path: "/Pekasamikan",
-  },
-  {
-    province: "Kalimantan Barat",
     title: "Pengkang",
     image: "/gallery/kalimantanbarat/pengkang.jpg",
     desc: "Terbuat dari bahan ketan dengan isian udang yang dibungkus dengan daun pisang dan dikukus.",
     path: "/Pengkang",
-  },
-  {
-    province: "Kalimantan Barat",
-    title: "Sotong Pengkong",
-    image: "/gallery/kalimantanbarat/sotongpengkong.jpg",
-    desc: "Sotong pengkong merupakan kudapan yang dibuat dari daging sotong atau cumi. Kata pengkong disini berarti dipukul menggunakan palu.",
-    path: "/Sotongpengkong",
-  },
-  {
-    province: "Kalimantan Barat",
-    title: "Tumpi",
-    image: "/gallery/kalimantanbarat/tumpi.jpg",
-    desc: "Makanan mirip kue cucur Khas Kalimantan Barat. terbuat dari tepung terigu dan gula merah.",
-    path: "/Tumpi",
   },
   // Batas Menu Kalimantan Barat //
 

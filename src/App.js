@@ -22,6 +22,7 @@ import {
   Jambi,
   Jawabarat,
   Jawatimur,
+  Kalimantanbarat,
  } from './pages/Export';
 
 import{
@@ -159,6 +160,14 @@ Rujakcingur,
 Sotolamongan,
 Tahucampur,
 } from '../src/pages/DaerahPage/Jawatimurfile/Exportjawatimur';
+
+import{
+Buburgunting,
+Buburpedas,
+Choipan,
+Kopisingkawang,
+Pengkang,
+} from '../src/pages/DaerahPage/Kaliamantanbaratfile/Exportkalimantanbarat';
 
 function App() {
   return (
@@ -299,6 +308,13 @@ function App() {
             <Route path="/Rujakcingur" element={<Rujakcingur/>} />
             <Route path="/Sotolamongan" element={<Sotolamongan/>} />
             <Route path="/Tahucampur" element={<Tahucampur/>} />
+          
+          <Route path="/daerah/kalimantan barat" element={<Kalimantanbarat/>} />
+            <Route path="/Buburgunting" element={<Buburgunting/>} />
+            <Route path="/Buburpedas" element={<Buburpedas/>} />
+            <Route path="/Choipan" element={<Choipan/>} />
+            <Route path="/Kopisingkawang" element={<Kopisingkawang/>} />
+            <Route path="/Pengkang" element={<Pengkang/>} />
 
 
         </Routes>
