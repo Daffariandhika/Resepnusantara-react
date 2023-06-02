@@ -78,7 +78,7 @@ export default function PreviousSearches({ onSearch }) {
         ))}
         {searches.length > 0 && (
           <button className="btn-clear" onClick={handleClearSearches}>
-            <FontAwesomeIcon icon={faTrash} />
+            <FontAwesomeIcon icon={faTrash} bounce/>
           </button>
         )}
       </div>

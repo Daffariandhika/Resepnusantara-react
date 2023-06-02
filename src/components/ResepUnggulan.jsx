@@ -4,12 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
 
 const list = [
-  'Temukan rasa idaman anda didalam website ini',
-  'Perluas pengetahuan anda',
-  'Belajar resep baru',
-  'Siapkan menu terbaik untuk keluarga anda',
-  'Bukan hanya belajar dalam web ini, tapi juga mengetahui fun fact makanan',
-  'Sajikan hidangan istimega kepada keluarga anda'
+  'mencoba resep baru! Dalam setiap potongan bahan dan sentuhan rempah, tersembunyi kesempatan untuk menciptakan keajaiban di dapurmu. Berani melangkah dan berkreasi dengan kelezatan baru, dan siapkanlah dirimu untuk petualangan rasa yang tak terlupakan!'
 ];
 list.sort(() => Math.random() - 0.5);
 
@@ -20,15 +15,15 @@ const quotes = [
   },
   {
     text:
-      'Cakwe memiliki cita rasa yang gurih dan sedikit asin. Teksturnya yang renyah di luar dan empuk di dalam memberikan sensasi yang nikmat ketika dimakan.'
+      'Lempah kuning Memiliki rasa gurih dan aroma rempah yang khas. Lempah Kuning terbuat dari bahan dasar ikan, seperti ikan patin atau ikan mas, yang direbus bersama dengan bumbu-bumbu yang kaya rempah.'
   },
   {
     text:
-      'Ada beberapa varian klepon yang memiliki isian berbeda. Selain gula merah, klepon juga dapat diisi dengan kacang hijau, keju, atau bahkan daging ayam.'
+      'Gulai kemba’ang adalah makanan khas Bengkulu yang dibuat dari bahan dasar iga sapi yang dimasak dengan aneka rempah. Gulai kemba’ang memiliki cita rasa yang sangat khas dengan aroma rempah yang cukup tajam.'
   },
   {
     text:
-      'Indonesia memiliki berbagai varian mie ayam. Misalnya cwie mie dari Malang, mie ayam khas Bangka, mie celor khas Palembang, dan sebagainya.'
+      'Ayam Betutu adalah hidangan khas dari Bali, Indonesia. Hidangan ini terkenal dengan ayam yang dimasak dengan bumbu khas Bali yang kaya rempah dan disajikan dengan nasi putih serta pelengkap lainnya.'
   }
 ];
 
@@ -38,16 +33,16 @@ const images = [
     url: '/gallery/yogyakarta/gudeg.jpg'
   },
   {
-    path: '/',
-    url: '/gallery/cakwe.jpg'
+    path: '/Lempahkuning',
+    url: '/gallery/belitung/lempah-kuning.jpg'
   },
   {
-    path: '/',
-    url: '/gallery/jawatengah/klepon.jpg'
+    path: '/Gulaikembaang',
+    url: '/gallery/bengkulu/gulaikembaang.jpg'
   },
   {
-    path: '/',
-    url: '/gallery/mie-ayam.jpg'
+    path: '/Ayambetutu',
+    url: '/gallery/bali/ayambetutu.jpg'
   }
 ];
 
@@ -58,7 +53,7 @@ export default function ImproveSkills() {
     const intervalId = setInterval(() => {
       const newIndex = Math.floor(Math.random() * images.length);
       setImageIndex(newIndex);
-    }, 30000);
+    }, 8000);
     return () => clearInterval(intervalId);
   }, []);
 

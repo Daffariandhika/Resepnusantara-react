@@ -1,7 +1,7 @@
 .section.hero {
     .typography {
-        font-size: 20px;
-        padding-inline: 1.5cm;
+        text-align: center;
+        font-size: 21px;
     }
     .gallery {
         padding-inline: 1cm;
@@ -11,7 +11,7 @@
         gap: 1.75vw;
         .custom-image {
             box-shadow: 0 15px 10px var(--shadow-color);
-            border-radius: 25%;
+            border-radius: 25px;
             overflow: hidden;
             animation: getAnimationDuration(0.5s) popOut;
             transition: transform 0.3s ease;

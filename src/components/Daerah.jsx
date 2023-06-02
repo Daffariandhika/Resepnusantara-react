@@ -11,109 +11,109 @@ export default function ChiefsSection() {
 
   // Define the chiefs array with all the options
   const chiefs = [
-    {
+    {//1
       daerah: "Yogyakarta",
       img: "/gallery/yogyakarta/gudeg.jpg",
-      jumlah_menu: "10",
+      jumlah_menu: "8",
       paling_terkenal: "Gudeg",
     },
-    {
+    {//2
       daerah: "Bangka Belitung",
       img: "/gallery/belitung/lempah-kuning.jpg",
       jumlah_menu: "11",
       paling_terkenal: "Lempah Kuning",
     },
-    {
+    {//3
       daerah: "Bengkulu",
       img: "/gallery/bengkulu/gulaikembaang.jpg",
       jumlah_menu: "10",
       paling_terkenal: "Gulai Kemba`ang",
     },
-    {
+    {//4
       daerah: "Bali",
       img: "/gallery/bali/ayambetutu.jpg",
       jumlah_menu: "10",
       paling_terkenal: "Ayam Betutu",
     },
-    {
+    {//5
       daerah: "Jakarta",
       img: "/gallery/jakarta/soto_betawi.jpg",
       jumlah_menu: "10",
       paling_terkenal: "Soto Betawi",
     },
-    {
+    {//6
       daerah: "Aceh",
       img: "/gallery/aceh/mieaceh.jpg",
       jumlah_menu: "10",
       paling_terkenal: "Mie Aceh",
     },
-    {
+    {//7
       daerah: "Sumatra Barat",
       img: "/gallery/sumatrabarat/rendang.jpg",
       jumlah_menu: "8",
       paling_terkenal: "Rendang",
     },
-    {
+    {//8
       daerah: "Banten",
       img: "/gallery/banten/satebandeng.jpg",
       jumlah_menu: "10",
       paling_terkenal: "Sate Bandeng",
     },
-    {
+    {//9
       daerah: "Gorontalo",
       img: "/gallery/gorontalo/binte_biluhuta.jpg",
       jumlah_menu: "10",
       paling_terkenal: "Ayam Iloni",
     },
-    {
+    {//10
       daerah: "Jambi",
       img: "/gallery/jambi/tempoyak_ikan.jpg",
       jumlah_menu: "10",
       paling_terkenal: "Tempoyak Ikan Patin",
     },
-    {
+    {//11
       daerah: "Jawa Barat",
       img: "/gallery/jawabarat/seblak.jpg",
       jumlah_menu: "10",
       paling_terkenal: "Seblak",
     },
-    {
+    {//12
       daerah: "Jawa Tengah",
       img: "/gallery/jawatengah/brongkos.jpg",
       jumlah_menu: "5",
       paling_terkenal: "Brongkos",
     },
-    {
+    {//13
       daerah: "Jawa Timur",
       img: "/gallery/jawatimur/pecel.jpg",
-      jumlah_menu: "5",
+      jumlah_menu: "10",
       paling_terkenal: "Pecel",
     },
-    {
+    {//14
       daerah: "Kalimantan Barat",
       img: "/gallery/kalimantanbarat/buburgunting.jpg",
       jumlah_menu: "5",
       paling_terkenal: "Bubur Gunting",
     },
-    {
+    {//15
       daerah: "Kalimantan Selatan",
       img: "/gallery/kalimantanselatan/habangbanjar.jpg",
       jumlah_menu: "5",
       paling_terkenal: "Habang Banjar",
     },
-    {
+    {//16
       daerah: "Kalimantan Tengah",
       img: "/gallery/kalimantantengah/cotomenggala.jpg",
       jumlah_menu: "5",
       paling_terkenal: "Coto Menggala",
     },
-    {
+    {//17
       daerah: "Kalimantan Timur",
       img: "/gallery/kalimantantimur/sambalgamiudang.jpg",
       jumlah_menu: "5",
       paling_terkenal: "Sambal Gami Udang",
     },
-    {
+    {//18
       daerah: "Kalimantan Utara",
       img: "/gallery/kalimantanutara/sateikanpari.jpg",
       jumlah_menu: "5",

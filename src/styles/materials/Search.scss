@@ -45,7 +45,7 @@
     }
     
     .search-box{
-        margin-bottom: 1cm;
+        margin-block: 1cm;
         display: flex;
         align-items: center;
         justify-content: flex-end;
@@ -54,11 +54,22 @@
             height: 35px;
         }
         input{
+            background-color: var(--transparent-color);
+            font-family: 'Roboto', sans-serif;
             min-width: 250px;
             padding: 0 .5em;
+            font-weight: bold;
             border-radius: 5px 0 0 5px;
             outline: none;
-            border: 1px solid #4d4d4d;
+            border: none;
+        }
+        input[type="text"]:focus,
+        textarea:focus {
+            background-color: #f8f8f8;
+        }
+          
+        input::placeholder {
+            color: #999999;
         }
         .btn{
             padding-block: 0;

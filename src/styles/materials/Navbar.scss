@@ -1,5 +1,5 @@
 .navbar{
-    height: 75px;
+    height: 85px;
     box-shadow: 0 3px 6px var(--shadow-color);
     background-color: var(--background-color);
     color: var(--text-color);
@@ -11,12 +11,12 @@
     top: 0;
     z-index: 998;
     .logo{
-        font-size: 1.5em;
+        font-size: 1.8em;
         font-weight: bolder;
         color: var(--primary-color);
         text-shadow: 0 1px 3px var(--shadow-color);
         span{
-            color: var(--text-color);
+            color: var(--text-light);
         }
     }
     .nav-links{
@@ -26,7 +26,8 @@
             letter-spacing: 2px;
             text-transform: uppercase;
             position: relative;
-            font-size: .9em;
+            font-size: 1em;
+            font-weight: bold;
             &::before{
                 content: '';
                 display: inline-block;
@@ -46,7 +47,7 @@
             }
             &.active{
                 color: var(--primary-color);
-                font-weight: bold;
+                font-weight: bolder;
             }
         }
     }
@@ -61,7 +62,7 @@
             width: 100%;
             background-color: var(--text-light);
             position: absolute;
-            transition: transform getAnimationDuration(.5s);
+            transition: transform getAnimationDuration(.1s);
             &:nth-child(1){
                 top: 0;
             }

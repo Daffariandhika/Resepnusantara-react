@@ -1,6 +1,7 @@
 export { default as Kuerintak } from './Kuerintak';
 export { default as Laksobangka } from './Laksobangka';
 export { default as Lempahdarat } from './Lempahdarat';
+export { default as Lempahkuning } from './Lempahkuning';
 export { default as Lepetbangka } from './Lepetbangka';
 export { default as Lokan } from './Lokan';
 export { default as Martabakbangka } from './Martabakbangka';

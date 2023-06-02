@@ -4,7 +4,7 @@
     --primary-color: rgb(255, 145, 100);
     --transparent-color: rgba(0, 0, 0, 0.5);
     --text-color: bisque;
-    --text-light: #ffffff;
+    --text-light: #f8f8f8;
     --font-size: 16px;
     --animation-speed: 2;
 }
@@ -20,7 +20,7 @@
 }
 
 body {
-    background-image: url('bg2.jpg');
+    background-image: url('bg3.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,6 +54,8 @@ img{
     transition: transform 0.3s ease;
     &:hover {
         transform: scale(1.1);
+        filter: brightness(110%);
+        
     }
 }
 
@@ -70,7 +72,7 @@ img{
     }
 }
 
-@import "materials/navbar.scss";
+@import "materials/Navbar.scss";
 
 // Body1
 .section{
@@ -87,7 +89,7 @@ img{
         margin-bottom: .35em;
         font-weight: 900;
         span{
-            color: var(--text-color);
+            color: var(--text-light);
         }
     }
     .info{
@@ -129,9 +131,12 @@ img{
 
 @import "materials/Animations.scss";
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1330px){
     .container{
         padding-inline: 5vw;
+    }
+    .section.improve-skills .btn{
+        margin-bottom: -1.5cm;
     }
 }
 @media screen and (max-width: 1050px){
@@ -150,7 +155,7 @@ img{
             margin-top: .5cm;
         }
     .title{
-        margin-top: 1.5cm;
+        margin-top: 1cm;
     }
     }
     .section.section.improve-skills{
@@ -182,7 +187,6 @@ img{
         width: 28px;
     }
 
-
 @media screen and (max-width: 768px){
     .navbar{
         .nav-links{
@@ -194,7 +198,8 @@ img{
     }
     .section.hero{
         .typography{
-            font-size: 17px;
+            font-size: 20px;
+            padding-inline: 1cm;
     }    }
     .section{
         .col{
@@ -204,10 +209,10 @@ img{
             margin-bottom: 2em;
         }
         .gallery{
-            margin-top: .5cm;
+            margin-top: 1cm;
         }
     .title{
-        margin-top: 1.5cm;
+        margin-top: 0.5cm;
     }
     }
     .section.section.improve-skills{
@@ -231,11 +236,6 @@ img{
         padding-inline: 6vw;
     }
     .footer{
-        .footer-section{
-            .contact{
-                font-size: 15px;
-            }
-        }
         grid-template-columns: repeat(3, 1fr);
         .footer-section:nth-child(1){
             grid-column: span 4;
@@ -249,7 +249,7 @@ img{
 @media only screen and (max-width: 600px) {
     .section.hero {
         .typography {
-            font-size: 12px;
+            font-size: 15px;
         }
     }
     .sign-in-form-container {
@@ -261,5 +261,10 @@ img{
 @media screen and (max-width: 480px){
     .container{
         padding-inline: 3vw;
+    }
+    .section.hero {
+        .typography {
+            font-size: 12px;
+        }
     }
 }

@@ -4,7 +4,7 @@
         box-shadow: 0 15px 10px var(--shadow-color);
         width: 450px;
         height: 450px;
-        border-radius: 30%;
+        border-radius: 25px;
         overflow: hidden;
         margin: 0 auto;
         animation: getAnimationDuration(0.5s) popOut;
@@ -20,26 +20,21 @@
         }
 }
     .col.typography{
-        padding-left: 3em;
+        text-align: center;
         .title{
-            color: var(--text-color);
+            color: var(--primary-color);
         }
         .skill-item{
-            display: none;
-            border-left: .2em solid var(--primary-color);
             margin-bottom: 1.5em;
-            padding: .1em 0 .1em .5em;
+            padding: .5em;
             color: var(--text-color);
             font-weight: bold;
-            font-size: larger;
+            text-align: justify;
+            font-size: 1.2em;
+            line-height: 1.6;
             transform: translateX(100%);
             opacity: 0;
             animation: getAnimationDuration(.3s) slideInRight forwards;
-            @for $i from 2 through 7 {
-                &:nth-child(#{$i}){
-                    animation-delay: #{$i * .1}s;
-                }
-            }
         }
     }
     .section.quote{
