@@ -92,13 +92,6 @@ export const recipes = [
   },
   {
     province: "Jawa Tengah",
-    title: "Lumpia Semarang",
-    image: "/gallery/jawatengah/lumpiasemarang.jpg",
-    desc: "Lumpia semarang adalah makanan semacam rollade yang berisi rebung, telur, dan daging ayam atau udang.",
-    path: "/Lumpiasemarang",
-  },
-  {
-    province: "Jawa Tengah",
     title: "Mangut Lele",
     image: "/gallery/jawatengah/mangutlele.jpg",
     desc: "Ikan lele menjadi salah satu bahan makanan yang bisa diolah menjadi berbagai masakan lezat dan menggugah selera. Salah satu masakan enak dan favorit dari ikan lele adalah mangut lele. Cita rasanya mangut yang gurih pedas ditambah tekstur ikan lele yang lembut, membuat sajian ini jadid idola beberapa orang.",
@@ -106,38 +99,10 @@ export const recipes = [
   },
   {
     province: "Jawa Tengah",
-    title: "Nasi Gandul",
-    image: "/gallery/jawatengah/nasigandul.jpg",
-    desc: "Nasi gandul atau Sego Gandul adalah masakan khas yang berasal dari daerah Pati, Jawa Tengah, Indonesia yang sepintas mirip dengan Semur Daging dan Gulai.",
-    path: "/Nasigandul",
-  },
-  {
-    province: "Jawa Tengah",
     title: "Oseng Mercon",
     image: "/gallery/jawatengah/osengmercon.jpg",
     desc: "Oseng mercon merupakan hidangan pedas yang bisa membuat selera makan bertambah. Biasanya, oseng mercon terdiri dari daging-dagingan atau tetelan. Tetapi, oseng mercon dapat dibuat dari berbagai bahan dan sesuai selera",
     path: "/Osengmercon",
-  },
-  {
-    province: "Jawa Tengah",
-    title: "Soto Kudus",
-    image: "/gallery/jawatengah/Sotokudus.jpg",
-    desc: "Soto Kudus adalah soto yang berasal dari Kudus, Jawa Tengah. Soto kudus, hampir mirip dengan soto Lamongan, soto kudus berisi suwiran ayam dan taoge. Terkadang soto kudus juga menggunakan daging kerbau. Kuahnya lebih bening",
-    path: "/Sotokudus",
-  },
-  {
-    province: "Jawa Tengah",
-    title: "Tahu Petis",
-    image: "/gallery/jawatengah/tahupetis.jpg",
-    desc: "Tahu petis adalah jajanan khas kota Semarang berupa tahu goreng yang dimakan dengan petis yang dioleskan/disisipkan di tengah-tengah tahu",
-    path: "/Tahupetis",
-  },
-  {
-    province: "Jawa Tengah",
-    title: "Tempe Mendoan",
-    image: "/gallery/jawatengah/tempemendoan.jpg",
-    desc: "Mendoan adalah panganan yang terbuat dari tempe yang dibaluri tepung dan daun bawang, kemudian digoreng setengah matang. ",
-    path: "/Tempemendoan",
   },
   // Batas Menu Jawa Tengah //
 
@@ -1050,45 +1015,10 @@ export const recipes = [
 },
 { 
   province: "Kalimantan Timur",
-  title: "Daging Masak Bumi Hangus",
-  image: "/gallery/kalimantantimur/dagingmasakbumihangus.jpg",
-  desc: "Makanan khas dengan nama unik ini terbuat dari daging sapi yang dimasak dengan bumbu kecap. Uniknya, proses pematangan daging berlangsung cukup lama, hingga warnanya berubah kehitaman.",
-  path: "/Dagingmasakbumihangus",
-},
-{ 
-  province: "Kalimantan Timur",
-  title: "Gance Ruan",
-  image: "/gallery/kalimantantimur/ganceruan.jpg",
-  desc: "Gance Ruan merupakan makanan khas rica-rica dari Kutai Kartanegara. Ruan merupakan nama yang diambil dari nama ikan yang digunakan, yaitu ikan Haruan atau ikan Gabus. Sedangkan Gance adalah nama dari bumbu khas hidangan ini.",
-  path: "/Ganceruan",
-},
-{ 
-  province: "Kalimantan Timur",
-  title: "Gangan Manok",
-  image: "/gallery/kalimantantimur/ganganmanok.jpg",
-  desc: "Gangan manok adalah sayur bening sejenis dengan makanan bakso dengan pelengkap bola-bola ayam. Penyajiannya dilengkapi sayuran bayam dan oyong yang kaya serat.",
-  path: "/Ganganmanok",
-},
-{ 
-  province: "Kalimantan Timur",
-  title: "Nasi Bekepor",
-  image: "/gallery/kalimantantimur/nasibekepor.jpg",
-  desc: "Nasi bekepor merupakan nasi liwet yang dipadukan dengan minyak sayur, aneka bumbu rempah khas dan ikan asin.",
-  path: "/Nasibekepor",
-},
-{ 
-  province: "Kalimantan Timur",
   title: "Pisang Gapit",
   image: "/gallery/kalimantantimur/pisanggapit.jpg",
   desc: "Nama pisang gapit berarti pisang yang dijepit. Dalam bahasa Kutai atau Banjar, gapit berarti jepit. Tak hanya dijepit hingga gepeng, pisang setengah matang juga dibakar sehingga aromanya lebih sedap.",
   path: "/Pisanggapit",
-},
-{ 
-  province: "Kalimantan Timur",
-  title: "Roba Ruan",
-  image: "/gallery/kalimantantimur/robaruan.jpg",
-  desc: "Roba Ruan dijadikan mirip seperti abon. Meskipun demikian, dari segi rasa sangatlah berbeda. Rabo ruan ini sangat cocok dimakan dengan nasi hangat.",
-  path: "/Robaruan",
 },
 { 
   province: "Kalimantan Timur",
@@ -1115,13 +1045,6 @@ export const recipes = [
 
 { // Menu Kalimantan Utara //
   province: "Kalimantan Utara",
-  title: "Dodol Cempedak",
-  image: "/gallery/kalimantanutara/dodolcempedak.jpg",
-  desc: "kuliner khas Kalimantan Utara yang identik dengan rasa manis, yang biasanya di jadikan sebagai oleh-oleh yaitu dodok cempedak dan ada juga dodol rumput laut.",
-  path: "/Dodolcempedak",
-},
-{ 
-  province: "Kalimantan Utara",
   title: "Ikan Asin Richa",
   image: "/gallery/kalimantanutara/ikanasinricha.jpg",
   desc: "Ikan asin richa ini, biasa juga disebut dengan ikan asin pedas atau gami. Ikan asin yang satu ini biasanya dijadikan sebagai pelengkap makanan.",
@@ -1136,24 +1059,10 @@ export const recipes = [
 },
 { 
   province: "Kalimantan Utara",
-  title: "Lawa",
-  image: "/gallery/kalimantanutara/lawa.jpg",
-  desc: " Lawa ini adalah makanan khas dari sebuah kerajaan yaitu kerajangan Bulungan yang terdapat di Kalimantan Utara. Makanan ini terbuat dari bahan dasar sayuran yang segar yaitu timun dan rumput laut.",
-  path: "/Lawa",
-},
-{ 
-  province: "Kalimantan Utara",
   title: "Nasi Subut",
   image: "/gallery/kalimantanutara/nasisubut.jpg",
   desc: "Nasi ini berbeda dengan nasi pada umunya, yaitu tidak berwarna putih melainkan berwarna ungu. Makanan ini bisa ditemukan di daerah Kabupaten Tana Tidung, karena makanan ini adalah makana tradisional yang berasal dari daerah tersebut",
   path: "/Nasisubut",
-},
-{ 
-  province: "Kalimantan Utara",
-  title: "Nasi Udang",
-  image: "/gallery/kalimantanutara/nasiudang.jpg",
-  desc: "Nasi udang ini adalah makanan yang berasal dari salah satu daerah Kalimantan Utara yaitu kabupaten Malinau.",
-  path: "/Nasiudang",
 },
 { 
   province: "Kalimantan Utara",
@@ -1164,25 +1073,12 @@ export const recipes = [
 },
 { 
   province: "Kalimantan Utara",
-  title: "Sate Temburung",
-  image: "/gallery/kalimantanutara/satetemburung.jpg",
-  desc: "Sate ini juga salah satu makanan khas Kalimantan Utara yang wajib anda coba saat berlibur ke Kalimantan Utara. Sate ini sangat enak dan lezat, dan bahkan masyarakat setempat menyajikannya saat pergantian tahun baru.",
-  path: "/Satetemburung",
-},
-{ 
-  province: "Kalimantan Utara",
   title: "Tudai",
   image: "/gallery/kalimantanutara/tudai.jpg",
   desc: "Cara memasak tudai ini cukup sederhana yaitu hanya direbus atau disajikan dengan sambal goreng. Kuliner ini biasanya ada di acara-acara tertentu",
   path: "/Tudai",
 },
-{ 
-  province: "Kalimantan Utara",
-  title: "Tumis Kapah",
-  image: "/gallery/kalimantanutara/tumiskapah.jpg",
-  desc: "Tumis Kapah ini terbuat dari bahan dasar kapah yang mengandung banyak sekali protein, sehingga cocok sekali dikonsumsi oleh anda yang ingin sekali memenuhi pasokan protein di dalam tubuh.",
-  path: "/Tumiskapah",
-},
+
 ].sort(() => Math.random() - 0.5);
 
 export default function Recipes() {

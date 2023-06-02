@@ -25,6 +25,8 @@ import {
   Kalimantanbarat,
   Kalimantanselatan,
   Kalimantantengah,
+  Kalimantantimur,
+  Kalimantanutara,
  } from './pages/Export';
 
 import{
@@ -187,6 +189,30 @@ Ikanjelawatbakar,
 Kalumpe,
 } from '../src/pages/DaerahPage/Kalimantantengahfile/Exportkalimantantengah';
 
+import{
+Babangko,
+Pisanggapit,
+Sambalgamiudang,
+Sambalraja,
+Satepayau,
+} from '../src/pages/DaerahPage/Kalimantantimurfile/Exportkalimantantimur';
+
+import{
+Ikanasinricha,
+Kepitingsokakalimantanutara,
+Nasisubut,
+Sateikanpari,
+Tudai,
+} from '../src/pages/DaerahPage/Kalimantanutarafile/Exportkalimantanutara';
+
+import{
+Brongkos,
+Klepon,
+Mangutlele,
+Nasitiwul,
+Osengmercon,
+} from './pages/DaerahPage/Jawatengahfile/Exportjawatengah';
+
 function App() {
   return (
     <Router>
@@ -204,6 +230,11 @@ function App() {
             <Route path="/Ayamkalasan" element={<Ayamkalasan/>}/>
 
           <Route path="/daerah/jawa tengah" element={<Jawatengah/>} />
+            <Route path="/Brongkos" element={<Brongkos/>} />
+            <Route path="/Klepon" element={<Klepon/>} />
+            <Route path="/Mangutlele" element={<Mangutlele/>} />
+            <Route path="/Nasitiwul" element={<Nasitiwul/>} />
+            <Route path="/Osengmercon" element={<Osengmercon/>} />
 
           <Route path="/daerah/bali" element={<Bali/>} />
             <Route path="/Ayambetutu" element={<Ayambetutu/>} />
@@ -347,6 +378,20 @@ function App() {
               <Route path="/Hintalukaruang" element={<Hintalukaruang/>} />
               <Route path="/Ikanjelawatbakar" element={<Ikanjelawatbakar/>} />
               <Route path="/Kalumpe" element={<Kalumpe/>} />
+            
+            <Route path="/daerah/kalimantan timur" element={<Kalimantantimur/>} />
+              <Route path="/Babangko" element={<Babangko/>} />
+              <Route path="/Pisanggapit" element={<Pisanggapit/>} />
+              <Route path="/Sambalgamiudang" element={<Sambalgamiudang/>} />
+              <Route path="/sambalraja" element={<Sambalraja/>} />
+              <Route path="/Satepayau" element={<Satepayau/>} />
+
+            <Route path="/daerah/kalimantan Utara" element={<Kalimantanutara/>} />
+              <Route path="/Ikanasinricha" element={<Ikanasinricha/>} />
+              <Route path="/Kepitingsokakalimantanutara" element={<Kepitingsokakalimantanutara/>} />
+              <Route path="/Nasisubut" element={<Nasisubut/>} />
+              <Route path="/Sateikanpari" element={<Sateikanpari/>} />
+              <Route path="/Tudai" element={<Tudai/>} />
 
 
         </Routes>

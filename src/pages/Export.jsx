@@ -1,5 +1,5 @@
 export { default as Yogyakarta } from './DaerahPage/Yogyakarta';
-export { default as Jawatengah } from './DaerahPage/JawaTengah';
+export { default as Jawatengah } from './DaerahPage/Jawatengahfile/JawaTengah';
 export { default as Bali } from './DaerahPage/Balifile/Bali';
 export { default as Aceh } from './DaerahPage/Acehfile/Aceh';
 export { default as Sumatrabarat } from './DaerahPage/Sumatrabarat';
@@ -14,3 +14,5 @@ export { default as Jawatimur } from './DaerahPage/Jawatimurfile/Jawatimur';
 export { default as Kalimantanbarat } from './DaerahPage/Kaliamantanbaratfile/Kalimantanbarat';
 export { default as Kalimantanselatan } from './DaerahPage/Kalimantanselatanfile/Kalimantanselatan';
 export { default as Kalimantantengah } from './DaerahPage/Kalimantantengahfile/Kalimantantengah';
+export { default as Kalimantantimur } from './DaerahPage/Kalimantantimurfile/Kalimantantimur';
+export { default as Kalimantanutara } from './DaerahPage/Kalimantanutarafile/Kalimantanutara';

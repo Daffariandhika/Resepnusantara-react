@@ -80,7 +80,7 @@ export default function ChiefsSection() {
     {
       daerah: "Jawa Tengah",
       img: "/gallery/jawatengah/brongkos.jpg",
-      jumlah_menu: "10",
+      jumlah_menu: "5",
       paling_terkenal: "Brongkos",
     },
     {

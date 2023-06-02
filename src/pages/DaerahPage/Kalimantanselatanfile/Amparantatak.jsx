@@ -11,7 +11,7 @@ function Amparantatak() {
 
       <div className="recipe-description">
         <p>
-         
+        Amparan Tatak adalah kue tradisional khas dari suku Banjar. Kue ini termasuk ke dalam kategori kue basah dengan bahan utama berupa tepung beras, santan, gula dan pisang. Kue ini didominasi oleh rasa gurih dan manis sehingga menjadi salah satu jajanan yang dicari di pasar wadai selama bulan Ramadan
         </p>
       </div>
 
@@ -23,21 +23,19 @@ function Amparantatak() {
         <div className="recipe-ingredients">
           <h2>Ingredients</h2>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>200 gr tepung beras</li>
+            <li>600 cc santan sedang</li>
+            <li>100 gr gulapasir</li>
+            <li>1 kotak vanili</li>
+            <li>1 butir telur</li>
+            <li>1/2 sdt garam</li>
+            <li>400 gr pisang yg sdah matang </li>
+            <li>1 lmbr daun pandan</li>
+            <li>lapisan atas :</li>
+            <li>50 gr tepung beras</li>
+            <li>500 cc santan kental</li>
+            <li>gr gulapasir</li>
+            <li>1 sdt garam</li>
           </ul>
         </div>
       </div>
@@ -46,31 +44,23 @@ function Amparantatak() {
         <h2>Tutorial</h2>
         <ul>
         <h3>Langkah 1</h3>
-            <li></li>
+            <li>Kerjakan bahan utk lapisan bawah dulu,rebus santan,gula pasir,daunpandan sampai mndidih,matikan api</li>
         <h3>Langkah 2</h3>
-            <li></li>
+            <li>Dalam wadah campur tepung beras,garam,vanili,telur aduk rata kmudian tuangi santan panas yg sudah direbus tadi,aduk kmbli sampai adonan licin tidak bergerindil saring klo perlu.</li>
         <h3>Langkah 3</h3>
-            <li></li>
+            <li>Masukan kedalam loyang yg sudah diberi minyak dan dialasi plastik tahan panas,sisakan 1/4 bagian utk dicampur dgn cacahan pisang.</li>
         <h3>Langkah 4</h3>
-            <li></li>
+            <li>Kukus adonan lapisan bawah kurleb 20 menit,baru kmudian masukan adonan 1/4 td yg sudah dicampur cacahan pisang,kukus lagi kurleb 20 menit.</li>
         <h3>Langkah 5</h3>   
-            <li></li>
+            <li>Sambil menunggu kukusan lapisan bawah mengeras,kita kerjakan untuk lapisan atasnya,campur tepung beras,gula,garam lalu rebus sampai mendidih,matikan api</li>
         <h3>Langkah 6</h3>   
-            <li></li>
+            <li>Aduk rata adonan sampai halus dan kalis tidak bergerindil.</li>
         <h3>Langkah 7</h3>   
-            <li></li>
+            <li>Masukan kedalam loyang tuang keatas lapisan bawah,kukus kmbli kurleb 20 menit atau smpai matang merata.</li>
         <h3>Langkah 8</h3>   
-            <li></li>
+            <li>Setelah matang dan dingin disuhu ruangan,baru amparan tatak dipotong sesuai selera.</li>
         <h3>Langkah 9</h3>   
-            <li></li>
-        <h3>Langkah 10</h3>   
-            <li></li>
-        <h3>Langkah 11</h3>   
-            <li></li>
-        <h3>Langkah 12</h3>   
-            <li></li>
-        <h3>Langkah 13</h3>   
-            <li></li>
+            <li>Sajikan dan nikmati bersama keluarga.</li>
         </ul>
       </div>
 

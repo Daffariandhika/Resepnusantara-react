@@ -11,7 +11,7 @@ function Kopisingkawang() {
 
       <div className="recipe-description">
         <p>
-         
+        kopi khas robusta tradisional dari Kalimantan Barat, berbagai sajian kopi dibuat dengan cita rasa yang nikmat. namun yang istimewa dari kopi ini ialah ketika kita menikmatinya langsung di tempatnya yang terkenal yaitu di tengah-tengah kawasan kota tua Singkawang, Kalimantan Barat, Toko Kopi Nikmat. 
         </p>
       </div>
 
@@ -23,21 +23,9 @@ function Kopisingkawang() {
         <div className="recipe-ingredients">
           <h2>Ingredients</h2>
           <ul>
+            <li>Kopi robusta khas Kalimantan Barat</li>
             <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>air</li>
           </ul>
         </div>
       </div>
@@ -46,31 +34,13 @@ function Kopisingkawang() {
         <h2>Tutorial</h2>
         <ul>
         <h3>Langkah 1</h3>
-            <li></li>
+            <li>Rebus air hingga mendidih,sekitar 100 drajat Celcius</li>
         <h3>Langkah 2</h3>
-            <li></li>
+            <li>matikan kompor dan tunggu suhu air menurun sampai 80 drajat Celcius</li>
         <h3>Langkah 3</h3>
-            <li></li>
+            <li>Seduh kopi</li>
         <h3>Langkah 4</h3>
-            <li></li>
-        <h3>Langkah 5</h3>   
-            <li></li>
-        <h3>Langkah 6</h3>   
-            <li></li>
-        <h3>Langkah 7</h3>   
-            <li></li>
-        <h3>Langkah 8</h3>   
-            <li></li>
-        <h3>Langkah 9</h3>   
-            <li></li>
-        <h3>Langkah 10</h3>   
-            <li></li>
-        <h3>Langkah 11</h3>   
-            <li></li>
-        <h3>Langkah 12</h3>   
-            <li></li>
-        <h3>Langkah 13</h3>   
-            <li></li>
+            <li>untuk penambahan gula atau susu opsional</li>
         </ul>
       </div>
       

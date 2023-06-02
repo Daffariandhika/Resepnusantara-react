@@ -11,7 +11,7 @@ function Geguduhpisang() {
 
       <div className="recipe-description">
         <p>
-         
+        Geguduh adalah salah satu camilan tradisional Lampung yang bercita rasa manis. Bahan baku utama geguduh adalah pisang kepok. Pisang tersebut akan dihaluskan sampai lembut atau kasar kemudian ditambah dengan tepung terigu, lalu diaduk hingga merata
         </p>
       </div>
 
@@ -23,21 +23,15 @@ function Geguduhpisang() {
         <div className="recipe-ingredients">
           <h2>Ingredients</h2>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>4 buah pisang kepok</li>
+            <li>6 sdm tepung terigu</li>
+            <li>2 sdm keju parut</li>
+            <li>1 sdm tepung maizena</li>
+            <li>1 sdm kental manis putih</li>
+            <li>1 sdt gula pasir</li>
+            <li>1/4 sdt baking powder</li>
+            <li>1/4 sdt vanili bubuk</li>
+            <li>sejumput kayu manis</li>
           </ul>
         </div>
       </div>
@@ -46,31 +40,13 @@ function Geguduhpisang() {
         <h2>Tutorial</h2>
         <ul>
         <h3>Langkah 1</h3>
-            <li></li>
+            <li>Haluskan pisang dengan garpu atau blender. Tuang ke dalam wadah.</li>
         <h3>Langkah 2</h3>
-            <li></li>
+            <li>Masukkan tepung terigu, maizena, keju, kental manis, vanili, kayu manis dan baking powder</li>
         <h3>Langkah 3</h3>
-            <li></li>
+            <li>Jika semua bahan sudah tercampur, panaskan minyak.</li>
         <h3>Langkah 4</h3>
-            <li></li>
-        <h3>Langkah 5</h3>   
-            <li></li>
-        <h3>Langkah 6</h3>   
-            <li></li>
-        <h3>Langkah 7</h3>   
-            <li></li>
-        <h3>Langkah 8</h3>   
-            <li></li>
-        <h3>Langkah 9</h3>   
-            <li></li>
-        <h3>Langkah 10</h3>   
-            <li></li>
-        <h3>Langkah 11</h3>   
-            <li></li>
-        <h3>Langkah 12</h3>   
-            <li></li>
-        <h3>Langkah 13</h3>   
-            <li></li>
+            <li>Goreng setiap satu sendok hingga matang dan kecokelatan. Angkat</li>
         </ul>
       </div>
 
