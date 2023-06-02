@@ -33,6 +33,11 @@ import{
   Gudeg,
   Bakmijawa,
   Ayamkalasan,
+  Mielethek,
+  Sateklathak,
+  Sotolenthok,
+  Bakpia,
+  Nasikucing
 } from '../src/pages/DaerahPage/Yogyakartafile/ExportYogya';
 
 import{
@@ -65,6 +70,7 @@ import{
 Kuerintak,
 Laksobangka,
 Lempahdarat,
+Lempahkuning,
 Lepetbangka,
 Lokan,
 Martabakbangka,
@@ -228,6 +234,11 @@ function App() {
             <Route path="/Gudeg" element={<Gudeg/>} />
             <Route path="/Bakmijawa" element={<Bakmijawa/>} />
             <Route path="/Ayamkalasan" element={<Ayamkalasan/>}/>
+            <Route path="/Mielethek" element={<Mielethek/>}/>
+            <Route path="/Sateklathak" element={<Sateklathak/>}/>
+            <Route path="/Sotolenthok" element={<Sotolenthok/>}/>
+            <Route path="/Bakpia" element={<Bakpia/>}/>
+            <Route path="/Nasikucing" element={<Nasikucing/>}/>
 
           <Route path="/daerah/jawa tengah" element={<Jawatengah/>} />
             <Route path="/Brongkos" element={<Brongkos/>} />
@@ -290,6 +301,7 @@ function App() {
             <Route path="/Kuerintak" element={<Kuerintak/>} />
             <Route path="/Laksobangka" element={<Laksobangka/>} />
             <Route path="/Lempahdarat" element={<Lempahdarat/>} />
+            <Route path="/Lempahkuning" element={<Lempahkuning/>} />
             <Route path="/Lepetbangka" element={<Lepetbangka/>} />
             <Route path="/Lokan" element={<Lokan/>} />
             <Route path="/Martabakbangka" element={<Martabakbangka/>} />

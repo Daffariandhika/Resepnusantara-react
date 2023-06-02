@@ -54,7 +54,7 @@
 }
 
 .deskripsi{
-    background-color: rgba(0,0,0,0.2);
+    background-color: var(--transparent-color);
     border-left: .5em solid var(--primary-color);
     color: var(--text-color);
     font-weight: 500;

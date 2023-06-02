@@ -7,36 +7,36 @@ export const recipes = [
     province: "Yogyakarta",
     title: "Gudeg",
     image: "/gallery/yogyakarta/gudeg.jpg",
-    desc: "Makanan khas Yogyakarta terkenal bercita rasa manis gurih",
+    desc: "Gudeg terbuat dari nangka muda yang dimasak dengan bumbu rempah khas, seperti kelapa, gula jawa, daun salam, lengkuas, dan bawang merah. Makanan ini memiliki cita rasa manis dengan aroma rempah yang khas.",
     path: "/Gudeg",
   },
   {
     province: "Yogyakarta",
     title: "Sate Klathak",
     image: "/gallery/yogyakarta/sate-klathak.jpg",
-    desc: "Sate ini sangat berbeda dari ragam sate lainnya, Tusukan yang dipakai untuk memanggang terbuat dari besi, Tusukan besi sebagai konduktor penghangat akan membuat daging lebih masak dari bagian dalam.",
-    path: "",
+    desc: "Sate Klathak adalah salah satu jenis sate yang berasal dari Yogyakarta, Indonesia. Sate ini terkenal karena penggunaan bahan daging yang unik, yaitu menggunakan daging kerbau atau sapi muda.",
+    path: "/Sateklathak",
   },
   {
     province: "Yogyakarta",
     title: "Bakpia",
     image: "/gallery/yogyakarta/bakpia.jpg",
-    desc: "Bakpia adalah sejenis makanan kue yang berasal dari Yogyakarta, Indonesia. Bakpia biasanya berbentuk bulat dan memiliki berbagai macam isian, seperti kacang hijau, cokelat, keju",
-    path: "",
+    desc: "Bakpia adalah sejenis kue tradisional yang berasal dari Yogyakarta, Indonesia. Kue ini terkenal dengan kulitnya yang tipis dan isian manis yang lezat. Bakpia memiliki bentuk bulat atau bundar.",
+    path: "/Bakpia",
   },
   {
     province: "Yogyakarta",
     title: "Mie Lethek",
     image: "/gallery/yogyakarta/mielethek.jpg",
-    desc: "Mie Lethek biasanya disajikan dengan taburan bawang goreng, irisan daun bawang, dan kerupuk sebagai pelengkap. Rasanya yang lezat, tekstur mi yang kenyal, serta kuah kaldu yang gurih membuat Mie Lethek menjadi hidangan yang populer di Yogyakarta dan menjadi favorit bagi pecinta mi tradisional.",
-    path: "",
+    desc: "Mie Lethek, juga dikenal sebagai Mie Lethek Solo atau Mie Kopyok, adalah hidangan mie khas dari daerah Solo, Jawa Tengah, Indonesia.",
+    path: "/Mielethek",
   },
   {
     province: "Yogyakarta",
     title: "Nasi Kucing",
     image: "/gallery/yogyakarta/nasikucing.jpg",
-    desc: "Nasi Kucing terdiri dari sepiring kecil nasi putih yang diberi lauk-pauk dan sambal sebagai pelengkap. Lauk-pauk yang biasa disajikan antara lain ayam suwir, ikan asin, tempe goreng, telur, sambal terasi, dan beberapa jenis lauk-pauk lainnya sesuai selera dan ketersediaan. Sambal yang disajikan biasanya pedas dan memiliki rasa yang khas.",
-    path: "",
+    desc: "Nasi Kucing merupakan makanan khas dari daerah Yogyakarta yang terkenal dengan porsi yang kecil dan sederhana, namun memiliki cita rasa yang kaya.",
+    path: "/Nasikucing",
   },
   {
     province: "Yogyakarta",
@@ -49,22 +49,15 @@ export const recipes = [
     province: "Yogyakarta",
     title: "Soto Lenthok",
     image: "/gallery/yogyakarta/soto-lenthok.jpg",
-    desc: "soto lenthok adalah makanan yang khas dari Yogyakarta. Makanan khas Yogyakarta ini memiliki ciri khas disantap dengan lenthok atau singkong goreng yang sudah dibentuk lonjong.",
-    path: "",
+    desc: "Soto Lenthok adalah salah satu varian soto yang berasal dari Yogyakarta, Indonesia. Soto ini memiliki rasa yang khas dan berbeda dengan soto-soto lainnya karena menggunakan bumbu khusus yang disebut 'lenthok' dalam penyajiannya.",
+    path: "/Sotolenthok",
   },
   {
     province: "Yogyakarta",
     title: "Ayam Goreng Kalasan",
     image: "/gallery/yogyakarta/ayam-kalasan.jpg",
-    desc: "Ayam goreng Kalasan atau ayam Kalasan merupakan salah satu makanan khas Yogyakarta. Sesuai namanya, ayam goreng ini berasal dari daerah Kalasan, Sleman, Yogyakarta. Ayam goreng Kalasan mempunyai cita rasa gurih yang dipandu dengan rempah-rempah khas Indonesia.",
+    desc: "Ayam Goreng Kalasan adalah hidangan ayam goreng yang berasal dari daerah Kalasan, Yogyakarta, Indonesia. Ayam goreng ini memiliki ciri khas rasa manis, gurih, dan sedikit pedas",
     path: "/Ayamkalasan",
-  },
-  {
-    province: "Yogyakarta",
-    title: "Jadah Tempe",
-    image: "/gallery/yogyakarta/jadah-tempe.jpg",
-    desc: "Jadah biasanya dimakan bersamaan dengan tempe, jadi kita bisa menyebutnya jadah tempe. Jadah tempe merupakan nama gabungan dari dua jenis makanan, yaitu jadah yang terbuat dari beras ketan sedangkan tempe yang terbuat dari kedelai yang di olah dengan cara di bacem.",
-    path: "",
   },
   // Batas Menu Yogyakarta //
 
@@ -1108,4 +1101,3 @@ export default function Recipes() {
     </div>
   );
 }
-
