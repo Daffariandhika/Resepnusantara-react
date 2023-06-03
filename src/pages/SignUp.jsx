@@ -2,6 +2,8 @@ import { useState } from "react";
 import Validation from "./SignUpValidation";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faUser, faLock, faPen } from "@fortawesome/free-solid-svg-icons";
 
 export default function SignUpForm() {
   const [values, setValues] = useState({
@@ -43,9 +45,9 @@ export default function SignUpForm() {
   return (
     <div className="form-container">
       <form className="form" onSubmit={handleSubmit} autoComplete="off">
-        <h2>Sign Up</h2>
+        <h2>Sign Up <FontAwesomeIcon icon={faPen}/></h2>
         <div className="form-group">
-          <label htmlFor="username">Username :</label>
+          <label htmlFor="username"><FontAwesomeIcon icon={faUser}/> Username :</label>
           <input
             type="text"
             id="username"
@@ -55,7 +57,7 @@ export default function SignUpForm() {
           {errors.username && <span className="text-danger">{errors.username}</span>}
         </div>
         <div className="form-group">
-          <label htmlFor="email">Email :</label>
+          <label htmlFor="email"><FontAwesomeIcon icon={faEnvelope}/> Email :</label>
           <input
             type="email"
             id="email"
@@ -65,7 +67,7 @@ export default function SignUpForm() {
           {errors.email && <span className="text-danger">{errors.email}</span>}
         </div>
         <div className="form-group">
-          <label htmlFor="password">Password :</label>
+          <label htmlFor="password"><FontAwesomeIcon icon={faLock}/> Password :</label>
           <input
             type="password"
             id="password"
@@ -74,7 +76,7 @@ export default function SignUpForm() {
           />
           {errors.password && <span className="text-danger">{errors.password}</span>}
         </div>
-        <button className="btn" type="submit">Sign Up</button>
+        <button className="btn" type="submit">Sign Up <FontAwesomeIcon icon={faPen}/></button>
       </form>
     </div>
   );

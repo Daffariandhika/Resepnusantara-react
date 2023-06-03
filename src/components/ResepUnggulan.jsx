@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faQuoteLeft, faQuoteRight } from '@fortawesome/free-solid-svg-icons';
+import { faQuoteLeft, faQuoteRight, faPen } from '@fortawesome/free-solid-svg-icons';
 
 const list = [
   'mencoba resep baru! Dalam setiap potongan bahan dan sentuhan rempah, tersembunyi kesempatan untuk menciptakan keajaiban di dapurmu. Berani melangkah dan berkreasi dengan kelezatan baru, dan siapkanlah dirimu untuk petualangan rasa yang tak terlupakan!'
@@ -75,9 +75,7 @@ export default function ImproveSkills() {
           </p>
         ))}
         <Link to="/signup">
-          <button className="btn" style={{ cursor: 'pointer' }}>
-            Daftar Sekarang
-          </button>
+          <button className="btn" style={{ cursor: 'pointer' }}><FontAwesomeIcon icon={faPen}/> Daftar Sekarang</button>
         </Link>
       </div>
       <div className="section quote">

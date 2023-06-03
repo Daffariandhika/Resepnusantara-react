@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch, faTrash } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faTrashCan } from "@fortawesome/free-solid-svg-icons";
 
 const PREVIOUS_SEARCHES_KEY = "previousSearches";
 const MAX_PREVIOUS_SEARCHES = 5;
@@ -78,7 +78,7 @@ export default function PreviousSearches({ onSearch }) {
         ))}
         {searches.length > 0 && (
           <button className="btn-clear" onClick={handleClearSearches}>
-            <FontAwesomeIcon icon={faTrash} bounce/>
+            <FontAwesomeIcon icon={faTrashCan} bounce/>
           </button>
         )}
       </div>

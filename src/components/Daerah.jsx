@@ -153,7 +153,7 @@ export default function ChiefsSection() {
   // Render the component
   return (
     <div className="section chiefs">
-      <h1 className="title">Temukan Makanan Khas Daerahmu</h1>
+      <h1 className="title">Temukan Makanan Khas Daerahmu <span class="fi fi-id"></span></h1>
       <div className="top-chiefs-container">
         {topChiefs.map((chief) => (
           <ChiefCard key={chief.daerah} chief={chief} />

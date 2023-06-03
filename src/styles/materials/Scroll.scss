@@ -1,0 +1,18 @@
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(51, 51, 51);
+  border-radius: 4px;
+}
+
+/* On hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}
