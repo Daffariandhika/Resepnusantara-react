@@ -20,11 +20,12 @@ export default function Navbar(){
             path: "/recipes",
             icon: faCutlery
         },
+        /*
         {
             name: "Sign in",
             path: "/login",
             icon: faUser
-        },
+        },*/
     ]
     // Function untuk menutup sidebar
     function tutupSidebar(){
