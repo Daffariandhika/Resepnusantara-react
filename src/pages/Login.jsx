@@ -47,7 +47,7 @@ export default function LoginForm() {
   return (
     <div className="form-container">
       <form onSubmit={handleSubmit} className="form" autoComplete="off">
-        <h2>Sign In <FontAwesomeIcon icon={faUser}/></h2>
+        <h2>Log In <FontAwesomeIcon icon={faUser}/></h2>
         <div className="form-group">
           <label htmlFor="email"><FontAwesomeIcon icon={faEnvelope}/> Email :</label>
           <input
@@ -72,7 +72,7 @@ export default function LoginForm() {
             <span className="text-danger"> {errors.password}</span>
           )}
         </div>
-        <button className="btn" type="submit">Sign In <FontAwesomeIcon icon={faUser}/></button>
+        <button className="btn" type="submit">Log In <FontAwesomeIcon icon={faUser}/></button>
       </form>
       <div className="signup-container-btn">
         <p>Don't have an account yet?</p>
