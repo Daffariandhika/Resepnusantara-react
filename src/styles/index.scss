@@ -72,8 +72,6 @@ img{
     }
 }
 
-@import "materials/Navbar.scss";
-
 // Body1
 .section{
     display: flex;
@@ -105,6 +103,7 @@ img{
     }
 }
 
+@import "materials/Navbar.scss";
 @import "materials/Title.scss";
 @import "materials/ResepUnggulan.scss";
 @import "materials/Daerah.scss";
@@ -113,15 +112,13 @@ img{
 @import "materials/Recipes.scss";
 @import "materials/RecipePage.scss";
 @import "materials/Scroll.scss";
+@import "materials/Animations.scss";
+@import "materials/Footer.scss";
 
 .d-block h2{
     font-size: 1.75em;
     color: var(--text-color)
 }
-
-@import "materials/Footer.scss";
-
-
 
 .main{
     padding-block: 5vw;
@@ -130,21 +127,24 @@ img{
     padding-inline: 25vw;
 }
 
-@import "materials/Animations.scss";
-
-@media screen and (max-width: 1330px){
+@media screen and (max-width: 1380px){
     .container{
         padding-inline: 5vw;
     }
     .section.improve-skills .btn{
         margin-bottom: -1.5cm;
     }
+    .top-chiefs-container{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .recipes-container{
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
 }
 @media screen and (max-width: 1050px){
     .container{
         padding-inline: 7vw;
     }
-
     .section{
         .col{
             width: 100%;
@@ -163,7 +163,7 @@ img{
         margin-top: 1cm;
     }
     .skill-item{
-        display: inline-block;
+        display: none;
         margin: .75em;
     }
     .section.improve-skills .btn{
@@ -171,14 +171,15 @@ img{
         margin-left: 50%;
         transform: translateX(-50%);
     }
-
     .chief-card{
         box-shadow: 0 5px 10px var(--shadow-color);
+    }
+    .recipe-ingredients{
+        margin-top: 25px;
     }
     .container{
         padding-inline: 6vw;
     }
-    
     }
     .footer{
         grid-template-columns: 2fr 2.25fr 1fr;

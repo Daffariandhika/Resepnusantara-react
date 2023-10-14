@@ -1,6 +1,5 @@
-/* Hide the default scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 3px;
 }
 
 ::-webkit-scrollbar-track {
@@ -12,7 +11,6 @@
   border-radius: 4px;
 }
 
-/* On hover */
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary-color);
 }
